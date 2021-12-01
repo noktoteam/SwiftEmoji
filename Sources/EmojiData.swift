@@ -402,690 +402,1402 @@ public class EmojiData {
     /// "👨‍👩‍👧‍👧".
     ///
     public static let SequencePatterns:[String] = [
-        "\\u0023\\uFE0F\\u20E3",    // 3.0  [1] (#️⃣)      Keycap NUMBER SIGN
-        "\\u002A\\uFE0F\\u20E3",    // 3.0  [1] (*️⃣)      Keycap ASTERISK
-        "\\u0030\\uFE0F\\u20E3",    // 3.0  [1] (0️⃣)      Keycap DIGIT ZERO
-        "\\u0031\\uFE0F\\u20E3",    // 3.0  [1] (1️⃣)      Keycap DIGIT ONE
-        "\\u0032\\uFE0F\\u20E3",    // 3.0  [1] (2️⃣)      Keycap DIGIT TWO
-        "\\u0033\\uFE0F\\u20E3",    // 3.0  [1] (3️⃣)      Keycap DIGIT THREE
-        "\\u0034\\uFE0F\\u20E3",    // 3.0  [1] (4️⃣)      Keycap DIGIT FOUR
-        "\\u0035\\uFE0F\\u20E3",    // 3.0  [1] (5️⃣)      Keycap DIGIT FIVE
-        "\\u0036\\uFE0F\\u20E3",    // 3.0  [1] (6️⃣)      Keycap DIGIT SIX
-        "\\u0037\\uFE0F\\u20E3",    // 3.0  [1] (7️⃣)      Keycap DIGIT SEVEN
-        "\\u0038\\uFE0F\\u20E3",    // 3.0  [1] (8️⃣)      Keycap DIGIT EIGHT
-        "\\u0039\\uFE0F\\u20E3",    // 3.0  [1] (9️⃣)      Keycap DIGIT NINE
-        "\\U0001F1E6\\U0001F1E8",    // 6.0  [1] (🇦🇨)      Flag for Ascension Island
-        "\\U0001F1E6\\U0001F1E9",    // 6.0  [1] (🇦🇩)      Flag for Andorra
-        "\\U0001F1E6\\U0001F1EA",    // 6.0  [1] (🇦🇪)      Flag for United Arab Emirates
-        "\\U0001F1E6\\U0001F1EB",    // 6.0  [1] (🇦🇫)      Flag for Afghanistan
-        "\\U0001F1E6\\U0001F1EC",    // 6.0  [1] (🇦🇬)      Flag for Antigua & Barbuda
-        "\\U0001F1E6\\U0001F1EE",    // 6.0  [1] (🇦🇮)      Flag for Anguilla
-        "\\U0001F1E6\\U0001F1F1",    // 6.0  [1] (🇦🇱)      Flag for Albania
-        "\\U0001F1E6\\U0001F1F2",    // 6.0  [1] (🇦🇲)      Flag for Armenia
-        "\\U0001F1E6\\U0001F1F4",    // 6.0  [1] (🇦🇴)      Flag for Angola
-        "\\U0001F1E6\\U0001F1F6",    // 6.0  [1] (🇦🇶)      Flag for Antarctica
-        "\\U0001F1E6\\U0001F1F7",    // 6.0  [1] (🇦🇷)      Flag for Argentina
-        "\\U0001F1E6\\U0001F1F8",    // 6.0  [1] (🇦🇸)      Flag for American Samoa
-        "\\U0001F1E6\\U0001F1F9",    // 6.0  [1] (🇦🇹)      Flag for Austria
-        "\\U0001F1E6\\U0001F1FA",    // 6.0  [1] (🇦🇺)      Flag for Australia
-        "\\U0001F1E6\\U0001F1FC",    // 6.0  [1] (🇦🇼)      Flag for Aruba
-        "\\U0001F1E6\\U0001F1FD",    // 6.0  [1] (🇦🇽)      Flag for Åland Islands
-        "\\U0001F1E6\\U0001F1FF",    // 6.0  [1] (🇦🇿)      Flag for Azerbaijan
-        "\\U0001F1E7\\U0001F1E6",    // 6.0  [1] (🇧🇦)      Flag for Bosnia & Herzegovina
-        "\\U0001F1E7\\U0001F1E7",    // 6.0  [1] (🇧🇧)      Flag for Barbados
-        "\\U0001F1E7\\U0001F1E9",    // 6.0  [1] (🇧🇩)      Flag for Bangladesh
-        "\\U0001F1E7\\U0001F1EA",    // 6.0  [1] (🇧🇪)      Flag for Belgium
-        "\\U0001F1E7\\U0001F1EB",    // 6.0  [1] (🇧🇫)      Flag for Burkina Faso
-        "\\U0001F1E7\\U0001F1EC",    // 6.0  [1] (🇧🇬)      Flag for Bulgaria
-        "\\U0001F1E7\\U0001F1ED",    // 6.0  [1] (🇧🇭)      Flag for Bahrain
-        "\\U0001F1E7\\U0001F1EE",    // 6.0  [1] (🇧🇮)      Flag for Burundi
-        "\\U0001F1E7\\U0001F1EF",    // 6.0  [1] (🇧🇯)      Flag for Benin
-        "\\U0001F1E7\\U0001F1F1",    // 6.0  [1] (🇧🇱)      Flag for St. Barthélemy
-        "\\U0001F1E7\\U0001F1F2",    // 6.0  [1] (🇧🇲)      Flag for Bermuda
-        "\\U0001F1E7\\U0001F1F3",    // 6.0  [1] (🇧🇳)      Flag for Brunei
-        "\\U0001F1E7\\U0001F1F4",    // 6.0  [1] (🇧🇴)      Flag for Bolivia
-        "\\U0001F1E7\\U0001F1F6",    // 6.0  [1] (🇧🇶)      Flag for Caribbean Netherlands
-        "\\U0001F1E7\\U0001F1F7",    // 6.0  [1] (🇧🇷)      Flag for Brazil
-        "\\U0001F1E7\\U0001F1F8",    // 6.0  [1] (🇧🇸)      Flag for Bahamas
-        "\\U0001F1E7\\U0001F1F9",    // 6.0  [1] (🇧🇹)      Flag for Bhutan
-        "\\U0001F1E7\\U0001F1FB",    // 6.0  [1] (🇧🇻)      Flag for Bouvet Island
-        "\\U0001F1E7\\U0001F1FC",    // 6.0  [1] (🇧🇼)      Flag for Botswana
-        "\\U0001F1E7\\U0001F1FE",    // 6.0  [1] (🇧🇾)      Flag for Belarus
-        "\\U0001F1E7\\U0001F1FF",    // 6.0  [1] (🇧🇿)      Flag for Belize
-        "\\U0001F1E8\\U0001F1E6",    // 6.0  [1] (🇨🇦)      Flag for Canada
-        "\\U0001F1E8\\U0001F1E8",    // 6.0  [1] (🇨🇨)      Flag for Cocos Islands
-        "\\U0001F1E8\\U0001F1E9",    // 6.0  [1] (🇨🇩)      Flag for Congo - Kinshasa
-        "\\U0001F1E8\\U0001F1EB",    // 6.0  [1] (🇨🇫)      Flag for Central African Republic
-        "\\U0001F1E8\\U0001F1EC",    // 6.0  [1] (🇨🇬)      Flag for Congo - Brazzaville
-        "\\U0001F1E8\\U0001F1ED",    // 6.0  [1] (🇨🇭)      Flag for Switzerland
-        "\\U0001F1E8\\U0001F1EE",    // 6.0  [1] (🇨🇮)      Flag for Côte d’Ivoire
-        "\\U0001F1E8\\U0001F1F0",    // 6.0  [1] (🇨🇰)      Flag for Cook Islands
-        "\\U0001F1E8\\U0001F1F1",    // 6.0  [1] (🇨🇱)      Flag for Chile
-        "\\U0001F1E8\\U0001F1F2",    // 6.0  [1] (🇨🇲)      Flag for Cameroon
-        "\\U0001F1E8\\U0001F1F3",    // 6.0  [1] (🇨🇳)      Flag for China
-        "\\U0001F1E8\\U0001F1F4",    // 6.0  [1] (🇨🇴)      Flag for Colombia
-        "\\U0001F1E8\\U0001F1F5",    // 6.0  [1] (🇨🇵)      Flag for Clipperton Island
-        "\\U0001F1E8\\U0001F1F7",    // 6.0  [1] (🇨🇷)      Flag for Costa Rica
-        "\\U0001F1E8\\U0001F1FA",    // 6.0  [1] (🇨🇺)      Flag for Cuba
-        "\\U0001F1E8\\U0001F1FB",    // 6.0  [1] (🇨🇻)      Flag for Cape Verde
-        "\\U0001F1E8\\U0001F1FC",    // 6.0  [1] (🇨🇼)      Flag for Curaçao
-        "\\U0001F1E8\\U0001F1FD",    // 6.0  [1] (🇨🇽)      Flag for Christmas Island
-        "\\U0001F1E8\\U0001F1FE",    // 6.0  [1] (🇨🇾)      Flag for Cyprus
-        "\\U0001F1E8\\U0001F1FF",    // 6.0  [1] (🇨🇿)      Flag for Czech Republic
-        "\\U0001F1E9\\U0001F1EA",    // 6.0  [1] (🇩🇪)      Flag for Germany
-        "\\U0001F1E9\\U0001F1EC",    // 6.0  [1] (🇩🇬)      Flag for Diego Garcia
-        "\\U0001F1E9\\U0001F1EF",    // 6.0  [1] (🇩🇯)      Flag for Djibouti
-        "\\U0001F1E9\\U0001F1F0",    // 6.0  [1] (🇩🇰)      Flag for Denmark
-        "\\U0001F1E9\\U0001F1F2",    // 6.0  [1] (🇩🇲)      Flag for Dominica
-        "\\U0001F1E9\\U0001F1F4",    // 6.0  [1] (🇩🇴)      Flag for Dominican Republic
-        "\\U0001F1E9\\U0001F1FF",    // 6.0  [1] (🇩🇿)      Flag for Algeria
-        "\\U0001F1EA\\U0001F1E6",    // 6.0  [1] (🇪🇦)      Flag for Ceuta & Melilla
-        "\\U0001F1EA\\U0001F1E8",    // 6.0  [1] (🇪🇨)      Flag for Ecuador
-        "\\U0001F1EA\\U0001F1EA",    // 6.0  [1] (🇪🇪)      Flag for Estonia
-        "\\U0001F1EA\\U0001F1EC",    // 6.0  [1] (🇪🇬)      Flag for Egypt
-        "\\U0001F1EA\\U0001F1ED",    // 6.0  [1] (🇪🇭)      Flag for Western Sahara
-        "\\U0001F1EA\\U0001F1F7",    // 6.0  [1] (🇪🇷)      Flag for Eritrea
-        "\\U0001F1EA\\U0001F1F8",    // 6.0  [1] (🇪🇸)      Flag for Spain
-        "\\U0001F1EA\\U0001F1F9",    // 6.0  [1] (🇪🇹)      Flag for Ethiopia
-        "\\U0001F1EA\\U0001F1FA",    // 6.0  [1] (🇪🇺)      Flag for European Union
-        "\\U0001F1EB\\U0001F1EE",    // 6.0  [1] (🇫🇮)      Flag for Finland
-        "\\U0001F1EB\\U0001F1EF",    // 6.0  [1] (🇫🇯)      Flag for Fiji
-        "\\U0001F1EB\\U0001F1F0",    // 6.0  [1] (🇫🇰)      Flag for Falkland Islands
-        "\\U0001F1EB\\U0001F1F2",    // 6.0  [1] (🇫🇲)      Flag for Micronesia
-        "\\U0001F1EB\\U0001F1F4",    // 6.0  [1] (🇫🇴)      Flag for Faroe Islands
-        "\\U0001F1EB\\U0001F1F7",    // 6.0  [1] (🇫🇷)      Flag for France
-        "\\U0001F1EC\\U0001F1E6",    // 6.0  [1] (🇬🇦)      Flag for Gabon
-        "\\U0001F1EC\\U0001F1E7",    // 6.0  [1] (🇬🇧)      Flag for United Kingdom
-        "\\U0001F1EC\\U0001F1E9",    // 6.0  [1] (🇬🇩)      Flag for Grenada
-        "\\U0001F1EC\\U0001F1EA",    // 6.0  [1] (🇬🇪)      Flag for Georgia
-        "\\U0001F1EC\\U0001F1EB",    // 6.0  [1] (🇬🇫)      Flag for French Guiana
-        "\\U0001F1EC\\U0001F1EC",    // 6.0  [1] (🇬🇬)      Flag for Guernsey
-        "\\U0001F1EC\\U0001F1ED",    // 6.0  [1] (🇬🇭)      Flag for Ghana
-        "\\U0001F1EC\\U0001F1EE",    // 6.0  [1] (🇬🇮)      Flag for Gibraltar
-        "\\U0001F1EC\\U0001F1F1",    // 6.0  [1] (🇬🇱)      Flag for Greenland
-        "\\U0001F1EC\\U0001F1F2",    // 6.0  [1] (🇬🇲)      Flag for Gambia
-        "\\U0001F1EC\\U0001F1F3",    // 6.0  [1] (🇬🇳)      Flag for Guinea
-        "\\U0001F1EC\\U0001F1F5",    // 6.0  [1] (🇬🇵)      Flag for Guadeloupe
-        "\\U0001F1EC\\U0001F1F6",    // 6.0  [1] (🇬🇶)      Flag for Equatorial Guinea
-        "\\U0001F1EC\\U0001F1F7",    // 6.0  [1] (🇬🇷)      Flag for Greece
-        "\\U0001F1EC\\U0001F1F8",    // 6.0  [1] (🇬🇸)      Flag for South Georgia & South Sandwich Islands
-        "\\U0001F1EC\\U0001F1F9",    // 6.0  [1] (🇬🇹)      Flag for Guatemala
-        "\\U0001F1EC\\U0001F1FA",    // 6.0  [1] (🇬🇺)      Flag for Guam
-        "\\U0001F1EC\\U0001F1FC",    // 6.0  [1] (🇬🇼)      Flag for Guinea-Bissau
-        "\\U0001F1EC\\U0001F1FE",    // 6.0  [1] (🇬🇾)      Flag for Guyana
-        "\\U0001F1ED\\U0001F1F0",    // 6.0  [1] (🇭🇰)      Flag for Hong Kong
-        "\\U0001F1ED\\U0001F1F2",    // 6.0  [1] (🇭🇲)      Flag for Heard & McDonald Islands
-        "\\U0001F1ED\\U0001F1F3",    // 6.0  [1] (🇭🇳)      Flag for Honduras
-        "\\U0001F1ED\\U0001F1F7",    // 6.0  [1] (🇭🇷)      Flag for Croatia
-        "\\U0001F1ED\\U0001F1F9",    // 6.0  [1] (🇭🇹)      Flag for Haiti
-        "\\U0001F1ED\\U0001F1FA",    // 6.0  [1] (🇭🇺)      Flag for Hungary
-        "\\U0001F1EE\\U0001F1E8",    // 6.0  [1] (🇮🇨)      Flag for Canary Islands
-        "\\U0001F1EE\\U0001F1E9",    // 6.0  [1] (🇮🇩)      Flag for Indonesia
-        "\\U0001F1EE\\U0001F1EA",    // 6.0  [1] (🇮🇪)      Flag for Ireland
-        "\\U0001F1EE\\U0001F1F1",    // 6.0  [1] (🇮🇱)      Flag for Israel
-        "\\U0001F1EE\\U0001F1F2",    // 6.0  [1] (🇮🇲)      Flag for Isle of Man
-        "\\U0001F1EE\\U0001F1F3",    // 6.0  [1] (🇮🇳)      Flag for India
-        "\\U0001F1EE\\U0001F1F4",    // 6.0  [1] (🇮🇴)      Flag for British Indian Ocean Territory
-        "\\U0001F1EE\\U0001F1F6",    // 6.0  [1] (🇮🇶)      Flag for Iraq
-        "\\U0001F1EE\\U0001F1F7",    // 6.0  [1] (🇮🇷)      Flag for Iran
-        "\\U0001F1EE\\U0001F1F8",    // 6.0  [1] (🇮🇸)      Flag for Iceland
-        "\\U0001F1EE\\U0001F1F9",    // 6.0  [1] (🇮🇹)      Flag for Italy
-        "\\U0001F1EF\\U0001F1EA",    // 6.0  [1] (🇯🇪)      Flag for Jersey
-        "\\U0001F1EF\\U0001F1F2",    // 6.0  [1] (🇯🇲)      Flag for Jamaica
-        "\\U0001F1EF\\U0001F1F4",    // 6.0  [1] (🇯🇴)      Flag for Jordan
-        "\\U0001F1EF\\U0001F1F5",    // 6.0  [1] (🇯🇵)      Flag for Japan
-        "\\U0001F1F0\\U0001F1EA",    // 6.0  [1] (🇰🇪)      Flag for Kenya
-        "\\U0001F1F0\\U0001F1EC",    // 6.0  [1] (🇰🇬)      Flag for Kyrgyzstan
-        "\\U0001F1F0\\U0001F1ED",    // 6.0  [1] (🇰🇭)      Flag for Cambodia
-        "\\U0001F1F0\\U0001F1EE",    // 6.0  [1] (🇰🇮)      Flag for Kiribati
-        "\\U0001F1F0\\U0001F1F2",    // 6.0  [1] (🇰🇲)      Flag for Comoros
-        "\\U0001F1F0\\U0001F1F3",    // 6.0  [1] (🇰🇳)      Flag for St. Kitts & Nevis
-        "\\U0001F1F0\\U0001F1F5",    // 6.0  [1] (🇰🇵)      Flag for North Korea
-        "\\U0001F1F0\\U0001F1F7",    // 6.0  [1] (🇰🇷)      Flag for South Korea
-        "\\U0001F1F0\\U0001F1FC",    // 6.0  [1] (🇰🇼)      Flag for Kuwait
-        "\\U0001F1F0\\U0001F1FE",    // 6.0  [1] (🇰🇾)      Flag for Cayman Islands
-        "\\U0001F1F0\\U0001F1FF",    // 6.0  [1] (🇰🇿)      Flag for Kazakhstan
-        "\\U0001F1F1\\U0001F1E6",    // 6.0  [1] (🇱🇦)      Flag for Laos
-        "\\U0001F1F1\\U0001F1E7",    // 6.0  [1] (🇱🇧)      Flag for Lebanon
-        "\\U0001F1F1\\U0001F1E8",    // 6.0  [1] (🇱🇨)      Flag for St. Lucia
-        "\\U0001F1F1\\U0001F1EE",    // 6.0  [1] (🇱🇮)      Flag for Liechtenstein
-        "\\U0001F1F1\\U0001F1F0",    // 6.0  [1] (🇱🇰)      Flag for Sri Lanka
-        "\\U0001F1F1\\U0001F1F7",    // 6.0  [1] (🇱🇷)      Flag for Liberia
-        "\\U0001F1F1\\U0001F1F8",    // 6.0  [1] (🇱🇸)      Flag for Lesotho
-        "\\U0001F1F1\\U0001F1F9",    // 6.0  [1] (🇱🇹)      Flag for Lithuania
-        "\\U0001F1F1\\U0001F1FA",    // 6.0  [1] (🇱🇺)      Flag for Luxembourg
-        "\\U0001F1F1\\U0001F1FB",    // 6.0  [1] (🇱🇻)      Flag for Latvia
-        "\\U0001F1F1\\U0001F1FE",    // 6.0  [1] (🇱🇾)      Flag for Libya
-        "\\U0001F1F2\\U0001F1E6",    // 6.0  [1] (🇲🇦)      Flag for Morocco
-        "\\U0001F1F2\\U0001F1E8",    // 6.0  [1] (🇲🇨)      Flag for Monaco
-        "\\U0001F1F2\\U0001F1E9",    // 6.0  [1] (🇲🇩)      Flag for Moldova
-        "\\U0001F1F2\\U0001F1EA",    // 6.0  [1] (🇲🇪)      Flag for Montenegro
-        "\\U0001F1F2\\U0001F1EB",    // 6.0  [1] (🇲🇫)      Flag for St. Martin
-        "\\U0001F1F2\\U0001F1EC",    // 6.0  [1] (🇲🇬)      Flag for Madagascar
-        "\\U0001F1F2\\U0001F1ED",    // 6.0  [1] (🇲🇭)      Flag for Marshall Islands
-        "\\U0001F1F2\\U0001F1F0",    // 6.0  [1] (🇲🇰)      Flag for Macedonia
-        "\\U0001F1F2\\U0001F1F1",    // 6.0  [1] (🇲🇱)      Flag for Mali
-        "\\U0001F1F2\\U0001F1F2",    // 6.0  [1] (🇲🇲)      Flag for Myanmar
-        "\\U0001F1F2\\U0001F1F3",    // 6.0  [1] (🇲🇳)      Flag for Mongolia
-        "\\U0001F1F2\\U0001F1F4",    // 6.0  [1] (🇲🇴)      Flag for Macau
-        "\\U0001F1F2\\U0001F1F5",    // 6.0  [1] (🇲🇵)      Flag for Northern Mariana Islands
-        "\\U0001F1F2\\U0001F1F6",    // 6.0  [1] (🇲🇶)      Flag for Martinique
-        "\\U0001F1F2\\U0001F1F7",    // 6.0  [1] (🇲🇷)      Flag for Mauritania
-        "\\U0001F1F2\\U0001F1F8",    // 6.0  [1] (🇲🇸)      Flag for Montserrat
-        "\\U0001F1F2\\U0001F1F9",    // 6.0  [1] (🇲🇹)      Flag for Malta
-        "\\U0001F1F2\\U0001F1FA",    // 6.0  [1] (🇲🇺)      Flag for Mauritius
-        "\\U0001F1F2\\U0001F1FB",    // 6.0  [1] (🇲🇻)      Flag for Maldives
-        "\\U0001F1F2\\U0001F1FC",    // 6.0  [1] (🇲🇼)      Flag for Malawi
-        "\\U0001F1F2\\U0001F1FD",    // 6.0  [1] (🇲🇽)      Flag for Mexico
-        "\\U0001F1F2\\U0001F1FE",    // 6.0  [1] (🇲🇾)      Flag for Malaysia
-        "\\U0001F1F2\\U0001F1FF",    // 6.0  [1] (🇲🇿)      Flag for Mozambique
-        "\\U0001F1F3\\U0001F1E6",    // 6.0  [1] (🇳🇦)      Flag for Namibia
-        "\\U0001F1F3\\U0001F1E8",    // 6.0  [1] (🇳🇨)      Flag for New Caledonia
-        "\\U0001F1F3\\U0001F1EA",    // 6.0  [1] (🇳🇪)      Flag for Niger
-        "\\U0001F1F3\\U0001F1EB",    // 6.0  [1] (🇳🇫)      Flag for Norfolk Island
-        "\\U0001F1F3\\U0001F1EC",    // 6.0  [1] (🇳🇬)      Flag for Nigeria
-        "\\U0001F1F3\\U0001F1EE",    // 6.0  [1] (🇳🇮)      Flag for Nicaragua
-        "\\U0001F1F3\\U0001F1F1",    // 6.0  [1] (🇳🇱)      Flag for Netherlands
-        "\\U0001F1F3\\U0001F1F4",    // 6.0  [1] (🇳🇴)      Flag for Norway
-        "\\U0001F1F3\\U0001F1F5",    // 6.0  [1] (🇳🇵)      Flag for Nepal
-        "\\U0001F1F3\\U0001F1F7",    // 6.0  [1] (🇳🇷)      Flag for Nauru
-        "\\U0001F1F3\\U0001F1FA",    // 6.0  [1] (🇳🇺)      Flag for Niue
-        "\\U0001F1F3\\U0001F1FF",    // 6.0  [1] (🇳🇿)      Flag for New Zealand
-        "\\U0001F1F4\\U0001F1F2",    // 6.0  [1] (🇴🇲)      Flag for Oman
-        "\\U0001F1F5\\U0001F1E6",    // 6.0  [1] (🇵🇦)      Flag for Panama
-        "\\U0001F1F5\\U0001F1EA",    // 6.0  [1] (🇵🇪)      Flag for Peru
-        "\\U0001F1F5\\U0001F1EB",    // 6.0  [1] (🇵🇫)      Flag for French Polynesia
-        "\\U0001F1F5\\U0001F1EC",    // 6.0  [1] (🇵🇬)      Flag for Papua New Guinea
-        "\\U0001F1F5\\U0001F1ED",    // 6.0  [1] (🇵🇭)      Flag for Philippines
-        "\\U0001F1F5\\U0001F1F0",    // 6.0  [1] (🇵🇰)      Flag for Pakistan
-        "\\U0001F1F5\\U0001F1F1",    // 6.0  [1] (🇵🇱)      Flag for Poland
-        "\\U0001F1F5\\U0001F1F2",    // 6.0  [1] (🇵🇲)      Flag for St. Pierre & Miquelon
-        "\\U0001F1F5\\U0001F1F3",    // 6.0  [1] (🇵🇳)      Flag for Pitcairn Islands
-        "\\U0001F1F5\\U0001F1F7",    // 6.0  [1] (🇵🇷)      Flag for Puerto Rico
-        "\\U0001F1F5\\U0001F1F8",    // 6.0  [1] (🇵🇸)      Flag for Palestinian Territories
-        "\\U0001F1F5\\U0001F1F9",    // 6.0  [1] (🇵🇹)      Flag for Portugal
-        "\\U0001F1F5\\U0001F1FC",    // 6.0  [1] (🇵🇼)      Flag for Palau
-        "\\U0001F1F5\\U0001F1FE",    // 6.0  [1] (🇵🇾)      Flag for Paraguay
-        "\\U0001F1F6\\U0001F1E6",    // 6.0  [1] (🇶🇦)      Flag for Qatar
-        "\\U0001F1F7\\U0001F1EA",    // 6.0  [1] (🇷🇪)      Flag for Réunion
-        "\\U0001F1F7\\U0001F1F4",    // 6.0  [1] (🇷🇴)      Flag for Romania
-        "\\U0001F1F7\\U0001F1F8",    // 6.0  [1] (🇷🇸)      Flag for Serbia
-        "\\U0001F1F7\\U0001F1FA",    // 6.0  [1] (🇷🇺)      Flag for Russia
-        "\\U0001F1F7\\U0001F1FC",    // 6.0  [1] (🇷🇼)      Flag for Rwanda
-        "\\U0001F1F8\\U0001F1E6",    // 6.0  [1] (🇸🇦)      Flag for Saudi Arabia
-        "\\U0001F1F8\\U0001F1E7",    // 6.0  [1] (🇸🇧)      Flag for Solomon Islands
-        "\\U0001F1F8\\U0001F1E8",    // 6.0  [1] (🇸🇨)      Flag for Seychelles
-        "\\U0001F1F8\\U0001F1E9",    // 6.0  [1] (🇸🇩)      Flag for Sudan
-        "\\U0001F1F8\\U0001F1EA",    // 6.0  [1] (🇸🇪)      Flag for Sweden
-        "\\U0001F1F8\\U0001F1EC",    // 6.0  [1] (🇸🇬)      Flag for Singapore
-        "\\U0001F1F8\\U0001F1ED",    // 6.0  [1] (🇸🇭)      Flag for St. Helena
-        "\\U0001F1F8\\U0001F1EE",    // 6.0  [1] (🇸🇮)      Flag for Slovenia
-        "\\U0001F1F8\\U0001F1EF",    // 6.0  [1] (🇸🇯)      Flag for Svalbard & Jan Mayen
-        "\\U0001F1F8\\U0001F1F0",    // 6.0  [1] (🇸🇰)      Flag for Slovakia
-        "\\U0001F1F8\\U0001F1F1",    // 6.0  [1] (🇸🇱)      Flag for Sierra Leone
-        "\\U0001F1F8\\U0001F1F2",    // 6.0  [1] (🇸🇲)      Flag for San Marino
-        "\\U0001F1F8\\U0001F1F3",    // 6.0  [1] (🇸🇳)      Flag for Senegal
-        "\\U0001F1F8\\U0001F1F4",    // 6.0  [1] (🇸🇴)      Flag for Somalia
-        "\\U0001F1F8\\U0001F1F7",    // 6.0  [1] (🇸🇷)      Flag for Suriname
-        "\\U0001F1F8\\U0001F1F8",    // 6.0  [1] (🇸🇸)      Flag for South Sudan
-        "\\U0001F1F8\\U0001F1F9",    // 6.0  [1] (🇸🇹)      Flag for São Tomé & Príncipe
-        "\\U0001F1F8\\U0001F1FB",    // 6.0  [1] (🇸🇻)      Flag for El Salvador
-        "\\U0001F1F8\\U0001F1FD",    // 6.0  [1] (🇸🇽)      Flag for Sint Maarten
-        "\\U0001F1F8\\U0001F1FE",    // 6.0  [1] (🇸🇾)      Flag for Syria
-        "\\U0001F1F8\\U0001F1FF",    // 6.0  [1] (🇸🇿)      Flag for Swaziland
-        "\\U0001F1F9\\U0001F1E6",    // 6.0  [1] (🇹🇦)      Flag for Tristan da Cunha
-        "\\U0001F1F9\\U0001F1E8",    // 6.0  [1] (🇹🇨)      Flag for Turks & Caicos Islands
-        "\\U0001F1F9\\U0001F1E9",    // 6.0  [1] (🇹🇩)      Flag for Chad
-        "\\U0001F1F9\\U0001F1EB",    // 6.0  [1] (🇹🇫)      Flag for French Southern Territories
-        "\\U0001F1F9\\U0001F1EC",    // 6.0  [1] (🇹🇬)      Flag for Togo
-        "\\U0001F1F9\\U0001F1ED",    // 6.0  [1] (🇹🇭)      Flag for Thailand
-        "\\U0001F1F9\\U0001F1EF",    // 6.0  [1] (🇹🇯)      Flag for Tajikistan
-        "\\U0001F1F9\\U0001F1F0",    // 6.0  [1] (🇹🇰)      Flag for Tokelau
-        "\\U0001F1F9\\U0001F1F1",    // 6.0  [1] (🇹🇱)      Flag for Timor-Leste
-        "\\U0001F1F9\\U0001F1F2",    // 6.0  [1] (🇹🇲)      Flag for Turkmenistan
-        "\\U0001F1F9\\U0001F1F3",    // 6.0  [1] (🇹🇳)      Flag for Tunisia
-        "\\U0001F1F9\\U0001F1F4",    // 6.0  [1] (🇹🇴)      Flag for Tonga
-        "\\U0001F1F9\\U0001F1F7",    // 6.0  [1] (🇹🇷)      Flag for Turkey
-        "\\U0001F1F9\\U0001F1F9",    // 6.0  [1] (🇹🇹)      Flag for Trinidad & Tobago
-        "\\U0001F1F9\\U0001F1FB",    // 6.0  [1] (🇹🇻)      Flag for Tuvalu
-        "\\U0001F1F9\\U0001F1FC",    // 6.0  [1] (🇹🇼)      Flag for Taiwan
-        "\\U0001F1F9\\U0001F1FF",    // 6.0  [1] (🇹🇿)      Flag for Tanzania
-        "\\U0001F1FA\\U0001F1E6",    // 6.0  [1] (🇺🇦)      Flag for Ukraine
-        "\\U0001F1FA\\U0001F1EC",    // 6.0  [1] (🇺🇬)      Flag for Uganda
-        "\\U0001F1FA\\U0001F1F2",    // 6.0  [1] (🇺🇲)      Flag for U.S. Outlying Islands
-        "\\U0001F1FA\\U0001F1F8",    // 6.0  [1] (🇺🇸)      Flag for United States
-        "\\U0001F1FA\\U0001F1FE",    // 6.0  [1] (🇺🇾)      Flag for Uruguay
-        "\\U0001F1FA\\U0001F1FF",    // 6.0  [1] (🇺🇿)      Flag for Uzbekistan
-        "\\U0001F1FB\\U0001F1E6",    // 6.0  [1] (🇻🇦)      Flag for Vatican City
-        "\\U0001F1FB\\U0001F1E8",    // 6.0  [1] (🇻🇨)      Flag for St. Vincent & Grenadines
-        "\\U0001F1FB\\U0001F1EA",    // 6.0  [1] (🇻🇪)      Flag for Venezuela
-        "\\U0001F1FB\\U0001F1EC",    // 6.0  [1] (🇻🇬)      Flag for British Virgin Islands
-        "\\U0001F1FB\\U0001F1EE",    // 6.0  [1] (🇻🇮)      Flag for U.S. Virgin Islands
-        "\\U0001F1FB\\U0001F1F3",    // 6.0  [1] (🇻🇳)      Flag for Vietnam
-        "\\U0001F1FB\\U0001F1FA",    // 6.0  [1] (🇻🇺)      Flag for Vanuatu
-        "\\U0001F1FC\\U0001F1EB",    // 6.0  [1] (🇼🇫)      Flag for Wallis & Futuna
-        "\\U0001F1FC\\U0001F1F8",    // 6.0  [1] (🇼🇸)      Flag for Samoa
-        "\\U0001F1FD\\U0001F1F0",    // 6.0  [1] (🇽🇰)      Flag for Kosovo
-        "\\U0001F1FE\\U0001F1EA",    // 6.0  [1] (🇾🇪)      Flag for Yemen
-        "\\U0001F1FE\\U0001F1F9",    // 6.0  [1] (🇾🇹)      Flag for Mayotte
-        "\\U0001F1FF\\U0001F1E6",    // 6.0  [1] (🇿🇦)      Flag for South Africa
-        "\\U0001F1FF\\U0001F1F2",    // 6.0  [1] (🇿🇲)      Flag for Zambia
-        "\\U0001F1FF\\U0001F1FC",    // 6.0  [1] (🇿🇼)      Flag for Zimbabwe
-        "\\U0001F385\\U0001F3FB",    // 8.0  [1] (🎅🏻)      FATHER CHRISTMAS, TYPE-1-2
-        "\\U0001F385\\U0001F3FC",    // 8.0  [1] (🎅🏼)      FATHER CHRISTMAS, TYPE-3
-        "\\U0001F385\\U0001F3FD",    // 8.0  [1] (🎅🏽)      FATHER CHRISTMAS, TYPE-4
-        "\\U0001F385\\U0001F3FE",    // 8.0  [1] (🎅🏾)      FATHER CHRISTMAS, TYPE-5
-        "\\U0001F385\\U0001F3FF",    // 8.0  [1] (🎅🏿)      FATHER CHRISTMAS, TYPE-6
-        "\\U0001F3C3\\U0001F3FB",    // 8.0  [1] (🏃🏻)      RUNNER, TYPE-1-2
-        "\\U0001F3C3\\U0001F3FC",    // 8.0  [1] (🏃🏼)      RUNNER, TYPE-3
-        "\\U0001F3C3\\U0001F3FD",    // 8.0  [1] (🏃🏽)      RUNNER, TYPE-4
-        "\\U0001F3C3\\U0001F3FE",    // 8.0  [1] (🏃🏾)      RUNNER, TYPE-5
-        "\\U0001F3C3\\U0001F3FF",    // 8.0  [1] (🏃🏿)      RUNNER, TYPE-6
-        "\\U0001F3C4\\U0001F3FB",    // 8.0  [1] (🏄🏻)      SURFER, TYPE-1-2
-        "\\U0001F3C4\\U0001F3FC",    // 8.0  [1] (🏄🏼)      SURFER, TYPE-3
-        "\\U0001F3C4\\U0001F3FD",    // 8.0  [1] (🏄🏽)      SURFER, TYPE-4
-        "\\U0001F3C4\\U0001F3FE",    // 8.0  [1] (🏄🏾)      SURFER, TYPE-5
-        "\\U0001F3C4\\U0001F3FF",    // 8.0  [1] (🏄🏿)      SURFER, TYPE-6
-        "\\U0001F3CA\\U0001F3FB",    // 8.0  [1] (🏊🏻)      SWIMMER, TYPE-1-2
-        "\\U0001F3CA\\U0001F3FC",    // 8.0  [1] (🏊🏼)      SWIMMER, TYPE-3
-        "\\U0001F3CA\\U0001F3FD",    // 8.0  [1] (🏊🏽)      SWIMMER, TYPE-4
-        "\\U0001F3CA\\U0001F3FE",    // 8.0  [1] (🏊🏾)      SWIMMER, TYPE-5
-        "\\U0001F3CA\\U0001F3FF",    // 8.0  [1] (🏊🏿)      SWIMMER, TYPE-6
-        "\\U0001F3CB\\U0001F3FB",    // 8.0  [1] (🏋🏻)      WEIGHT LIFTER, TYPE-1-2
-        "\\U0001F3CB\\U0001F3FC",    // 8.0  [1] (🏋🏼)      WEIGHT LIFTER, TYPE-3
-        "\\U0001F3CB\\U0001F3FD",    // 8.0  [1] (🏋🏽)      WEIGHT LIFTER, TYPE-4
-        "\\U0001F3CB\\U0001F3FE",    // 8.0  [1] (🏋🏾)      WEIGHT LIFTER, TYPE-5
-        "\\U0001F3CB\\U0001F3FF",    // 8.0  [1] (🏋🏿)      WEIGHT LIFTER, TYPE-6
-        "\\U0001F442\\U0001F3FB",    // 8.0  [1] (👂🏻)      EAR, TYPE-1-2
-        "\\U0001F442\\U0001F3FC",    // 8.0  [1] (👂🏼)      EAR, TYPE-3
-        "\\U0001F442\\U0001F3FD",    // 8.0  [1] (👂🏽)      EAR, TYPE-4
-        "\\U0001F442\\U0001F3FE",    // 8.0  [1] (👂🏾)      EAR, TYPE-5
-        "\\U0001F442\\U0001F3FF",    // 8.0  [1] (👂🏿)      EAR, TYPE-6
-        "\\U0001F443\\U0001F3FB",    // 8.0  [1] (👃🏻)      NOSE, TYPE-1-2
-        "\\U0001F443\\U0001F3FC",    // 8.0  [1] (👃🏼)      NOSE, TYPE-3
-        "\\U0001F443\\U0001F3FD",    // 8.0  [1] (👃🏽)      NOSE, TYPE-4
-        "\\U0001F443\\U0001F3FE",    // 8.0  [1] (👃🏾)      NOSE, TYPE-5
-        "\\U0001F443\\U0001F3FF",    // 8.0  [1] (👃🏿)      NOSE, TYPE-6
-        "\\U0001F446\\U0001F3FB",    // 8.0  [1] (👆🏻)      WHITE UP POINTING BACKHAND INDEX, TYPE-1-2
-        "\\U0001F446\\U0001F3FC",    // 8.0  [1] (👆🏼)      WHITE UP POINTING BACKHAND INDEX, TYPE-3
-        "\\U0001F446\\U0001F3FD",    // 8.0  [1] (👆🏽)      WHITE UP POINTING BACKHAND INDEX, TYPE-4
-        "\\U0001F446\\U0001F3FE",    // 8.0  [1] (👆🏾)      WHITE UP POINTING BACKHAND INDEX, TYPE-5
-        "\\U0001F446\\U0001F3FF",    // 8.0  [1] (👆🏿)      WHITE UP POINTING BACKHAND INDEX, TYPE-6
-        "\\U0001F447\\U0001F3FB",    // 8.0  [1] (👇🏻)      WHITE DOWN POINTING BACKHAND INDEX, TYPE-1-2
-        "\\U0001F447\\U0001F3FC",    // 8.0  [1] (👇🏼)      WHITE DOWN POINTING BACKHAND INDEX, TYPE-3
-        "\\U0001F447\\U0001F3FD",    // 8.0  [1] (👇🏽)      WHITE DOWN POINTING BACKHAND INDEX, TYPE-4
-        "\\U0001F447\\U0001F3FE",    // 8.0  [1] (👇🏾)      WHITE DOWN POINTING BACKHAND INDEX, TYPE-5
-        "\\U0001F447\\U0001F3FF",    // 8.0  [1] (👇🏿)      WHITE DOWN POINTING BACKHAND INDEX, TYPE-6
-        "\\U0001F448\\U0001F3FB",    // 8.0  [1] (👈🏻)      WHITE LEFT POINTING BACKHAND INDEX, TYPE-1-2
-        "\\U0001F448\\U0001F3FC",    // 8.0  [1] (👈🏼)      WHITE LEFT POINTING BACKHAND INDEX, TYPE-3
-        "\\U0001F448\\U0001F3FD",    // 8.0  [1] (👈🏽)      WHITE LEFT POINTING BACKHAND INDEX, TYPE-4
-        "\\U0001F448\\U0001F3FE",    // 8.0  [1] (👈🏾)      WHITE LEFT POINTING BACKHAND INDEX, TYPE-5
-        "\\U0001F448\\U0001F3FF",    // 8.0  [1] (👈🏿)      WHITE LEFT POINTING BACKHAND INDEX, TYPE-6
-        "\\U0001F449\\U0001F3FB",    // 8.0  [1] (👉🏻)      WHITE RIGHT POINTING BACKHAND INDEX, TYPE-1-2
-        "\\U0001F449\\U0001F3FC",    // 8.0  [1] (👉🏼)      WHITE RIGHT POINTING BACKHAND INDEX, TYPE-3
-        "\\U0001F449\\U0001F3FD",    // 8.0  [1] (👉🏽)      WHITE RIGHT POINTING BACKHAND INDEX, TYPE-4
-        "\\U0001F449\\U0001F3FE",    // 8.0  [1] (👉🏾)      WHITE RIGHT POINTING BACKHAND INDEX, TYPE-5
-        "\\U0001F449\\U0001F3FF",    // 8.0  [1] (👉🏿)      WHITE RIGHT POINTING BACKHAND INDEX, TYPE-6
-        "\\U0001F44A\\U0001F3FB",    // 8.0  [1] (👊🏻)      FISTED HAND SIGN, TYPE-1-2
-        "\\U0001F44A\\U0001F3FC",    // 8.0  [1] (👊🏼)      FISTED HAND SIGN, TYPE-3
-        "\\U0001F44A\\U0001F3FD",    // 8.0  [1] (👊🏽)      FISTED HAND SIGN, TYPE-4
-        "\\U0001F44A\\U0001F3FE",    // 8.0  [1] (👊🏾)      FISTED HAND SIGN, TYPE-5
-        "\\U0001F44A\\U0001F3FF",    // 8.0  [1] (👊🏿)      FISTED HAND SIGN, TYPE-6
-        "\\U0001F44B\\U0001F3FB",    // 8.0  [1] (👋🏻)      WAVING HAND SIGN, TYPE-1-2
-        "\\U0001F44B\\U0001F3FC",    // 8.0  [1] (👋🏼)      WAVING HAND SIGN, TYPE-3
-        "\\U0001F44B\\U0001F3FD",    // 8.0  [1] (👋🏽)      WAVING HAND SIGN, TYPE-4
-        "\\U0001F44B\\U0001F3FE",    // 8.0  [1] (👋🏾)      WAVING HAND SIGN, TYPE-5
-        "\\U0001F44B\\U0001F3FF",    // 8.0  [1] (👋🏿)      WAVING HAND SIGN, TYPE-6
-        "\\U0001F44C\\U0001F3FB",    // 8.0  [1] (👌🏻)      OK HAND SIGN, TYPE-1-2
-        "\\U0001F44C\\U0001F3FC",    // 8.0  [1] (👌🏼)      OK HAND SIGN, TYPE-3
-        "\\U0001F44C\\U0001F3FD",    // 8.0  [1] (👌🏽)      OK HAND SIGN, TYPE-4
-        "\\U0001F44C\\U0001F3FE",    // 8.0  [1] (👌🏾)      OK HAND SIGN, TYPE-5
-        "\\U0001F44C\\U0001F3FF",    // 8.0  [1] (👌🏿)      OK HAND SIGN, TYPE-6
-        "\\U0001F44D\\U0001F3FB",    // 8.0  [1] (👍🏻)      THUMBS UP SIGN, TYPE-1-2
-        "\\U0001F44D\\U0001F3FC",    // 8.0  [1] (👍🏼)      THUMBS UP SIGN, TYPE-3
-        "\\U0001F44D\\U0001F3FD",    // 8.0  [1] (👍🏽)      THUMBS UP SIGN, TYPE-4
-        "\\U0001F44D\\U0001F3FE",    // 8.0  [1] (👍🏾)      THUMBS UP SIGN, TYPE-5
-        "\\U0001F44D\\U0001F3FF",    // 8.0  [1] (👍🏿)      THUMBS UP SIGN, TYPE-6
-        "\\U0001F44E\\U0001F3FB",    // 8.0  [1] (👎🏻)      THUMBS DOWN SIGN, TYPE-1-2
-        "\\U0001F44E\\U0001F3FC",    // 8.0  [1] (👎🏼)      THUMBS DOWN SIGN, TYPE-3
-        "\\U0001F44E\\U0001F3FD",    // 8.0  [1] (👎🏽)      THUMBS DOWN SIGN, TYPE-4
-        "\\U0001F44E\\U0001F3FE",    // 8.0  [1] (👎🏾)      THUMBS DOWN SIGN, TYPE-5
-        "\\U0001F44E\\U0001F3FF",    // 8.0  [1] (👎🏿)      THUMBS DOWN SIGN, TYPE-6
-        "\\U0001F44F\\U0001F3FB",    // 8.0  [1] (👏🏻)      CLAPPING HANDS SIGN, TYPE-1-2
-        "\\U0001F44F\\U0001F3FC",    // 8.0  [1] (👏🏼)      CLAPPING HANDS SIGN, TYPE-3
-        "\\U0001F44F\\U0001F3FD",    // 8.0  [1] (👏🏽)      CLAPPING HANDS SIGN, TYPE-4
-        "\\U0001F44F\\U0001F3FE",    // 8.0  [1] (👏🏾)      CLAPPING HANDS SIGN, TYPE-5
-        "\\U0001F44F\\U0001F3FF",    // 8.0  [1] (👏🏿)      CLAPPING HANDS SIGN, TYPE-6
-        "\\U0001F450\\U0001F3FB",    // 8.0  [1] (👐🏻)      OPEN HANDS SIGN, TYPE-1-2
-        "\\U0001F450\\U0001F3FC",    // 8.0  [1] (👐🏼)      OPEN HANDS SIGN, TYPE-3
-        "\\U0001F450\\U0001F3FD",    // 8.0  [1] (👐🏽)      OPEN HANDS SIGN, TYPE-4
-        "\\U0001F450\\U0001F3FE",    // 8.0  [1] (👐🏾)      OPEN HANDS SIGN, TYPE-5
-        "\\U0001F450\\U0001F3FF",    // 8.0  [1] (👐🏿)      OPEN HANDS SIGN, TYPE-6
-        "\\U0001F466\\U0001F3FB",    // 8.0  [1] (👦🏻)      BOY, TYPE-1-2
-        "\\U0001F466\\U0001F3FC",    // 8.0  [1] (👦🏼)      BOY, TYPE-3
-        "\\U0001F466\\U0001F3FD",    // 8.0  [1] (👦🏽)      BOY, TYPE-4
-        "\\U0001F466\\U0001F3FE",    // 8.0  [1] (👦🏾)      BOY, TYPE-5
-        "\\U0001F466\\U0001F3FF",    // 8.0  [1] (👦🏿)      BOY, TYPE-6
-        "\\U0001F467\\U0001F3FB",    // 8.0  [1] (👧🏻)      GIRL, TYPE-1-2
-        "\\U0001F467\\U0001F3FC",    // 8.0  [1] (👧🏼)      GIRL, TYPE-3
-        "\\U0001F467\\U0001F3FD",    // 8.0  [1] (👧🏽)      GIRL, TYPE-4
-        "\\U0001F467\\U0001F3FE",    // 8.0  [1] (👧🏾)      GIRL, TYPE-5
-        "\\U0001F467\\U0001F3FF",    // 8.0  [1] (👧🏿)      GIRL, TYPE-6
-        "\\U0001F468\\U0001F3FB",    // 8.0  [1] (👨🏻)      MAN, TYPE-1-2
-        "\\U0001F468\\U0001F3FC",    // 8.0  [1] (👨🏼)      MAN, TYPE-3
-        "\\U0001F468\\U0001F3FD",    // 8.0  [1] (👨🏽)      MAN, TYPE-4
-        "\\U0001F468\\U0001F3FE",    // 8.0  [1] (👨🏾)      MAN, TYPE-5
-        "\\U0001F468\\U0001F3FF",    // 8.0  [1] (👨🏿)      MAN, TYPE-6
-        "\\U0001F469\\U0001F3FB",    // 8.0  [1] (👩🏻)      WOMAN, TYPE-1-2
-        "\\U0001F469\\U0001F3FC",    // 8.0  [1] (👩🏼)      WOMAN, TYPE-3
-        "\\U0001F469\\U0001F3FD",    // 8.0  [1] (👩🏽)      WOMAN, TYPE-4
-        "\\U0001F469\\U0001F3FE",    // 8.0  [1] (👩🏾)      WOMAN, TYPE-5
-        "\\U0001F469\\U0001F3FF",    // 8.0  [1] (👩🏿)      WOMAN, TYPE-6
-        "\\U0001F46E\\U0001F3FB",    // 8.0  [1] (👮🏻)      POLICE OFFICER, TYPE-1-2
-        "\\U0001F46E\\U0001F3FC",    // 8.0  [1] (👮🏼)      POLICE OFFICER, TYPE-3
-        "\\U0001F46E\\U0001F3FD",    // 8.0  [1] (👮🏽)      POLICE OFFICER, TYPE-4
-        "\\U0001F46E\\U0001F3FE",    // 8.0  [1] (👮🏾)      POLICE OFFICER, TYPE-5
-        "\\U0001F46E\\U0001F3FF",    // 8.0  [1] (👮🏿)      POLICE OFFICER, TYPE-6
-        "\\U0001F470\\U0001F3FB",    // 8.0  [1] (👰🏻)      BRIDE WITH VEIL, TYPE-1-2
-        "\\U0001F470\\U0001F3FC",    // 8.0  [1] (👰🏼)      BRIDE WITH VEIL, TYPE-3
-        "\\U0001F470\\U0001F3FD",    // 8.0  [1] (👰🏽)      BRIDE WITH VEIL, TYPE-4
-        "\\U0001F470\\U0001F3FE",    // 8.0  [1] (👰🏾)      BRIDE WITH VEIL, TYPE-5
-        "\\U0001F470\\U0001F3FF",    // 8.0  [1] (👰🏿)      BRIDE WITH VEIL, TYPE-6
-        "\\U0001F471\\U0001F3FB",    // 8.0  [1] (👱🏻)      PERSON WITH BLOND HAIR, TYPE-1-2
-        "\\U0001F471\\U0001F3FC",    // 8.0  [1] (👱🏼)      PERSON WITH BLOND HAIR, TYPE-3
-        "\\U0001F471\\U0001F3FD",    // 8.0  [1] (👱🏽)      PERSON WITH BLOND HAIR, TYPE-4
-        "\\U0001F471\\U0001F3FE",    // 8.0  [1] (👱🏾)      PERSON WITH BLOND HAIR, TYPE-5
-        "\\U0001F471\\U0001F3FF",    // 8.0  [1] (👱🏿)      PERSON WITH BLOND HAIR, TYPE-6
-        "\\U0001F472\\U0001F3FB",    // 8.0  [1] (👲🏻)      MAN WITH GUA PI MAO, TYPE-1-2
-        "\\U0001F472\\U0001F3FC",    // 8.0  [1] (👲🏼)      MAN WITH GUA PI MAO, TYPE-3
-        "\\U0001F472\\U0001F3FD",    // 8.0  [1] (👲🏽)      MAN WITH GUA PI MAO, TYPE-4
-        "\\U0001F472\\U0001F3FE",    // 8.0  [1] (👲🏾)      MAN WITH GUA PI MAO, TYPE-5
-        "\\U0001F472\\U0001F3FF",    // 8.0  [1] (👲🏿)      MAN WITH GUA PI MAO, TYPE-6
-        "\\U0001F473\\U0001F3FB",    // 8.0  [1] (👳🏻)      MAN WITH TURBAN, TYPE-1-2
-        "\\U0001F473\\U0001F3FC",    // 8.0  [1] (👳🏼)      MAN WITH TURBAN, TYPE-3
-        "\\U0001F473\\U0001F3FD",    // 8.0  [1] (👳🏽)      MAN WITH TURBAN, TYPE-4
-        "\\U0001F473\\U0001F3FE",    // 8.0  [1] (👳🏾)      MAN WITH TURBAN, TYPE-5
-        "\\U0001F473\\U0001F3FF",    // 8.0  [1] (👳🏿)      MAN WITH TURBAN, TYPE-6
-        "\\U0001F474\\U0001F3FB",    // 8.0  [1] (👴🏻)      OLDER MAN, TYPE-1-2
-        "\\U0001F474\\U0001F3FC",    // 8.0  [1] (👴🏼)      OLDER MAN, TYPE-3
-        "\\U0001F474\\U0001F3FD",    // 8.0  [1] (👴🏽)      OLDER MAN, TYPE-4
-        "\\U0001F474\\U0001F3FE",    // 8.0  [1] (👴🏾)      OLDER MAN, TYPE-5
-        "\\U0001F474\\U0001F3FF",    // 8.0  [1] (👴🏿)      OLDER MAN, TYPE-6
-        "\\U0001F475\\U0001F3FB",    // 8.0  [1] (👵🏻)      OLDER WOMAN, TYPE-1-2
-        "\\U0001F475\\U0001F3FC",    // 8.0  [1] (👵🏼)      OLDER WOMAN, TYPE-3
-        "\\U0001F475\\U0001F3FD",    // 8.0  [1] (👵🏽)      OLDER WOMAN, TYPE-4
-        "\\U0001F475\\U0001F3FE",    // 8.0  [1] (👵🏾)      OLDER WOMAN, TYPE-5
-        "\\U0001F475\\U0001F3FF",    // 8.0  [1] (👵🏿)      OLDER WOMAN, TYPE-6
-        "\\U0001F476\\U0001F3FB",    // 8.0  [1] (👶🏻)      BABY, TYPE-1-2
-        "\\U0001F476\\U0001F3FC",    // 8.0  [1] (👶🏼)      BABY, TYPE-3
-        "\\U0001F476\\U0001F3FD",    // 8.0  [1] (👶🏽)      BABY, TYPE-4
-        "\\U0001F476\\U0001F3FE",    // 8.0  [1] (👶🏾)      BABY, TYPE-5
-        "\\U0001F476\\U0001F3FF",    // 8.0  [1] (👶🏿)      BABY, TYPE-6
-        "\\U0001F477\\U0001F3FB",    // 8.0  [1] (👷🏻)      CONSTRUCTION WORKER, TYPE-1-2
-        "\\U0001F477\\U0001F3FC",    // 8.0  [1] (👷🏼)      CONSTRUCTION WORKER, TYPE-3
-        "\\U0001F477\\U0001F3FD",    // 8.0  [1] (👷🏽)      CONSTRUCTION WORKER, TYPE-4
-        "\\U0001F477\\U0001F3FE",    // 8.0  [1] (👷🏾)      CONSTRUCTION WORKER, TYPE-5
-        "\\U0001F477\\U0001F3FF",    // 8.0  [1] (👷🏿)      CONSTRUCTION WORKER, TYPE-6
-        "\\U0001F478\\U0001F3FB",    // 8.0  [1] (👸🏻)      PRINCESS, TYPE-1-2
-        "\\U0001F478\\U0001F3FC",    // 8.0  [1] (👸🏼)      PRINCESS, TYPE-3
-        "\\U0001F478\\U0001F3FD",    // 8.0  [1] (👸🏽)      PRINCESS, TYPE-4
-        "\\U0001F478\\U0001F3FE",    // 8.0  [1] (👸🏾)      PRINCESS, TYPE-5
-        "\\U0001F478\\U0001F3FF",    // 8.0  [1] (👸🏿)      PRINCESS, TYPE-6
-        "\\U0001F47C\\U0001F3FB",    // 8.0  [1] (👼🏻)      BABY ANGEL, TYPE-1-2
-        "\\U0001F47C\\U0001F3FC",    // 8.0  [1] (👼🏼)      BABY ANGEL, TYPE-3
-        "\\U0001F47C\\U0001F3FD",    // 8.0  [1] (👼🏽)      BABY ANGEL, TYPE-4
-        "\\U0001F47C\\U0001F3FE",    // 8.0  [1] (👼🏾)      BABY ANGEL, TYPE-5
-        "\\U0001F47C\\U0001F3FF",    // 8.0  [1] (👼🏿)      BABY ANGEL, TYPE-6
-        "\\U0001F481\\U0001F3FB",    // 8.0  [1] (💁🏻)      INFORMATION DESK PERSON, TYPE-1-2
-        "\\U0001F481\\U0001F3FC",    // 8.0  [1] (💁🏼)      INFORMATION DESK PERSON, TYPE-3
-        "\\U0001F481\\U0001F3FD",    // 8.0  [1] (💁🏽)      INFORMATION DESK PERSON, TYPE-4
-        "\\U0001F481\\U0001F3FE",    // 8.0  [1] (💁🏾)      INFORMATION DESK PERSON, TYPE-5
-        "\\U0001F481\\U0001F3FF",    // 8.0  [1] (💁🏿)      INFORMATION DESK PERSON, TYPE-6
-        "\\U0001F482\\U0001F3FB",    // 8.0  [1] (💂🏻)      GUARDSMAN, TYPE-1-2
-        "\\U0001F482\\U0001F3FC",    // 8.0  [1] (💂🏼)      GUARDSMAN, TYPE-3
-        "\\U0001F482\\U0001F3FD",    // 8.0  [1] (💂🏽)      GUARDSMAN, TYPE-4
-        "\\U0001F482\\U0001F3FE",    // 8.0  [1] (💂🏾)      GUARDSMAN, TYPE-5
-        "\\U0001F482\\U0001F3FF",    // 8.0  [1] (💂🏿)      GUARDSMAN, TYPE-6
-        "\\U0001F483\\U0001F3FB",    // 8.0  [1] (💃🏻)      DANCER, TYPE-1-2
-        "\\U0001F483\\U0001F3FC",    // 8.0  [1] (💃🏼)      DANCER, TYPE-3
-        "\\U0001F483\\U0001F3FD",    // 8.0  [1] (💃🏽)      DANCER, TYPE-4
-        "\\U0001F483\\U0001F3FE",    // 8.0  [1] (💃🏾)      DANCER, TYPE-5
-        "\\U0001F483\\U0001F3FF",    // 8.0  [1] (💃🏿)      DANCER, TYPE-6
-        "\\U0001F485\\U0001F3FB",    // 8.0  [1] (💅🏻)      NAIL POLISH, TYPE-1-2
-        "\\U0001F485\\U0001F3FC",    // 8.0  [1] (💅🏼)      NAIL POLISH, TYPE-3
-        "\\U0001F485\\U0001F3FD",    // 8.0  [1] (💅🏽)      NAIL POLISH, TYPE-4
-        "\\U0001F485\\U0001F3FE",    // 8.0  [1] (💅🏾)      NAIL POLISH, TYPE-5
-        "\\U0001F485\\U0001F3FF",    // 8.0  [1] (💅🏿)      NAIL POLISH, TYPE-6
-        "\\U0001F486\\U0001F3FB",    // 8.0  [1] (💆🏻)      FACE MASSAGE, TYPE-1-2
-        "\\U0001F486\\U0001F3FC",    // 8.0  [1] (💆🏼)      FACE MASSAGE, TYPE-3
-        "\\U0001F486\\U0001F3FD",    // 8.0  [1] (💆🏽)      FACE MASSAGE, TYPE-4
-        "\\U0001F486\\U0001F3FE",    // 8.0  [1] (💆🏾)      FACE MASSAGE, TYPE-5
-        "\\U0001F486\\U0001F3FF",    // 8.0  [1] (💆🏿)      FACE MASSAGE, TYPE-6
-        "\\U0001F487\\U0001F3FB",    // 8.0  [1] (💇🏻)      HAIRCUT, TYPE-1-2
-        "\\U0001F487\\U0001F3FC",    // 8.0  [1] (💇🏼)      HAIRCUT, TYPE-3
-        "\\U0001F487\\U0001F3FD",    // 8.0  [1] (💇🏽)      HAIRCUT, TYPE-4
-        "\\U0001F487\\U0001F3FE",    // 8.0  [1] (💇🏾)      HAIRCUT, TYPE-5
-        "\\U0001F487\\U0001F3FF",    // 8.0  [1] (💇🏿)      HAIRCUT, TYPE-6
-        "\\U0001F4AA\\U0001F3FB",    // 8.0  [1] (💪🏻)      FLEXED BICEPS, TYPE-1-2
-        "\\U0001F4AA\\U0001F3FC",    // 8.0  [1] (💪🏼)      FLEXED BICEPS, TYPE-3
-        "\\U0001F4AA\\U0001F3FD",    // 8.0  [1] (💪🏽)      FLEXED BICEPS, TYPE-4
-        "\\U0001F4AA\\U0001F3FE",    // 8.0  [1] (💪🏾)      FLEXED BICEPS, TYPE-5
-        "\\U0001F4AA\\U0001F3FF",    // 8.0  [1] (💪🏿)      FLEXED BICEPS, TYPE-6
-        "\\U0001F575\\U0001F3FB",    // 8.0  [1] (🕵🏻)      SLEUTH OR SPY, TYPE-1-2
-        "\\U0001F575\\U0001F3FC",    // 8.0  [1] (🕵🏼)      SLEUTH OR SPY, TYPE-3
-        "\\U0001F575\\U0001F3FD",    // 8.0  [1] (🕵🏽)      SLEUTH OR SPY, TYPE-4
-        "\\U0001F575\\U0001F3FE",    // 8.0  [1] (🕵🏾)      SLEUTH OR SPY, TYPE-5
-        "\\U0001F575\\U0001F3FF",    // 8.0  [1] (🕵🏿)      SLEUTH OR SPY, TYPE-6
-        "\\U0001F57A\\U0001F3FB",    // 9.0  [1] (🕺🏻)      MAN DANCING, TYPE-1-2
-        "\\U0001F57A\\U0001F3FC",    // 9.0  [1] (🕺🏼)      MAN DANCING, TYPE-3
-        "\\U0001F57A\\U0001F3FD",    // 9.0  [1] (🕺🏽)      MAN DANCING, TYPE-4
-        "\\U0001F57A\\U0001F3FE",    // 9.0  [1] (🕺🏾)      MAN DANCING, TYPE-5
-        "\\U0001F57A\\U0001F3FF",    // 9.0  [1] (🕺🏿)      MAN DANCING, TYPE-6
-        "\\U0001F590\\U0001F3FB",    // 8.0  [1] (🖐🏻)      RAISED HAND WITH FINGERS SPLAYED, TYPE-1-2
-        "\\U0001F590\\U0001F3FC",    // 8.0  [1] (🖐🏼)      RAISED HAND WITH FINGERS SPLAYED, TYPE-3
-        "\\U0001F590\\U0001F3FD",    // 8.0  [1] (🖐🏽)      RAISED HAND WITH FINGERS SPLAYED, TYPE-4
-        "\\U0001F590\\U0001F3FE",    // 8.0  [1] (🖐🏾)      RAISED HAND WITH FINGERS SPLAYED, TYPE-5
-        "\\U0001F590\\U0001F3FF",    // 8.0  [1] (🖐🏿)      RAISED HAND WITH FINGERS SPLAYED, TYPE-6
-        "\\U0001F595\\U0001F3FB",    // 8.0  [1] (🖕🏻)      REVERSED HAND WITH MIDDLE FINGER EXTENDED, TYPE-1-2
-        "\\U0001F595\\U0001F3FC",    // 8.0  [1] (🖕🏼)      REVERSED HAND WITH MIDDLE FINGER EXTENDED, TYPE-3
-        "\\U0001F595\\U0001F3FD",    // 8.0  [1] (🖕🏽)      REVERSED HAND WITH MIDDLE FINGER EXTENDED, TYPE-4
-        "\\U0001F595\\U0001F3FE",    // 8.0  [1] (🖕🏾)      REVERSED HAND WITH MIDDLE FINGER EXTENDED, TYPE-5
-        "\\U0001F595\\U0001F3FF",    // 8.0  [1] (🖕🏿)      REVERSED HAND WITH MIDDLE FINGER EXTENDED, TYPE-6
-        "\\U0001F596\\U0001F3FB",    // 8.0  [1] (🖖🏻)      RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, TYPE-1-2
-        "\\U0001F596\\U0001F3FC",    // 8.0  [1] (🖖🏼)      RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, TYPE-3
-        "\\U0001F596\\U0001F3FD",    // 8.0  [1] (🖖🏽)      RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, TYPE-4
-        "\\U0001F596\\U0001F3FE",    // 8.0  [1] (🖖🏾)      RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, TYPE-5
-        "\\U0001F596\\U0001F3FF",    // 8.0  [1] (🖖🏿)      RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, TYPE-6
-        "\\U0001F645\\U0001F3FB",    // 8.0  [1] (🙅🏻)      FACE WITH NO GOOD GESTURE, TYPE-1-2
-        "\\U0001F645\\U0001F3FC",    // 8.0  [1] (🙅🏼)      FACE WITH NO GOOD GESTURE, TYPE-3
-        "\\U0001F645\\U0001F3FD",    // 8.0  [1] (🙅🏽)      FACE WITH NO GOOD GESTURE, TYPE-4
-        "\\U0001F645\\U0001F3FE",    // 8.0  [1] (🙅🏾)      FACE WITH NO GOOD GESTURE, TYPE-5
-        "\\U0001F645\\U0001F3FF",    // 8.0  [1] (🙅🏿)      FACE WITH NO GOOD GESTURE, TYPE-6
-        "\\U0001F646\\U0001F3FB",    // 8.0  [1] (🙆🏻)      FACE WITH OK GESTURE, TYPE-1-2
-        "\\U0001F646\\U0001F3FC",    // 8.0  [1] (🙆🏼)      FACE WITH OK GESTURE, TYPE-3
-        "\\U0001F646\\U0001F3FD",    // 8.0  [1] (🙆🏽)      FACE WITH OK GESTURE, TYPE-4
-        "\\U0001F646\\U0001F3FE",    // 8.0  [1] (🙆🏾)      FACE WITH OK GESTURE, TYPE-5
-        "\\U0001F646\\U0001F3FF",    // 8.0  [1] (🙆🏿)      FACE WITH OK GESTURE, TYPE-6
-        "\\U0001F647\\U0001F3FB",    // 8.0  [1] (🙇🏻)      PERSON BOWING DEEPLY, TYPE-1-2
-        "\\U0001F647\\U0001F3FC",    // 8.0  [1] (🙇🏼)      PERSON BOWING DEEPLY, TYPE-3
-        "\\U0001F647\\U0001F3FD",    // 8.0  [1] (🙇🏽)      PERSON BOWING DEEPLY, TYPE-4
-        "\\U0001F647\\U0001F3FE",    // 8.0  [1] (🙇🏾)      PERSON BOWING DEEPLY, TYPE-5
-        "\\U0001F647\\U0001F3FF",    // 8.0  [1] (🙇🏿)      PERSON BOWING DEEPLY, TYPE-6
-        "\\U0001F64B\\U0001F3FB",    // 8.0  [1] (🙋🏻)      HAPPY PERSON RAISING ONE HAND, TYPE-1-2
-        "\\U0001F64B\\U0001F3FC",    // 8.0  [1] (🙋🏼)      HAPPY PERSON RAISING ONE HAND, TYPE-3
-        "\\U0001F64B\\U0001F3FD",    // 8.0  [1] (🙋🏽)      HAPPY PERSON RAISING ONE HAND, TYPE-4
-        "\\U0001F64B\\U0001F3FE",    // 8.0  [1] (🙋🏾)      HAPPY PERSON RAISING ONE HAND, TYPE-5
-        "\\U0001F64B\\U0001F3FF",    // 8.0  [1] (🙋🏿)      HAPPY PERSON RAISING ONE HAND, TYPE-6
-        "\\U0001F64C\\U0001F3FB",    // 8.0  [1] (🙌🏻)      PERSON RAISING BOTH HANDS IN CELEBRATION, TYPE-1-2
-        "\\U0001F64C\\U0001F3FC",    // 8.0  [1] (🙌🏼)      PERSON RAISING BOTH HANDS IN CELEBRATION, TYPE-3
-        "\\U0001F64C\\U0001F3FD",    // 8.0  [1] (🙌🏽)      PERSON RAISING BOTH HANDS IN CELEBRATION, TYPE-4
-        "\\U0001F64C\\U0001F3FE",    // 8.0  [1] (🙌🏾)      PERSON RAISING BOTH HANDS IN CELEBRATION, TYPE-5
-        "\\U0001F64C\\U0001F3FF",    // 8.0  [1] (🙌🏿)      PERSON RAISING BOTH HANDS IN CELEBRATION, TYPE-6
-        "\\U0001F64D\\U0001F3FB",    // 8.0  [1] (🙍🏻)      PERSON FROWNING, TYPE-1-2
-        "\\U0001F64D\\U0001F3FC",    // 8.0  [1] (🙍🏼)      PERSON FROWNING, TYPE-3
-        "\\U0001F64D\\U0001F3FD",    // 8.0  [1] (🙍🏽)      PERSON FROWNING, TYPE-4
-        "\\U0001F64D\\U0001F3FE",    // 8.0  [1] (🙍🏾)      PERSON FROWNING, TYPE-5
-        "\\U0001F64D\\U0001F3FF",    // 8.0  [1] (🙍🏿)      PERSON FROWNING, TYPE-6
-        "\\U0001F64E\\U0001F3FB",    // 8.0  [1] (🙎🏻)      PERSON WITH POUTING FACE, TYPE-1-2
-        "\\U0001F64E\\U0001F3FC",    // 8.0  [1] (🙎🏼)      PERSON WITH POUTING FACE, TYPE-3
-        "\\U0001F64E\\U0001F3FD",    // 8.0  [1] (🙎🏽)      PERSON WITH POUTING FACE, TYPE-4
-        "\\U0001F64E\\U0001F3FE",    // 8.0  [1] (🙎🏾)      PERSON WITH POUTING FACE, TYPE-5
-        "\\U0001F64E\\U0001F3FF",    // 8.0  [1] (🙎🏿)      PERSON WITH POUTING FACE, TYPE-6
-        "\\U0001F64F\\U0001F3FB",    // 8.0  [1] (🙏🏻)      PERSON WITH FOLDED HANDS, TYPE-1-2
-        "\\U0001F64F\\U0001F3FC",    // 8.0  [1] (🙏🏼)      PERSON WITH FOLDED HANDS, TYPE-3
-        "\\U0001F64F\\U0001F3FD",    // 8.0  [1] (🙏🏽)      PERSON WITH FOLDED HANDS, TYPE-4
-        "\\U0001F64F\\U0001F3FE",    // 8.0  [1] (🙏🏾)      PERSON WITH FOLDED HANDS, TYPE-5
-        "\\U0001F64F\\U0001F3FF",    // 8.0  [1] (🙏🏿)      PERSON WITH FOLDED HANDS, TYPE-6
-        "\\U0001F6A3\\U0001F3FB",    // 8.0  [1] (🚣🏻)      ROWBOAT, TYPE-1-2
-        "\\U0001F6A3\\U0001F3FC",    // 8.0  [1] (🚣🏼)      ROWBOAT, TYPE-3
-        "\\U0001F6A3\\U0001F3FD",    // 8.0  [1] (🚣🏽)      ROWBOAT, TYPE-4
-        "\\U0001F6A3\\U0001F3FE",    // 8.0  [1] (🚣🏾)      ROWBOAT, TYPE-5
-        "\\U0001F6A3\\U0001F3FF",    // 8.0  [1] (🚣🏿)      ROWBOAT, TYPE-6
-        "\\U0001F6B4\\U0001F3FB",    // 8.0  [1] (🚴🏻)      BICYCLIST, TYPE-1-2
-        "\\U0001F6B4\\U0001F3FC",    // 8.0  [1] (🚴🏼)      BICYCLIST, TYPE-3
-        "\\U0001F6B4\\U0001F3FD",    // 8.0  [1] (🚴🏽)      BICYCLIST, TYPE-4
-        "\\U0001F6B4\\U0001F3FE",    // 8.0  [1] (🚴🏾)      BICYCLIST, TYPE-5
-        "\\U0001F6B4\\U0001F3FF",    // 8.0  [1] (🚴🏿)      BICYCLIST, TYPE-6
-        "\\U0001F6B5\\U0001F3FB",    // 8.0  [1] (🚵🏻)      MOUNTAIN BICYCLIST, TYPE-1-2
-        "\\U0001F6B5\\U0001F3FC",    // 8.0  [1] (🚵🏼)      MOUNTAIN BICYCLIST, TYPE-3
-        "\\U0001F6B5\\U0001F3FD",    // 8.0  [1] (🚵🏽)      MOUNTAIN BICYCLIST, TYPE-4
-        "\\U0001F6B5\\U0001F3FE",    // 8.0  [1] (🚵🏾)      MOUNTAIN BICYCLIST, TYPE-5
-        "\\U0001F6B5\\U0001F3FF",    // 8.0  [1] (🚵🏿)      MOUNTAIN BICYCLIST, TYPE-6
-        "\\U0001F6B6\\U0001F3FB",    // 8.0  [1] (🚶🏻)      PEDESTRIAN, TYPE-1-2
-        "\\U0001F6B6\\U0001F3FC",    // 8.0  [1] (🚶🏼)      PEDESTRIAN, TYPE-3
-        "\\U0001F6B6\\U0001F3FD",    // 8.0  [1] (🚶🏽)      PEDESTRIAN, TYPE-4
-        "\\U0001F6B6\\U0001F3FE",    // 8.0  [1] (🚶🏾)      PEDESTRIAN, TYPE-5
-        "\\U0001F6B6\\U0001F3FF",    // 8.0  [1] (🚶🏿)      PEDESTRIAN, TYPE-6
-        "\\U0001F6C0\\U0001F3FB",    // 8.0  [1] (🛀🏻)      BATH, TYPE-1-2
-        "\\U0001F6C0\\U0001F3FC",    // 8.0  [1] (🛀🏼)      BATH, TYPE-3
-        "\\U0001F6C0\\U0001F3FD",    // 8.0  [1] (🛀🏽)      BATH, TYPE-4
-        "\\U0001F6C0\\U0001F3FE",    // 8.0  [1] (🛀🏾)      BATH, TYPE-5
-        "\\U0001F6C0\\U0001F3FF",    // 8.0  [1] (🛀🏿)      BATH, TYPE-6
-        "\\U0001F918\\U0001F3FB",    // 8.0  [1] (🤘🏻)      SIGN OF THE HORNS, TYPE-1-2
-        "\\U0001F918\\U0001F3FC",    // 8.0  [1] (🤘🏼)      SIGN OF THE HORNS, TYPE-3
-        "\\U0001F918\\U0001F3FD",    // 8.0  [1] (🤘🏽)      SIGN OF THE HORNS, TYPE-4
-        "\\U0001F918\\U0001F3FE",    // 8.0  [1] (🤘🏾)      SIGN OF THE HORNS, TYPE-5
-        "\\U0001F918\\U0001F3FF",    // 8.0  [1] (🤘🏿)      SIGN OF THE HORNS, TYPE-6
-        "\\U0001F919\\U0001F3FB",    // 9.0  [1] (🤙🏻)      CALL ME HAND, TYPE-1-2
-        "\\U0001F919\\U0001F3FC",    // 9.0  [1] (🤙🏼)      CALL ME HAND, TYPE-3
-        "\\U0001F919\\U0001F3FD",    // 9.0  [1] (🤙🏽)      CALL ME HAND, TYPE-4
-        "\\U0001F919\\U0001F3FE",    // 9.0  [1] (🤙🏾)      CALL ME HAND, TYPE-5
-        "\\U0001F919\\U0001F3FF",    // 9.0  [1] (🤙🏿)      CALL ME HAND, TYPE-6
-        "\\U0001F91A\\U0001F3FB",    // 9.0  [1] (🤚🏻)      RAISED BACK OF HAND, TYPE-1-2
-        "\\U0001F91A\\U0001F3FC",    // 9.0  [1] (🤚🏼)      RAISED BACK OF HAND, TYPE-3
-        "\\U0001F91A\\U0001F3FD",    // 9.0  [1] (🤚🏽)      RAISED BACK OF HAND, TYPE-4
-        "\\U0001F91A\\U0001F3FE",    // 9.0  [1] (🤚🏾)      RAISED BACK OF HAND, TYPE-5
-        "\\U0001F91A\\U0001F3FF",    // 9.0  [1] (🤚🏿)      RAISED BACK OF HAND, TYPE-6
-        "\\U0001F91B\\U0001F3FB",    // 9.0  [1] (🤛🏻)      LEFT-FACING FIST, TYPE-1-2
-        "\\U0001F91B\\U0001F3FC",    // 9.0  [1] (🤛🏼)      LEFT-FACING FIST, TYPE-3
-        "\\U0001F91B\\U0001F3FD",    // 9.0  [1] (🤛🏽)      LEFT-FACING FIST, TYPE-4
-        "\\U0001F91B\\U0001F3FE",    // 9.0  [1] (🤛🏾)      LEFT-FACING FIST, TYPE-5
-        "\\U0001F91B\\U0001F3FF",    // 9.0  [1] (🤛🏿)      LEFT-FACING FIST, TYPE-6
-        "\\U0001F91C\\U0001F3FB",    // 9.0  [1] (🤜🏻)      RIGHT-FACING FIST, TYPE-1-2
-        "\\U0001F91C\\U0001F3FC",    // 9.0  [1] (🤜🏼)      RIGHT-FACING FIST, TYPE-3
-        "\\U0001F91C\\U0001F3FD",    // 9.0  [1] (🤜🏽)      RIGHT-FACING FIST, TYPE-4
-        "\\U0001F91C\\U0001F3FE",    // 9.0  [1] (🤜🏾)      RIGHT-FACING FIST, TYPE-5
-        "\\U0001F91C\\U0001F3FF",    // 9.0  [1] (🤜🏿)      RIGHT-FACING FIST, TYPE-6
-        "\\U0001F91D\\U0001F3FB",    // 9.0  [1] (🤝🏻)      HANDSHAKE, TYPE-1-2
-        "\\U0001F91D\\U0001F3FC",    // 9.0  [1] (🤝🏼)      HANDSHAKE, TYPE-3
-        "\\U0001F91D\\U0001F3FD",    // 9.0  [1] (🤝🏽)      HANDSHAKE, TYPE-4
-        "\\U0001F91D\\U0001F3FE",    // 9.0  [1] (🤝🏾)      HANDSHAKE, TYPE-5
-        "\\U0001F91D\\U0001F3FF",    // 9.0  [1] (🤝🏿)      HANDSHAKE, TYPE-6
-        "\\U0001F91E\\U0001F3FB",    // 9.0  [1] (🤞🏻)      HAND WITH INDEX AND MIDDLE FINGERS CROSSED, TYPE-1-2
-        "\\U0001F91E\\U0001F3FC",    // 9.0  [1] (🤞🏼)      HAND WITH INDEX AND MIDDLE FINGERS CROSSED, TYPE-3
-        "\\U0001F91E\\U0001F3FD",    // 9.0  [1] (🤞🏽)      HAND WITH INDEX AND MIDDLE FINGERS CROSSED, TYPE-4
-        "\\U0001F91E\\U0001F3FE",    // 9.0  [1] (🤞🏾)      HAND WITH INDEX AND MIDDLE FINGERS CROSSED, TYPE-5
-        "\\U0001F91E\\U0001F3FF",    // 9.0  [1] (🤞🏿)      HAND WITH INDEX AND MIDDLE FINGERS CROSSED, TYPE-6
-        "\\U0001F926\\U0001F3FB",    // 9.0  [1] (🤦🏻)      FACE PALM, TYPE-1-2
-        "\\U0001F926\\U0001F3FC",    // 9.0  [1] (🤦🏼)      FACE PALM, TYPE-3
-        "\\U0001F926\\U0001F3FD",    // 9.0  [1] (🤦🏽)      FACE PALM, TYPE-4
-        "\\U0001F926\\U0001F3FE",    // 9.0  [1] (🤦🏾)      FACE PALM, TYPE-5
-        "\\U0001F926\\U0001F3FF",    // 9.0  [1] (🤦🏿)      FACE PALM, TYPE-6
-        "\\U0001F930\\U0001F3FB",    // 9.0  [1] (🤰🏻)      PREGNANT WOMAN, TYPE-1-2
-        "\\U0001F930\\U0001F3FC",    // 9.0  [1] (🤰🏼)      PREGNANT WOMAN, TYPE-3
-        "\\U0001F930\\U0001F3FD",    // 9.0  [1] (🤰🏽)      PREGNANT WOMAN, TYPE-4
-        "\\U0001F930\\U0001F3FE",    // 9.0  [1] (🤰🏾)      PREGNANT WOMAN, TYPE-5
-        "\\U0001F930\\U0001F3FF",    // 9.0  [1] (🤰🏿)      PREGNANT WOMAN, TYPE-6
-        "\\U0001F933\\U0001F3FB",    // 9.0  [1] (🤳🏻)      SELFIE, TYPE-1-2
-        "\\U0001F933\\U0001F3FC",    // 9.0  [1] (🤳🏼)      SELFIE, TYPE-3
-        "\\U0001F933\\U0001F3FD",    // 9.0  [1] (🤳🏽)      SELFIE, TYPE-4
-        "\\U0001F933\\U0001F3FE",    // 9.0  [1] (🤳🏾)      SELFIE, TYPE-5
-        "\\U0001F933\\U0001F3FF",    // 9.0  [1] (🤳🏿)      SELFIE, TYPE-6
-        "\\U0001F934\\U0001F3FB",    // 9.0  [1] (🤴🏻)      PRINCE, TYPE-1-2
-        "\\U0001F934\\U0001F3FC",    // 9.0  [1] (🤴🏼)      PRINCE, TYPE-3
-        "\\U0001F934\\U0001F3FD",    // 9.0  [1] (🤴🏽)      PRINCE, TYPE-4
-        "\\U0001F934\\U0001F3FE",    // 9.0  [1] (🤴🏾)      PRINCE, TYPE-5
-        "\\U0001F934\\U0001F3FF",    // 9.0  [1] (🤴🏿)      PRINCE, TYPE-6
-        "\\U0001F935\\U0001F3FB",    // 9.0  [1] (🤵🏻)      MAN IN TUXEDO, TYPE-1-2
-        "\\U0001F935\\U0001F3FC",    // 9.0  [1] (🤵🏼)      MAN IN TUXEDO, TYPE-3
-        "\\U0001F935\\U0001F3FD",    // 9.0  [1] (🤵🏽)      MAN IN TUXEDO, TYPE-4
-        "\\U0001F935\\U0001F3FE",    // 9.0  [1] (🤵🏾)      MAN IN TUXEDO, TYPE-5
-        "\\U0001F935\\U0001F3FF",    // 9.0  [1] (🤵🏿)      MAN IN TUXEDO, TYPE-6
-        "\\U0001F936\\U0001F3FB",    // 9.0  [1] (🤶🏻)      MOTHER CHRISTMAS, TYPE-1-2
-        "\\U0001F936\\U0001F3FC",    // 9.0  [1] (🤶🏼)      MOTHER CHRISTMAS, TYPE-3
-        "\\U0001F936\\U0001F3FD",    // 9.0  [1] (🤶🏽)      MOTHER CHRISTMAS, TYPE-4
-        "\\U0001F936\\U0001F3FE",    // 9.0  [1] (🤶🏾)      MOTHER CHRISTMAS, TYPE-5
-        "\\U0001F936\\U0001F3FF",    // 9.0  [1] (🤶🏿)      MOTHER CHRISTMAS, TYPE-6
-        "\\U0001F937\\U0001F3FB",    // 9.0  [1] (🤷🏻)      SHRUG, TYPE-1-2
-        "\\U0001F937\\U0001F3FC",    // 9.0  [1] (🤷🏼)      SHRUG, TYPE-3
-        "\\U0001F937\\U0001F3FD",    // 9.0  [1] (🤷🏽)      SHRUG, TYPE-4
-        "\\U0001F937\\U0001F3FE",    // 9.0  [1] (🤷🏾)      SHRUG, TYPE-5
-        "\\U0001F937\\U0001F3FF",    // 9.0  [1] (🤷🏿)      SHRUG, TYPE-6
-        "\\U0001F938\\U0001F3FB",    // 9.0  [1] (🤸🏻)      PERSON DOING CARTWHEEL, TYPE-1-2
-        "\\U0001F938\\U0001F3FC",    // 9.0  [1] (🤸🏼)      PERSON DOING CARTWHEEL, TYPE-3
-        "\\U0001F938\\U0001F3FD",    // 9.0  [1] (🤸🏽)      PERSON DOING CARTWHEEL, TYPE-4
-        "\\U0001F938\\U0001F3FE",    // 9.0  [1] (🤸🏾)      PERSON DOING CARTWHEEL, TYPE-5
-        "\\U0001F938\\U0001F3FF",    // 9.0  [1] (🤸🏿)      PERSON DOING CARTWHEEL, TYPE-6
-        "\\U0001F939\\U0001F3FB",    // 9.0  [1] (🤹🏻)      JUGGLING, TYPE-1-2
-        "\\U0001F939\\U0001F3FC",    // 9.0  [1] (🤹🏼)      JUGGLING, TYPE-3
-        "\\U0001F939\\U0001F3FD",    // 9.0  [1] (🤹🏽)      JUGGLING, TYPE-4
-        "\\U0001F939\\U0001F3FE",    // 9.0  [1] (🤹🏾)      JUGGLING, TYPE-5
-        "\\U0001F939\\U0001F3FF",    // 9.0  [1] (🤹🏿)      JUGGLING, TYPE-6
-        "\\U0001F93C\\U0001F3FB",    // 9.0  [1] (🤼🏻)      WRESTLERS, TYPE-1-2
-        "\\U0001F93C\\U0001F3FC",    // 9.0  [1] (🤼🏼)      WRESTLERS, TYPE-3
-        "\\U0001F93C\\U0001F3FD",    // 9.0  [1] (🤼🏽)      WRESTLERS, TYPE-4
-        "\\U0001F93C\\U0001F3FE",    // 9.0  [1] (🤼🏾)      WRESTLERS, TYPE-5
-        "\\U0001F93C\\U0001F3FF",    // 9.0  [1] (🤼🏿)      WRESTLERS, TYPE-6
-        "\\U0001F93D\\U0001F3FB",    // 9.0  [1] (🤽🏻)      WATER POLO, TYPE-1-2
-        "\\U0001F93D\\U0001F3FC",    // 9.0  [1] (🤽🏼)      WATER POLO, TYPE-3
-        "\\U0001F93D\\U0001F3FD",    // 9.0  [1] (🤽🏽)      WATER POLO, TYPE-4
-        "\\U0001F93D\\U0001F3FE",    // 9.0  [1] (🤽🏾)      WATER POLO, TYPE-5
-        "\\U0001F93D\\U0001F3FF",    // 9.0  [1] (🤽🏿)      WATER POLO, TYPE-6
-        "\\U0001F93E\\U0001F3FB",    // 9.0  [1] (🤾🏻)      HANDBALL, TYPE-1-2
-        "\\U0001F93E\\U0001F3FC",    // 9.0  [1] (🤾🏼)      HANDBALL, TYPE-3
-        "\\U0001F93E\\U0001F3FD",    // 9.0  [1] (🤾🏽)      HANDBALL, TYPE-4
-        "\\U0001F93E\\U0001F3FE",    // 9.0  [1] (🤾🏾)      HANDBALL, TYPE-5
-        "\\U0001F93E\\U0001F3FF",    // 9.0  [1] (🤾🏿)      HANDBALL, TYPE-6
-        "\\u261D\\U0001F3FB",    // 8.0  [1] (☝🏻)      WHITE UP POINTING INDEX, TYPE-1-2
-        "\\u261D\\U0001F3FC",    // 8.0  [1] (☝🏼)      WHITE UP POINTING INDEX, TYPE-3
-        "\\u261D\\U0001F3FD",    // 8.0  [1] (☝🏽)      WHITE UP POINTING INDEX, TYPE-4
-        "\\u261D\\U0001F3FE",    // 8.0  [1] (☝🏾)      WHITE UP POINTING INDEX, TYPE-5
-        "\\u261D\\U0001F3FF",    // 8.0  [1] (☝🏿)      WHITE UP POINTING INDEX, TYPE-6
-        "\\u26F9\\U0001F3FB",    // 8.0  [1] (⛹🏻)      PERSON WITH BALL, TYPE-1-2
-        "\\u26F9\\U0001F3FC",    // 8.0  [1] (⛹🏼)      PERSON WITH BALL, TYPE-3
-        "\\u26F9\\U0001F3FD",    // 8.0  [1] (⛹🏽)      PERSON WITH BALL, TYPE-4
-        "\\u26F9\\U0001F3FE",    // 8.0  [1] (⛹🏾)      PERSON WITH BALL, TYPE-5
-        "\\u26F9\\U0001F3FF",    // 8.0  [1] (⛹🏿)      PERSON WITH BALL, TYPE-6
-        "\\u270A\\U0001F3FB",    // 8.0  [1] (✊🏻)      RAISED FIST, TYPE-1-2
-        "\\u270A\\U0001F3FC",    // 8.0  [1] (✊🏼)      RAISED FIST, TYPE-3
-        "\\u270A\\U0001F3FD",    // 8.0  [1] (✊🏽)      RAISED FIST, TYPE-4
-        "\\u270A\\U0001F3FE",    // 8.0  [1] (✊🏾)      RAISED FIST, TYPE-5
-        "\\u270A\\U0001F3FF",    // 8.0  [1] (✊🏿)      RAISED FIST, TYPE-6
-        "\\u270B\\U0001F3FB",    // 8.0  [1] (✋🏻)      RAISED HAND, TYPE-1-2
-        "\\u270B\\U0001F3FC",    // 8.0  [1] (✋🏼)      RAISED HAND, TYPE-3
-        "\\u270B\\U0001F3FD",    // 8.0  [1] (✋🏽)      RAISED HAND, TYPE-4
-        "\\u270B\\U0001F3FE",    // 8.0  [1] (✋🏾)      RAISED HAND, TYPE-5
-        "\\u270B\\U0001F3FF",    // 8.0  [1] (✋🏿)      RAISED HAND, TYPE-6
-        "\\u270C\\U0001F3FB",    // 8.0  [1] (✌🏻)      VICTORY HAND, TYPE-1-2
-        "\\u270C\\U0001F3FC",    // 8.0  [1] (✌🏼)      VICTORY HAND, TYPE-3
-        "\\u270C\\U0001F3FD",    // 8.0  [1] (✌🏽)      VICTORY HAND, TYPE-4
-        "\\u270C\\U0001F3FE",    // 8.0  [1] (✌🏾)      VICTORY HAND, TYPE-5
-        "\\u270C\\U0001F3FF",    // 8.0  [1] (✌🏿)      VICTORY HAND, TYPE-6
-        "\\u270D\\U0001F3FB",    // 8.0  [1] (✍🏻)      WRITING HAND, TYPE-1-2
-        "\\u270D\\U0001F3FC",    // 8.0  [1] (✍🏼)      WRITING HAND, TYPE-3
-        "\\u270D\\U0001F3FD",    // 8.0  [1] (✍🏽)      WRITING HAND, TYPE-4
-        "\\u270D\\U0001F3FE",    // 8.0  [1] (✍🏾)      WRITING HAND, TYPE-5
-        "\\u270D\\U0001F3FF"     // 8.0  [1] (✍🏿)      WRITING HAND, TYPE-6
+        "\\u0023\\uFE0F\\u20E3",    // E0.6   [1] (#️⃣)
+        "\\u002A\\uFE0F\\u20E3",    // E2.0   [1] (*️⃣)
+        "\\u0030\\uFE0F\\u20E3",    // E0.6   [1] (0️⃣)
+        "\\u0031\\uFE0F\\u20E3",    // E0.6   [1] (1️⃣)
+        "\\u0032\\uFE0F\\u20E3",    // E0.6   [1] (2️⃣)
+        "\\u0033\\uFE0F\\u20E3",    // E0.6   [1] (3️⃣)
+        "\\u0034\\uFE0F\\u20E3",    // E0.6   [1] (4️⃣)
+        "\\u0035\\uFE0F\\u20E3",    // E0.6   [1] (5️⃣)
+        "\\u0036\\uFE0F\\u20E3",    // E0.6   [1] (6️⃣)
+        "\\u0037\\uFE0F\\u20E3",    // E0.6   [1] (7️⃣)
+        "\\u0038\\uFE0F\\u20E3",    // E0.6   [1] (8️⃣)
+        "\\u0039\\uFE0F\\u20E3",    // E0.6   [1] (9️⃣)
+        "\\u00A9\\uFE0F",    // E0.6   [1] (©️)
+        "\\u00AE\\uFE0F",    // E0.6   [1] (®️)
+        "\\U0001F004",    // E0.6   [1] (🀄)
+        "\\U0001F0CF",    // E0.6   [1] (🃏)
+        "\\U0001F170\\uFE0F",    // E0.6   [1] (🅰️)
+        "\\U0001F171\\uFE0F",    // E0.6   [1] (🅱️)
+        "\\U0001F17E\\uFE0F",    // E0.6   [1] (🅾️)
+        "\\U0001F17F\\uFE0F",    // E0.6   [1] (🅿️)
+        "\\U0001F18E",    // E0.6   [1] (🆎)
+        "[\\U0001F191-\\U0001F19A]",    // E0.6  [10] (🆑..🆚)
+        "\\U0001F1E6\\U0001F1E8",    // E2.0   [1] (🇦🇨)
+        "\\U0001F1E6\\U0001F1E9",    // E2.0   [1] (🇦🇩)
+        "\\U0001F1E6\\U0001F1EA",    // E2.0   [1] (🇦🇪)
+        "\\U0001F1E6\\U0001F1EB",    // E2.0   [1] (🇦🇫)
+        "\\U0001F1E6\\U0001F1EC",    // E2.0   [1] (🇦🇬)
+        "\\U0001F1E6\\U0001F1EE",    // E2.0   [1] (🇦🇮)
+        "\\U0001F1E6\\U0001F1F1",    // E2.0   [1] (🇦🇱)
+        "\\U0001F1E6\\U0001F1F2",    // E2.0   [1] (🇦🇲)
+        "\\U0001F1E6\\U0001F1F4",    // E2.0   [1] (🇦🇴)
+        "\\U0001F1E6\\U0001F1F6",    // E2.0   [1] (🇦🇶)
+        "\\U0001F1E6\\U0001F1F7",    // E2.0   [1] (🇦🇷)
+        "\\U0001F1E6\\U0001F1F8",    // E2.0   [1] (🇦🇸)
+        "\\U0001F1E6\\U0001F1F9",    // E2.0   [1] (🇦🇹)
+        "\\U0001F1E6\\U0001F1FA",    // E2.0   [1] (🇦🇺)
+        "\\U0001F1E6\\U0001F1FC",    // E2.0   [1] (🇦🇼)
+        "\\U0001F1E6\\U0001F1FD",    // E2.0   [1] (🇦🇽)
+        "\\U0001F1E6\\U0001F1FF",    // E2.0   [1] (🇦🇿)
+        "\\U0001F1E7\\U0001F1E6",    // E2.0   [1] (🇧🇦)
+        "\\U0001F1E7\\U0001F1E7",    // E2.0   [1] (🇧🇧)
+        "\\U0001F1E7\\U0001F1E9",    // E2.0   [1] (🇧🇩)
+        "\\U0001F1E7\\U0001F1EA",    // E2.0   [1] (🇧🇪)
+        "\\U0001F1E7\\U0001F1EB",    // E2.0   [1] (🇧🇫)
+        "\\U0001F1E7\\U0001F1EC",    // E2.0   [1] (🇧🇬)
+        "\\U0001F1E7\\U0001F1ED",    // E2.0   [1] (🇧🇭)
+        "\\U0001F1E7\\U0001F1EE",    // E2.0   [1] (🇧🇮)
+        "\\U0001F1E7\\U0001F1EF",    // E2.0   [1] (🇧🇯)
+        "\\U0001F1E7\\U0001F1F1",    // E2.0   [1] (🇧🇱)
+        "\\U0001F1E7\\U0001F1F2",    // E2.0   [1] (🇧🇲)
+        "\\U0001F1E7\\U0001F1F3",    // E2.0   [1] (🇧🇳)
+        "\\U0001F1E7\\U0001F1F4",    // E2.0   [1] (🇧🇴)
+        "\\U0001F1E7\\U0001F1F6",    // E2.0   [1] (🇧🇶)
+        "\\U0001F1E7\\U0001F1F7",    // E2.0   [1] (🇧🇷)
+        "\\U0001F1E7\\U0001F1F8",    // E2.0   [1] (🇧🇸)
+        "\\U0001F1E7\\U0001F1F9",    // E2.0   [1] (🇧🇹)
+        "\\U0001F1E7\\U0001F1FB",    // E2.0   [1] (🇧🇻)
+        "\\U0001F1E7\\U0001F1FC",    // E2.0   [1] (🇧🇼)
+        "\\U0001F1E7\\U0001F1FE",    // E2.0   [1] (🇧🇾)
+        "\\U0001F1E7\\U0001F1FF",    // E2.0   [1] (🇧🇿)
+        "\\U0001F1E8\\U0001F1E6",    // E2.0   [1] (🇨🇦)
+        "\\U0001F1E8\\U0001F1E8",    // E2.0   [1] (🇨🇨)
+        "\\U0001F1E8\\U0001F1E9",    // E2.0   [1] (🇨🇩)
+        "\\U0001F1E8\\U0001F1EB",    // E2.0   [1] (🇨🇫)
+        "\\U0001F1E8\\U0001F1EC",    // E2.0   [1] (🇨🇬)
+        "\\U0001F1E8\\U0001F1ED",    // E2.0   [1] (🇨🇭)
+        "\\U0001F1E8\\U0001F1EE",    // E2.0   [1] (🇨🇮)
+        "\\U0001F1E8\\U0001F1F0",    // E2.0   [1] (🇨🇰)
+        "\\U0001F1E8\\U0001F1F1",    // E2.0   [1] (🇨🇱)
+        "\\U0001F1E8\\U0001F1F2",    // E2.0   [1] (🇨🇲)
+        "\\U0001F1E8\\U0001F1F3",    // E0.6   [1] (🇨🇳)
+        "\\U0001F1E8\\U0001F1F4",    // E2.0   [1] (🇨🇴)
+        "\\U0001F1E8\\U0001F1F5",    // E2.0   [1] (🇨🇵)
+        "\\U0001F1E8\\U0001F1F7",    // E2.0   [1] (🇨🇷)
+        "\\U0001F1E8\\U0001F1FA",    // E2.0   [1] (🇨🇺)
+        "\\U0001F1E8\\U0001F1FB",    // E2.0   [1] (🇨🇻)
+        "\\U0001F1E8\\U0001F1FC",    // E2.0   [1] (🇨🇼)
+        "\\U0001F1E8\\U0001F1FD",    // E2.0   [1] (🇨🇽)
+        "\\U0001F1E8\\U0001F1FE",    // E2.0   [1] (🇨🇾)
+        "\\U0001F1E8\\U0001F1FF",    // E2.0   [1] (🇨🇿)
+        "\\U0001F1E9\\U0001F1EA",    // E0.6   [1] (🇩🇪)
+        "\\U0001F1E9\\U0001F1EC",    // E2.0   [1] (🇩🇬)
+        "\\U0001F1E9\\U0001F1EF",    // E2.0   [1] (🇩🇯)
+        "\\U0001F1E9\\U0001F1F0",    // E2.0   [1] (🇩🇰)
+        "\\U0001F1E9\\U0001F1F2",    // E2.0   [1] (🇩🇲)
+        "\\U0001F1E9\\U0001F1F4",    // E2.0   [1] (🇩🇴)
+        "\\U0001F1E9\\U0001F1FF",    // E2.0   [1] (🇩🇿)
+        "\\U0001F1EA\\U0001F1E6",    // E2.0   [1] (🇪🇦)
+        "\\U0001F1EA\\U0001F1E8",    // E2.0   [1] (🇪🇨)
+        "\\U0001F1EA\\U0001F1EA",    // E2.0   [1] (🇪🇪)
+        "\\U0001F1EA\\U0001F1EC",    // E2.0   [1] (🇪🇬)
+        "\\U0001F1EA\\U0001F1ED",    // E2.0   [1] (🇪🇭)
+        "\\U0001F1EA\\U0001F1F7",    // E2.0   [1] (🇪🇷)
+        "\\U0001F1EA\\U0001F1F8",    // E0.6   [1] (🇪🇸)
+        "\\U0001F1EA\\U0001F1F9",    // E2.0   [1] (🇪🇹)
+        "\\U0001F1EA\\U0001F1FA",    // E2.0   [1] (🇪🇺)
+        "\\U0001F1EB\\U0001F1EE",    // E2.0   [1] (🇫🇮)
+        "\\U0001F1EB\\U0001F1EF",    // E2.0   [1] (🇫🇯)
+        "\\U0001F1EB\\U0001F1F0",    // E2.0   [1] (🇫🇰)
+        "\\U0001F1EB\\U0001F1F2",    // E2.0   [1] (🇫🇲)
+        "\\U0001F1EB\\U0001F1F4",    // E2.0   [1] (🇫🇴)
+        "\\U0001F1EB\\U0001F1F7",    // E0.6   [1] (🇫🇷)
+        "\\U0001F1EC\\U0001F1E6",    // E2.0   [1] (🇬🇦)
+        "\\U0001F1EC\\U0001F1E7",    // E0.6   [1] (🇬🇧)
+        "\\U0001F1EC\\U0001F1E9",    // E2.0   [1] (🇬🇩)
+        "\\U0001F1EC\\U0001F1EA",    // E2.0   [1] (🇬🇪)
+        "\\U0001F1EC\\U0001F1EB",    // E2.0   [1] (🇬🇫)
+        "\\U0001F1EC\\U0001F1EC",    // E2.0   [1] (🇬🇬)
+        "\\U0001F1EC\\U0001F1ED",    // E2.0   [1] (🇬🇭)
+        "\\U0001F1EC\\U0001F1EE",    // E2.0   [1] (🇬🇮)
+        "\\U0001F1EC\\U0001F1F1",    // E2.0   [1] (🇬🇱)
+        "\\U0001F1EC\\U0001F1F2",    // E2.0   [1] (🇬🇲)
+        "\\U0001F1EC\\U0001F1F3",    // E2.0   [1] (🇬🇳)
+        "\\U0001F1EC\\U0001F1F5",    // E2.0   [1] (🇬🇵)
+        "\\U0001F1EC\\U0001F1F6",    // E2.0   [1] (🇬🇶)
+        "\\U0001F1EC\\U0001F1F7",    // E2.0   [1] (🇬🇷)
+        "\\U0001F1EC\\U0001F1F8",    // E2.0   [1] (🇬🇸)
+        "\\U0001F1EC\\U0001F1F9",    // E2.0   [1] (🇬🇹)
+        "\\U0001F1EC\\U0001F1FA",    // E2.0   [1] (🇬🇺)
+        "\\U0001F1EC\\U0001F1FC",    // E2.0   [1] (🇬🇼)
+        "\\U0001F1EC\\U0001F1FE",    // E2.0   [1] (🇬🇾)
+        "\\U0001F1ED\\U0001F1F0",    // E2.0   [1] (🇭🇰)
+        "\\U0001F1ED\\U0001F1F2",    // E2.0   [1] (🇭🇲)
+        "\\U0001F1ED\\U0001F1F3",    // E2.0   [1] (🇭🇳)
+        "\\U0001F1ED\\U0001F1F7",    // E2.0   [1] (🇭🇷)
+        "\\U0001F1ED\\U0001F1F9",    // E2.0   [1] (🇭🇹)
+        "\\U0001F1ED\\U0001F1FA",    // E2.0   [1] (🇭🇺)
+        "\\U0001F1EE\\U0001F1E8",    // E2.0   [1] (🇮🇨)
+        "\\U0001F1EE\\U0001F1E9",    // E2.0   [1] (🇮🇩)
+        "\\U0001F1EE\\U0001F1EA",    // E2.0   [1] (🇮🇪)
+        "\\U0001F1EE\\U0001F1F1",    // E2.0   [1] (🇮🇱)
+        "\\U0001F1EE\\U0001F1F2",    // E2.0   [1] (🇮🇲)
+        "\\U0001F1EE\\U0001F1F3",    // E2.0   [1] (🇮🇳)
+        "\\U0001F1EE\\U0001F1F4",    // E2.0   [1] (🇮🇴)
+        "\\U0001F1EE\\U0001F1F6",    // E2.0   [1] (🇮🇶)
+        "\\U0001F1EE\\U0001F1F7",    // E2.0   [1] (🇮🇷)
+        "\\U0001F1EE\\U0001F1F8",    // E2.0   [1] (🇮🇸)
+        "\\U0001F1EE\\U0001F1F9",    // E0.6   [1] (🇮🇹)
+        "\\U0001F1EF\\U0001F1EA",    // E2.0   [1] (🇯🇪)
+        "\\U0001F1EF\\U0001F1F2",    // E2.0   [1] (🇯🇲)
+        "\\U0001F1EF\\U0001F1F4",    // E2.0   [1] (🇯🇴)
+        "\\U0001F1EF\\U0001F1F5",    // E0.6   [1] (🇯🇵)
+        "\\U0001F1F0\\U0001F1EA",    // E2.0   [1] (🇰🇪)
+        "\\U0001F1F0\\U0001F1EC",    // E2.0   [1] (🇰🇬)
+        "\\U0001F1F0\\U0001F1ED",    // E2.0   [1] (🇰🇭)
+        "\\U0001F1F0\\U0001F1EE",    // E2.0   [1] (🇰🇮)
+        "\\U0001F1F0\\U0001F1F2",    // E2.0   [1] (🇰🇲)
+        "\\U0001F1F0\\U0001F1F3",    // E2.0   [1] (🇰🇳)
+        "\\U0001F1F0\\U0001F1F5",    // E2.0   [1] (🇰🇵)
+        "\\U0001F1F0\\U0001F1F7",    // E0.6   [1] (🇰🇷)
+        "\\U0001F1F0\\U0001F1FC",    // E2.0   [1] (🇰🇼)
+        "\\U0001F1F0\\U0001F1FE",    // E2.0   [1] (🇰🇾)
+        "\\U0001F1F0\\U0001F1FF",    // E2.0   [1] (🇰🇿)
+        "\\U0001F1F1\\U0001F1E6",    // E2.0   [1] (🇱🇦)
+        "\\U0001F1F1\\U0001F1E7",    // E2.0   [1] (🇱🇧)
+        "\\U0001F1F1\\U0001F1E8",    // E2.0   [1] (🇱🇨)
+        "\\U0001F1F1\\U0001F1EE",    // E2.0   [1] (🇱🇮)
+        "\\U0001F1F1\\U0001F1F0",    // E2.0   [1] (🇱🇰)
+        "\\U0001F1F1\\U0001F1F7",    // E2.0   [1] (🇱🇷)
+        "\\U0001F1F1\\U0001F1F8",    // E2.0   [1] (🇱🇸)
+        "\\U0001F1F1\\U0001F1F9",    // E2.0   [1] (🇱🇹)
+        "\\U0001F1F1\\U0001F1FA",    // E2.0   [1] (🇱🇺)
+        "\\U0001F1F1\\U0001F1FB",    // E2.0   [1] (🇱🇻)
+        "\\U0001F1F1\\U0001F1FE",    // E2.0   [1] (🇱🇾)
+        "\\U0001F1F2\\U0001F1E6",    // E2.0   [1] (🇲🇦)
+        "\\U0001F1F2\\U0001F1E8",    // E2.0   [1] (🇲🇨)
+        "\\U0001F1F2\\U0001F1E9",    // E2.0   [1] (🇲🇩)
+        "\\U0001F1F2\\U0001F1EA",    // E2.0   [1] (🇲🇪)
+        "\\U0001F1F2\\U0001F1EB",    // E2.0   [1] (🇲🇫)
+        "\\U0001F1F2\\U0001F1EC",    // E2.0   [1] (🇲🇬)
+        "\\U0001F1F2\\U0001F1ED",    // E2.0   [1] (🇲🇭)
+        "\\U0001F1F2\\U0001F1F0",    // E2.0   [1] (🇲🇰)
+        "\\U0001F1F2\\U0001F1F1",    // E2.0   [1] (🇲🇱)
+        "\\U0001F1F2\\U0001F1F2",    // E2.0   [1] (🇲🇲)
+        "\\U0001F1F2\\U0001F1F3",    // E2.0   [1] (🇲🇳)
+        "\\U0001F1F2\\U0001F1F4",    // E2.0   [1] (🇲🇴)
+        "\\U0001F1F2\\U0001F1F5",    // E2.0   [1] (🇲🇵)
+        "\\U0001F1F2\\U0001F1F6",    // E2.0   [1] (🇲🇶)
+        "\\U0001F1F2\\U0001F1F7",    // E2.0   [1] (🇲🇷)
+        "\\U0001F1F2\\U0001F1F8",    // E2.0   [1] (🇲🇸)
+        "\\U0001F1F2\\U0001F1F9",    // E2.0   [1] (🇲🇹)
+        "\\U0001F1F2\\U0001F1FA",    // E2.0   [1] (🇲🇺)
+        "\\U0001F1F2\\U0001F1FB",    // E2.0   [1] (🇲🇻)
+        "\\U0001F1F2\\U0001F1FC",    // E2.0   [1] (🇲🇼)
+        "\\U0001F1F2\\U0001F1FD",    // E2.0   [1] (🇲🇽)
+        "\\U0001F1F2\\U0001F1FE",    // E2.0   [1] (🇲🇾)
+        "\\U0001F1F2\\U0001F1FF",    // E2.0   [1] (🇲🇿)
+        "\\U0001F1F3\\U0001F1E6",    // E2.0   [1] (🇳🇦)
+        "\\U0001F1F3\\U0001F1E8",    // E2.0   [1] (🇳🇨)
+        "\\U0001F1F3\\U0001F1EA",    // E2.0   [1] (🇳🇪)
+        "\\U0001F1F3\\U0001F1EB",    // E2.0   [1] (🇳🇫)
+        "\\U0001F1F3\\U0001F1EC",    // E2.0   [1] (🇳🇬)
+        "\\U0001F1F3\\U0001F1EE",    // E2.0   [1] (🇳🇮)
+        "\\U0001F1F3\\U0001F1F1",    // E2.0   [1] (🇳🇱)
+        "\\U0001F1F3\\U0001F1F4",    // E2.0   [1] (🇳🇴)
+        "\\U0001F1F3\\U0001F1F5",    // E2.0   [1] (🇳🇵)
+        "\\U0001F1F3\\U0001F1F7",    // E2.0   [1] (🇳🇷)
+        "\\U0001F1F3\\U0001F1FA",    // E2.0   [1] (🇳🇺)
+        "\\U0001F1F3\\U0001F1FF",    // E2.0   [1] (🇳🇿)
+        "\\U0001F1F4\\U0001F1F2",    // E2.0   [1] (🇴🇲)
+        "\\U0001F1F5\\U0001F1E6",    // E2.0   [1] (🇵🇦)
+        "\\U0001F1F5\\U0001F1EA",    // E2.0   [1] (🇵🇪)
+        "\\U0001F1F5\\U0001F1EB",    // E2.0   [1] (🇵🇫)
+        "\\U0001F1F5\\U0001F1EC",    // E2.0   [1] (🇵🇬)
+        "\\U0001F1F5\\U0001F1ED",    // E2.0   [1] (🇵🇭)
+        "\\U0001F1F5\\U0001F1F0",    // E2.0   [1] (🇵🇰)
+        "\\U0001F1F5\\U0001F1F1",    // E2.0   [1] (🇵🇱)
+        "\\U0001F1F5\\U0001F1F2",    // E2.0   [1] (🇵🇲)
+        "\\U0001F1F5\\U0001F1F3",    // E2.0   [1] (🇵🇳)
+        "\\U0001F1F5\\U0001F1F7",    // E2.0   [1] (🇵🇷)
+        "\\U0001F1F5\\U0001F1F8",    // E2.0   [1] (🇵🇸)
+        "\\U0001F1F5\\U0001F1F9",    // E2.0   [1] (🇵🇹)
+        "\\U0001F1F5\\U0001F1FC",    // E2.0   [1] (🇵🇼)
+        "\\U0001F1F5\\U0001F1FE",    // E2.0   [1] (🇵🇾)
+        "\\U0001F1F6\\U0001F1E6",    // E2.0   [1] (🇶🇦)
+        "\\U0001F1F7\\U0001F1EA",    // E2.0   [1] (🇷🇪)
+        "\\U0001F1F7\\U0001F1F4",    // E2.0   [1] (🇷🇴)
+        "\\U0001F1F7\\U0001F1F8",    // E2.0   [1] (🇷🇸)
+        "\\U0001F1F7\\U0001F1FA",    // E0.6   [1] (🇷🇺)
+        "\\U0001F1F7\\U0001F1FC",    // E2.0   [1] (🇷🇼)
+        "\\U0001F1F8\\U0001F1E6",    // E2.0   [1] (🇸🇦)
+        "\\U0001F1F8\\U0001F1E7",    // E2.0   [1] (🇸🇧)
+        "\\U0001F1F8\\U0001F1E8",    // E2.0   [1] (🇸🇨)
+        "\\U0001F1F8\\U0001F1E9",    // E2.0   [1] (🇸🇩)
+        "\\U0001F1F8\\U0001F1EA",    // E2.0   [1] (🇸🇪)
+        "\\U0001F1F8\\U0001F1EC",    // E2.0   [1] (🇸🇬)
+        "\\U0001F1F8\\U0001F1ED",    // E2.0   [1] (🇸🇭)
+        "\\U0001F1F8\\U0001F1EE",    // E2.0   [1] (🇸🇮)
+        "\\U0001F1F8\\U0001F1EF",    // E2.0   [1] (🇸🇯)
+        "\\U0001F1F8\\U0001F1F0",    // E2.0   [1] (🇸🇰)
+        "\\U0001F1F8\\U0001F1F1",    // E2.0   [1] (🇸🇱)
+        "\\U0001F1F8\\U0001F1F2",    // E2.0   [1] (🇸🇲)
+        "\\U0001F1F8\\U0001F1F3",    // E2.0   [1] (🇸🇳)
+        "\\U0001F1F8\\U0001F1F4",    // E2.0   [1] (🇸🇴)
+        "\\U0001F1F8\\U0001F1F7",    // E2.0   [1] (🇸🇷)
+        "\\U0001F1F8\\U0001F1F8",    // E2.0   [1] (🇸🇸)
+        "\\U0001F1F8\\U0001F1F9",    // E2.0   [1] (🇸🇹)
+        "\\U0001F1F8\\U0001F1FB",    // E2.0   [1] (🇸🇻)
+        "\\U0001F1F8\\U0001F1FD",    // E2.0   [1] (🇸🇽)
+        "\\U0001F1F8\\U0001F1FE",    // E2.0   [1] (🇸🇾)
+        "\\U0001F1F8\\U0001F1FF",    // E2.0   [1] (🇸🇿)
+        "\\U0001F1F9\\U0001F1E6",    // E2.0   [1] (🇹🇦)
+        "\\U0001F1F9\\U0001F1E8",    // E2.0   [1] (🇹🇨)
+        "\\U0001F1F9\\U0001F1E9",    // E2.0   [1] (🇹🇩)
+        "\\U0001F1F9\\U0001F1EB",    // E2.0   [1] (🇹🇫)
+        "\\U0001F1F9\\U0001F1EC",    // E2.0   [1] (🇹🇬)
+        "\\U0001F1F9\\U0001F1ED",    // E2.0   [1] (🇹🇭)
+        "\\U0001F1F9\\U0001F1EF",    // E2.0   [1] (🇹🇯)
+        "\\U0001F1F9\\U0001F1F0",    // E2.0   [1] (🇹🇰)
+        "\\U0001F1F9\\U0001F1F1",    // E2.0   [1] (🇹🇱)
+        "\\U0001F1F9\\U0001F1F2",    // E2.0   [1] (🇹🇲)
+        "\\U0001F1F9\\U0001F1F3",    // E2.0   [1] (🇹🇳)
+        "\\U0001F1F9\\U0001F1F4",    // E2.0   [1] (🇹🇴)
+        "\\U0001F1F9\\U0001F1F7",    // E2.0   [1] (🇹🇷)
+        "\\U0001F1F9\\U0001F1F9",    // E2.0   [1] (🇹🇹)
+        "\\U0001F1F9\\U0001F1FB",    // E2.0   [1] (🇹🇻)
+        "\\U0001F1F9\\U0001F1FC",    // E2.0   [1] (🇹🇼)
+        "\\U0001F1F9\\U0001F1FF",    // E2.0   [1] (🇹🇿)
+        "\\U0001F1FA\\U0001F1E6",    // E2.0   [1] (🇺🇦)
+        "\\U0001F1FA\\U0001F1EC",    // E2.0   [1] (🇺🇬)
+        "\\U0001F1FA\\U0001F1F2",    // E2.0   [1] (🇺🇲)
+        "\\U0001F1FA\\U0001F1F3",    // E4.0   [1] (🇺🇳)
+        "\\U0001F1FA\\U0001F1F8",    // E0.6   [1] (🇺🇸)
+        "\\U0001F1FA\\U0001F1FE",    // E2.0   [1] (🇺🇾)
+        "\\U0001F1FA\\U0001F1FF",    // E2.0   [1] (🇺🇿)
+        "\\U0001F1FB\\U0001F1E6",    // E2.0   [1] (🇻🇦)
+        "\\U0001F1FB\\U0001F1E8",    // E2.0   [1] (🇻🇨)
+        "\\U0001F1FB\\U0001F1EA",    // E2.0   [1] (🇻🇪)
+        "\\U0001F1FB\\U0001F1EC",    // E2.0   [1] (🇻🇬)
+        "\\U0001F1FB\\U0001F1EE",    // E2.0   [1] (🇻🇮)
+        "\\U0001F1FB\\U0001F1F3",    // E2.0   [1] (🇻🇳)
+        "\\U0001F1FB\\U0001F1FA",    // E2.0   [1] (🇻🇺)
+        "\\U0001F1FC\\U0001F1EB",    // E2.0   [1] (🇼🇫)
+        "\\U0001F1FC\\U0001F1F8",    // E2.0   [1] (🇼🇸)
+        "\\U0001F1FD\\U0001F1F0",    // E2.0   [1] (🇽🇰)
+        "\\U0001F1FE\\U0001F1EA",    // E2.0   [1] (🇾🇪)
+        "\\U0001F1FE\\U0001F1F9",    // E2.0   [1] (🇾🇹)
+        "\\U0001F1FF\\U0001F1E6",    // E2.0   [1] (🇿🇦)
+        "\\U0001F1FF\\U0001F1F2",    // E2.0   [1] (🇿🇲)
+        "\\U0001F1FF\\U0001F1FC",    // E2.0   [1] (🇿🇼)
+        "\\U0001F201",    // E0.6   [1] (🈁)
+        "\\U0001F202\\uFE0F",    // E0.6   [1] (🈂️)
+        "\\U0001F21A",    // E0.6   [1] (🈚)
+        "\\U0001F22F",    // E0.6   [1] (🈯)
+        "[\\U0001F232-\\U0001F236]",    // E0.6   [5] (🈲..🈶)
+        "\\U0001F237\\uFE0F",    // E0.6   [1] (🈷️)
+        "[\\U0001F238-\\U0001F23A]",    // E0.6   [3] (🈸..🈺)
+        "[\\U0001F250-\\U0001F251]",    // E0.6   [2] (🉐..🉑)
+        "[\\U0001F300-\\U0001F30C]",    // E0.6  [13] (🌀..🌌)
+        "[\\U0001F30D-\\U0001F30E]",    // E0.7   [2] (🌍..🌎)
+        "\\U0001F30F",    // E0.6   [1] (🌏)
+        "\\U0001F310",    // E1.0   [1] (🌐)
+        "\\U0001F311",    // E0.6   [1] (🌑)
+        "\\U0001F312",    // E1.0   [1] (🌒)
+        "[\\U0001F313-\\U0001F315]",    // E0.6   [3] (🌓..🌕)
+        "[\\U0001F316-\\U0001F318]",    // E1.0   [3] (🌖..🌘)
+        "\\U0001F319",    // E0.6   [1] (🌙)
+        "\\U0001F31A",    // E1.0   [1] (🌚)
+        "\\U0001F31B",    // E0.6   [1] (🌛)
+        "\\U0001F31C",    // E0.7   [1] (🌜)
+        "[\\U0001F31D-\\U0001F31E]",    // E1.0   [2] (🌝..🌞)
+        "[\\U0001F31F-\\U0001F320]",    // E0.6   [2] (🌟..🌠)
+        "\\U0001F321\\uFE0F",    // E0.7   [1] (🌡️)
+        "\\U0001F324\\uFE0F",    // E0.7   [1] (🌤️)
+        "\\U0001F325\\uFE0F",    // E0.7   [1] (🌥️)
+        "\\U0001F326\\uFE0F",    // E0.7   [1] (🌦️)
+        "\\U0001F327\\uFE0F",    // E0.7   [1] (🌧️)
+        "\\U0001F328\\uFE0F",    // E0.7   [1] (🌨️)
+        "\\U0001F329\\uFE0F",    // E0.7   [1] (🌩️)
+        "\\U0001F32A\\uFE0F",    // E0.7   [1] (🌪️)
+        "\\U0001F32B\\uFE0F",    // E0.7   [1] (🌫️)
+        "\\U0001F32C\\uFE0F",    // E0.7   [1] (🌬️)
+        "[\\U0001F32D-\\U0001F32F]",    // E1.0   [3] (🌭..🌯)
+        "[\\U0001F330-\\U0001F331]",    // E0.6   [2] (🌰..🌱)
+        "[\\U0001F332-\\U0001F333]",    // E1.0   [2] (🌲..🌳)
+        "[\\U0001F334-\\U0001F335]",    // E0.6   [2] (🌴..🌵)
+        "\\U0001F336\\uFE0F",    // E0.7   [1] (🌶️)
+        "[\\U0001F337-\\U0001F34A]",    // E0.6  [20] (🌷..🍊)
+        "\\U0001F34B",    // E1.0   [1] (🍋)
+        "[\\U0001F34C-\\U0001F34F]",    // E0.6   [4] (🍌..🍏)
+        "\\U0001F350",    // E1.0   [1] (🍐)
+        "[\\U0001F351-\\U0001F37B]",    // E0.6  [43] (🍑..🍻)
+        "\\U0001F37C",    // E1.0   [1] (🍼)
+        "\\U0001F37D\\uFE0F",    // E0.7   [1] (🍽️)
+        "[\\U0001F37E-\\U0001F37F]",    // E1.0   [2] (🍾..🍿)
+        "[\\U0001F380-\\U0001F393]",    // E0.6  [20] (🎀..🎓)
+        "\\U0001F385\\U0001F3FB",    // E1.0   [1] (🎅🏻)
+        "\\U0001F385\\U0001F3FC",    // E1.0   [1] (🎅🏼)
+        "\\U0001F385\\U0001F3FD",    // E1.0   [1] (🎅🏽)
+        "\\U0001F385\\U0001F3FE",    // E1.0   [1] (🎅🏾)
+        "\\U0001F385\\U0001F3FF",    // E1.0   [1] (🎅🏿)
+        "\\U0001F396\\uFE0F",    // E0.7   [1] (🎖️)
+        "\\U0001F397\\uFE0F",    // E0.7   [1] (🎗️)
+        "\\U0001F399\\uFE0F",    // E0.7   [1] (🎙️)
+        "\\U0001F39A\\uFE0F",    // E0.7   [1] (🎚️)
+        "\\U0001F39B\\uFE0F",    // E0.7   [1] (🎛️)
+        "\\U0001F39E\\uFE0F",    // E0.7   [1] (🎞️)
+        "\\U0001F39F\\uFE0F",    // E0.7   [1] (🎟️)
+        "[\\U0001F3A0-\\U0001F3C4]",    // E0.6  [37] (🎠..🏄)
+        "\\U0001F3C2\\U0001F3FB",    // E1.0   [1] (🏂🏻)
+        "\\U0001F3C2\\U0001F3FC",    // E1.0   [1] (🏂🏼)
+        "\\U0001F3C2\\U0001F3FD",    // E1.0   [1] (🏂🏽)
+        "\\U0001F3C2\\U0001F3FE",    // E1.0   [1] (🏂🏾)
+        "\\U0001F3C2\\U0001F3FF",    // E1.0   [1] (🏂🏿)
+        "\\U0001F3C3\\U0001F3FB",    // E1.0   [1] (🏃🏻)
+        "\\U0001F3C3\\U0001F3FC",    // E1.0   [1] (🏃🏼)
+        "\\U0001F3C3\\U0001F3FD",    // E1.0   [1] (🏃🏽)
+        "\\U0001F3C3\\U0001F3FE",    // E1.0   [1] (🏃🏾)
+        "\\U0001F3C3\\U0001F3FF",    // E1.0   [1] (🏃🏿)
+        "\\U0001F3C4\\U0001F3FB",    // E1.0   [1] (🏄🏻)
+        "\\U0001F3C4\\U0001F3FC",    // E1.0   [1] (🏄🏼)
+        "\\U0001F3C4\\U0001F3FD",    // E1.0   [1] (🏄🏽)
+        "\\U0001F3C4\\U0001F3FE",    // E1.0   [1] (🏄🏾)
+        "\\U0001F3C4\\U0001F3FF",    // E1.0   [1] (🏄🏿)
+        "\\U0001F3C5",    // E1.0   [1] (🏅)
+        "\\U0001F3C6",    // E0.6   [1] (🏆)
+        "\\U0001F3C7",    // E1.0   [1] (🏇)
+        "\\U0001F3C7\\U0001F3FB",    // E1.0   [1] (🏇🏻)
+        "\\U0001F3C7\\U0001F3FC",    // E1.0   [1] (🏇🏼)
+        "\\U0001F3C7\\U0001F3FD",    // E1.0   [1] (🏇🏽)
+        "\\U0001F3C7\\U0001F3FE",    // E1.0   [1] (🏇🏾)
+        "\\U0001F3C7\\U0001F3FF",    // E1.0   [1] (🏇🏿)
+        "\\U0001F3C8",    // E0.6   [1] (🏈)
+        "\\U0001F3C9",    // E1.0   [1] (🏉)
+        "\\U0001F3CA",    // E0.6   [1] (🏊)
+        "\\U0001F3CA\\U0001F3FB",    // E1.0   [1] (🏊🏻)
+        "\\U0001F3CA\\U0001F3FC",    // E1.0   [1] (🏊🏼)
+        "\\U0001F3CA\\U0001F3FD",    // E1.0   [1] (🏊🏽)
+        "\\U0001F3CA\\U0001F3FE",    // E1.0   [1] (🏊🏾)
+        "\\U0001F3CA\\U0001F3FF",    // E1.0   [1] (🏊🏿)
+        "\\U0001F3CB\\U0001F3FB",    // E2.0   [1] (🏋🏻)
+        "\\U0001F3CB\\U0001F3FC",    // E2.0   [1] (🏋🏼)
+        "\\U0001F3CB\\U0001F3FD",    // E2.0   [1] (🏋🏽)
+        "\\U0001F3CB\\U0001F3FE",    // E2.0   [1] (🏋🏾)
+        "\\U0001F3CB\\U0001F3FF",    // E2.0   [1] (🏋🏿)
+        "\\U0001F3CB\\uFE0F",    // E0.7   [1] (🏋️)
+        "\\U0001F3CC\\U0001F3FB",    // E4.0   [1] (🏌🏻)
+        "\\U0001F3CC\\U0001F3FC",    // E4.0   [1] (🏌🏼)
+        "\\U0001F3CC\\U0001F3FD",    // E4.0   [1] (🏌🏽)
+        "\\U0001F3CC\\U0001F3FE",    // E4.0   [1] (🏌🏾)
+        "\\U0001F3CC\\U0001F3FF",    // E4.0   [1] (🏌🏿)
+        "\\U0001F3CC\\uFE0F",    // E0.7   [1] (🏌️)
+        "\\U0001F3CD\\uFE0F",    // E0.7   [1] (🏍️)
+        "\\U0001F3CE\\uFE0F",    // E0.7   [1] (🏎️)
+        "[\\U0001F3CF-\\U0001F3D3]",    // E1.0   [5] (🏏..🏓)
+        "\\U0001F3D4\\uFE0F",    // E0.7   [1] (🏔️)
+        "\\U0001F3D5\\uFE0F",    // E0.7   [1] (🏕️)
+        "\\U0001F3D6\\uFE0F",    // E0.7   [1] (🏖️)
+        "\\U0001F3D7\\uFE0F",    // E0.7   [1] (🏗️)
+        "\\U0001F3D8\\uFE0F",    // E0.7   [1] (🏘️)
+        "\\U0001F3D9\\uFE0F",    // E0.7   [1] (🏙️)
+        "\\U0001F3DA\\uFE0F",    // E0.7   [1] (🏚️)
+        "\\U0001F3DB\\uFE0F",    // E0.7   [1] (🏛️)
+        "\\U0001F3DC\\uFE0F",    // E0.7   [1] (🏜️)
+        "\\U0001F3DD\\uFE0F",    // E0.7   [1] (🏝️)
+        "\\U0001F3DE\\uFE0F",    // E0.7   [1] (🏞️)
+        "\\U0001F3DF\\uFE0F",    // E0.7   [1] (🏟️)
+        "[\\U0001F3E0-\\U0001F3E3]",    // E0.6   [4] (🏠..🏣)
+        "\\U0001F3E4",    // E1.0   [1] (🏤)
+        "[\\U0001F3E5-\\U0001F3F0]",    // E0.6  [12] (🏥..🏰)
+        "\\U0001F3F3\\uFE0F",    // E0.7   [1] (🏳️)
+        "\\U0001F3F4",    // E1.0   [1] (🏴)
+        "\\U0001F3F4\\U000E0067\\U000E0062\\U000E0065\\U000E006E\\U000E0067\\U000E007F",    // E5.0   [1] (🏴󠁧󠁢󠁥󠁮󠁧󠁿)
+        "\\U0001F3F4\\U000E0067\\U000E0062\\U000E0073\\U000E0063\\U000E0074\\U000E007F",    // E5.0   [1] (🏴󠁧󠁢󠁳󠁣󠁴󠁿)
+        "\\U0001F3F4\\U000E0067\\U000E0062\\U000E0077\\U000E006C\\U000E0073\\U000E007F",    // E5.0   [1] (🏴󠁧󠁢󠁷󠁬󠁳󠁿)
+        "\\U0001F3F5\\uFE0F",    // E0.7   [1] (🏵️)
+        "\\U0001F3F7\\uFE0F",    // E0.7   [1] (🏷️)
+        "[\\U0001F3F8-\\U0001F407]",    // E1.0  [16] (🏸..🐇)
+        "\\U0001F408",    // E0.7   [1] (🐈)
+        "[\\U0001F409-\\U0001F40B]",    // E1.0   [3] (🐉..🐋)
+        "[\\U0001F40C-\\U0001F40E]",    // E0.6   [3] (🐌..🐎)
+        "[\\U0001F40F-\\U0001F410]",    // E1.0   [2] (🐏..🐐)
+        "[\\U0001F411-\\U0001F412]",    // E0.6   [2] (🐑..🐒)
+        "\\U0001F413",    // E1.0   [1] (🐓)
+        "\\U0001F414",    // E0.6   [1] (🐔)
+        "\\U0001F415",    // E0.7   [1] (🐕)
+        "\\U0001F416",    // E1.0   [1] (🐖)
+        "[\\U0001F417-\\U0001F429]",    // E0.6  [19] (🐗..🐩)
+        "\\U0001F42A",    // E1.0   [1] (🐪)
+        "[\\U0001F42B-\\U0001F43E]",    // E0.6  [20] (🐫..🐾)
+        "\\U0001F43F\\uFE0F",    // E0.7   [1] (🐿️)
+        "\\U0001F440",    // E0.6   [1] (👀)
+        "\\U0001F441\\uFE0F",    // E0.7   [1] (👁️)
+        "\\U0001F442\\U0001F3FB",    // E1.0   [1] (👂🏻)
+        "\\U0001F442\\U0001F3FC",    // E1.0   [1] (👂🏼)
+        "\\U0001F442\\U0001F3FD",    // E1.0   [1] (👂🏽)
+        "\\U0001F442\\U0001F3FE",    // E1.0   [1] (👂🏾)
+        "\\U0001F442\\U0001F3FF",    // E1.0   [1] (👂🏿)
+        "[\\U0001F442-\\U0001F464]",    // E0.6  [35] (👂..👤)
+        "\\U0001F443\\U0001F3FB",    // E1.0   [1] (👃🏻)
+        "\\U0001F443\\U0001F3FC",    // E1.0   [1] (👃🏼)
+        "\\U0001F443\\U0001F3FD",    // E1.0   [1] (👃🏽)
+        "\\U0001F443\\U0001F3FE",    // E1.0   [1] (👃🏾)
+        "\\U0001F443\\U0001F3FF",    // E1.0   [1] (👃🏿)
+        "\\U0001F446\\U0001F3FB",    // E1.0   [1] (👆🏻)
+        "\\U0001F446\\U0001F3FC",    // E1.0   [1] (👆🏼)
+        "\\U0001F446\\U0001F3FD",    // E1.0   [1] (👆🏽)
+        "\\U0001F446\\U0001F3FE",    // E1.0   [1] (👆🏾)
+        "\\U0001F446\\U0001F3FF",    // E1.0   [1] (👆🏿)
+        "\\U0001F447\\U0001F3FB",    // E1.0   [1] (👇🏻)
+        "\\U0001F447\\U0001F3FC",    // E1.0   [1] (👇🏼)
+        "\\U0001F447\\U0001F3FD",    // E1.0   [1] (👇🏽)
+        "\\U0001F447\\U0001F3FE",    // E1.0   [1] (👇🏾)
+        "\\U0001F447\\U0001F3FF",    // E1.0   [1] (👇🏿)
+        "\\U0001F448\\U0001F3FB",    // E1.0   [1] (👈🏻)
+        "\\U0001F448\\U0001F3FC",    // E1.0   [1] (👈🏼)
+        "\\U0001F448\\U0001F3FD",    // E1.0   [1] (👈🏽)
+        "\\U0001F448\\U0001F3FE",    // E1.0   [1] (👈🏾)
+        "\\U0001F448\\U0001F3FF",    // E1.0   [1] (👈🏿)
+        "\\U0001F449\\U0001F3FB",    // E1.0   [1] (👉🏻)
+        "\\U0001F449\\U0001F3FC",    // E1.0   [1] (👉🏼)
+        "\\U0001F449\\U0001F3FD",    // E1.0   [1] (👉🏽)
+        "\\U0001F449\\U0001F3FE",    // E1.0   [1] (👉🏾)
+        "\\U0001F449\\U0001F3FF",    // E1.0   [1] (👉🏿)
+        "\\U0001F44A\\U0001F3FB",    // E1.0   [1] (👊🏻)
+        "\\U0001F44A\\U0001F3FC",    // E1.0   [1] (👊🏼)
+        "\\U0001F44A\\U0001F3FD",    // E1.0   [1] (👊🏽)
+        "\\U0001F44A\\U0001F3FE",    // E1.0   [1] (👊🏾)
+        "\\U0001F44A\\U0001F3FF",    // E1.0   [1] (👊🏿)
+        "\\U0001F44B\\U0001F3FB",    // E1.0   [1] (👋🏻)
+        "\\U0001F44B\\U0001F3FC",    // E1.0   [1] (👋🏼)
+        "\\U0001F44B\\U0001F3FD",    // E1.0   [1] (👋🏽)
+        "\\U0001F44B\\U0001F3FE",    // E1.0   [1] (👋🏾)
+        "\\U0001F44B\\U0001F3FF",    // E1.0   [1] (👋🏿)
+        "\\U0001F44C\\U0001F3FB",    // E1.0   [1] (👌🏻)
+        "\\U0001F44C\\U0001F3FC",    // E1.0   [1] (👌🏼)
+        "\\U0001F44C\\U0001F3FD",    // E1.0   [1] (👌🏽)
+        "\\U0001F44C\\U0001F3FE",    // E1.0   [1] (👌🏾)
+        "\\U0001F44C\\U0001F3FF",    // E1.0   [1] (👌🏿)
+        "\\U0001F44D\\U0001F3FB",    // E1.0   [1] (👍🏻)
+        "\\U0001F44D\\U0001F3FC",    // E1.0   [1] (👍🏼)
+        "\\U0001F44D\\U0001F3FD",    // E1.0   [1] (👍🏽)
+        "\\U0001F44D\\U0001F3FE",    // E1.0   [1] (👍🏾)
+        "\\U0001F44D\\U0001F3FF",    // E1.0   [1] (👍🏿)
+        "\\U0001F44E\\U0001F3FB",    // E1.0   [1] (👎🏻)
+        "\\U0001F44E\\U0001F3FC",    // E1.0   [1] (👎🏼)
+        "\\U0001F44E\\U0001F3FD",    // E1.0   [1] (👎🏽)
+        "\\U0001F44E\\U0001F3FE",    // E1.0   [1] (👎🏾)
+        "\\U0001F44E\\U0001F3FF",    // E1.0   [1] (👎🏿)
+        "\\U0001F44F\\U0001F3FB",    // E1.0   [1] (👏🏻)
+        "\\U0001F44F\\U0001F3FC",    // E1.0   [1] (👏🏼)
+        "\\U0001F44F\\U0001F3FD",    // E1.0   [1] (👏🏽)
+        "\\U0001F44F\\U0001F3FE",    // E1.0   [1] (👏🏾)
+        "\\U0001F44F\\U0001F3FF",    // E1.0   [1] (👏🏿)
+        "\\U0001F450\\U0001F3FB",    // E1.0   [1] (👐🏻)
+        "\\U0001F450\\U0001F3FC",    // E1.0   [1] (👐🏼)
+        "\\U0001F450\\U0001F3FD",    // E1.0   [1] (👐🏽)
+        "\\U0001F450\\U0001F3FE",    // E1.0   [1] (👐🏾)
+        "\\U0001F450\\U0001F3FF",    // E1.0   [1] (👐🏿)
+        "\\U0001F465",    // E1.0   [1] (👥)
+        "\\U0001F466\\U0001F3FB",    // E1.0   [1] (👦🏻)
+        "\\U0001F466\\U0001F3FC",    // E1.0   [1] (👦🏼)
+        "\\U0001F466\\U0001F3FD",    // E1.0   [1] (👦🏽)
+        "\\U0001F466\\U0001F3FE",    // E1.0   [1] (👦🏾)
+        "\\U0001F466\\U0001F3FF",    // E1.0   [1] (👦🏿)
+        "[\\U0001F466-\\U0001F46B]",    // E0.6   [6] (👦..👫)
+        "\\U0001F467\\U0001F3FB",    // E1.0   [1] (👧🏻)
+        "\\U0001F467\\U0001F3FC",    // E1.0   [1] (👧🏼)
+        "\\U0001F467\\U0001F3FD",    // E1.0   [1] (👧🏽)
+        "\\U0001F467\\U0001F3FE",    // E1.0   [1] (👧🏾)
+        "\\U0001F467\\U0001F3FF",    // E1.0   [1] (👧🏿)
+        "\\U0001F468\\U0001F3FB",    // E1.0   [1] (👨🏻)
+        "\\U0001F468\\U0001F3FC",    // E1.0   [1] (👨🏼)
+        "\\U0001F468\\U0001F3FD",    // E1.0   [1] (👨🏽)
+        "\\U0001F468\\U0001F3FE",    // E1.0   [1] (👨🏾)
+        "\\U0001F468\\U0001F3FF",    // E1.0   [1] (👨🏿)
+        "\\U0001F469\\U0001F3FB",    // E1.0   [1] (👩🏻)
+        "\\U0001F469\\U0001F3FC",    // E1.0   [1] (👩🏼)
+        "\\U0001F469\\U0001F3FD",    // E1.0   [1] (👩🏽)
+        "\\U0001F469\\U0001F3FE",    // E1.0   [1] (👩🏾)
+        "\\U0001F469\\U0001F3FF",    // E1.0   [1] (👩🏿)
+        "\\U0001F46B\\U0001F3FB",    // E12.0  [1] (👫🏻)
+        "\\U0001F46B\\U0001F3FC",    // E12.0  [1] (👫🏼)
+        "\\U0001F46B\\U0001F3FD",    // E12.0  [1] (👫🏽)
+        "\\U0001F46B\\U0001F3FE",    // E12.0  [1] (👫🏾)
+        "\\U0001F46B\\U0001F3FF",    // E12.0  [1] (👫🏿)
+        "\\U0001F46C\\U0001F3FB",    // E12.0  [1] (👬🏻)
+        "\\U0001F46C\\U0001F3FC",    // E12.0  [1] (👬🏼)
+        "\\U0001F46C\\U0001F3FD",    // E12.0  [1] (👬🏽)
+        "\\U0001F46C\\U0001F3FE",    // E12.0  [1] (👬🏾)
+        "\\U0001F46C\\U0001F3FF",    // E12.0  [1] (👬🏿)
+        "[\\U0001F46C-\\U0001F46D]",    // E1.0   [2] (👬..👭)
+        "\\U0001F46D\\U0001F3FB",    // E12.0  [1] (👭🏻)
+        "\\U0001F46D\\U0001F3FC",    // E12.0  [1] (👭🏼)
+        "\\U0001F46D\\U0001F3FD",    // E12.0  [1] (👭🏽)
+        "\\U0001F46D\\U0001F3FE",    // E12.0  [1] (👭🏾)
+        "\\U0001F46D\\U0001F3FF",    // E12.0  [1] (👭🏿)
+        "\\U0001F46E\\U0001F3FB",    // E1.0   [1] (👮🏻)
+        "\\U0001F46E\\U0001F3FC",    // E1.0   [1] (👮🏼)
+        "\\U0001F46E\\U0001F3FD",    // E1.0   [1] (👮🏽)
+        "\\U0001F46E\\U0001F3FE",    // E1.0   [1] (👮🏾)
+        "\\U0001F46E\\U0001F3FF",    // E1.0   [1] (👮🏿)
+        "[\\U0001F46E-\\U0001F4AC]",    // E0.6  [63] (👮..💬)
+        "\\U0001F470\\U0001F3FB",    // E1.0   [1] (👰🏻)
+        "\\U0001F470\\U0001F3FC",    // E1.0   [1] (👰🏼)
+        "\\U0001F470\\U0001F3FD",    // E1.0   [1] (👰🏽)
+        "\\U0001F470\\U0001F3FE",    // E1.0   [1] (👰🏾)
+        "\\U0001F470\\U0001F3FF",    // E1.0   [1] (👰🏿)
+        "\\U0001F471\\U0001F3FB",    // E1.0   [1] (👱🏻)
+        "\\U0001F471\\U0001F3FC",    // E1.0   [1] (👱🏼)
+        "\\U0001F471\\U0001F3FD",    // E1.0   [1] (👱🏽)
+        "\\U0001F471\\U0001F3FE",    // E1.0   [1] (👱🏾)
+        "\\U0001F471\\U0001F3FF",    // E1.0   [1] (👱🏿)
+        "\\U0001F472\\U0001F3FB",    // E1.0   [1] (👲🏻)
+        "\\U0001F472\\U0001F3FC",    // E1.0   [1] (👲🏼)
+        "\\U0001F472\\U0001F3FD",    // E1.0   [1] (👲🏽)
+        "\\U0001F472\\U0001F3FE",    // E1.0   [1] (👲🏾)
+        "\\U0001F472\\U0001F3FF",    // E1.0   [1] (👲🏿)
+        "\\U0001F473\\U0001F3FB",    // E1.0   [1] (👳🏻)
+        "\\U0001F473\\U0001F3FC",    // E1.0   [1] (👳🏼)
+        "\\U0001F473\\U0001F3FD",    // E1.0   [1] (👳🏽)
+        "\\U0001F473\\U0001F3FE",    // E1.0   [1] (👳🏾)
+        "\\U0001F473\\U0001F3FF",    // E1.0   [1] (👳🏿)
+        "\\U0001F474\\U0001F3FB",    // E1.0   [1] (👴🏻)
+        "\\U0001F474\\U0001F3FC",    // E1.0   [1] (👴🏼)
+        "\\U0001F474\\U0001F3FD",    // E1.0   [1] (👴🏽)
+        "\\U0001F474\\U0001F3FE",    // E1.0   [1] (👴🏾)
+        "\\U0001F474\\U0001F3FF",    // E1.0   [1] (👴🏿)
+        "\\U0001F475\\U0001F3FB",    // E1.0   [1] (👵🏻)
+        "\\U0001F475\\U0001F3FC",    // E1.0   [1] (👵🏼)
+        "\\U0001F475\\U0001F3FD",    // E1.0   [1] (👵🏽)
+        "\\U0001F475\\U0001F3FE",    // E1.0   [1] (👵🏾)
+        "\\U0001F475\\U0001F3FF",    // E1.0   [1] (👵🏿)
+        "\\U0001F476\\U0001F3FB",    // E1.0   [1] (👶🏻)
+        "\\U0001F476\\U0001F3FC",    // E1.0   [1] (👶🏼)
+        "\\U0001F476\\U0001F3FD",    // E1.0   [1] (👶🏽)
+        "\\U0001F476\\U0001F3FE",    // E1.0   [1] (👶🏾)
+        "\\U0001F476\\U0001F3FF",    // E1.0   [1] (👶🏿)
+        "\\U0001F477\\U0001F3FB",    // E1.0   [1] (👷🏻)
+        "\\U0001F477\\U0001F3FC",    // E1.0   [1] (👷🏼)
+        "\\U0001F477\\U0001F3FD",    // E1.0   [1] (👷🏽)
+        "\\U0001F477\\U0001F3FE",    // E1.0   [1] (👷🏾)
+        "\\U0001F477\\U0001F3FF",    // E1.0   [1] (👷🏿)
+        "\\U0001F478\\U0001F3FB",    // E1.0   [1] (👸🏻)
+        "\\U0001F478\\U0001F3FC",    // E1.0   [1] (👸🏼)
+        "\\U0001F478\\U0001F3FD",    // E1.0   [1] (👸🏽)
+        "\\U0001F478\\U0001F3FE",    // E1.0   [1] (👸🏾)
+        "\\U0001F478\\U0001F3FF",    // E1.0   [1] (👸🏿)
+        "\\U0001F47C\\U0001F3FB",    // E1.0   [1] (👼🏻)
+        "\\U0001F47C\\U0001F3FC",    // E1.0   [1] (👼🏼)
+        "\\U0001F47C\\U0001F3FD",    // E1.0   [1] (👼🏽)
+        "\\U0001F47C\\U0001F3FE",    // E1.0   [1] (👼🏾)
+        "\\U0001F47C\\U0001F3FF",    // E1.0   [1] (👼🏿)
+        "\\U0001F481\\U0001F3FB",    // E1.0   [1] (💁🏻)
+        "\\U0001F481\\U0001F3FC",    // E1.0   [1] (💁🏼)
+        "\\U0001F481\\U0001F3FD",    // E1.0   [1] (💁🏽)
+        "\\U0001F481\\U0001F3FE",    // E1.0   [1] (💁🏾)
+        "\\U0001F481\\U0001F3FF",    // E1.0   [1] (💁🏿)
+        "\\U0001F482\\U0001F3FB",    // E1.0   [1] (💂🏻)
+        "\\U0001F482\\U0001F3FC",    // E1.0   [1] (💂🏼)
+        "\\U0001F482\\U0001F3FD",    // E1.0   [1] (💂🏽)
+        "\\U0001F482\\U0001F3FE",    // E1.0   [1] (💂🏾)
+        "\\U0001F482\\U0001F3FF",    // E1.0   [1] (💂🏿)
+        "\\U0001F483\\U0001F3FB",    // E1.0   [1] (💃🏻)
+        "\\U0001F483\\U0001F3FC",    // E1.0   [1] (💃🏼)
+        "\\U0001F483\\U0001F3FD",    // E1.0   [1] (💃🏽)
+        "\\U0001F483\\U0001F3FE",    // E1.0   [1] (💃🏾)
+        "\\U0001F483\\U0001F3FF",    // E1.0   [1] (💃🏿)
+        "\\U0001F485\\U0001F3FB",    // E1.0   [1] (💅🏻)
+        "\\U0001F485\\U0001F3FC",    // E1.0   [1] (💅🏼)
+        "\\U0001F485\\U0001F3FD",    // E1.0   [1] (💅🏽)
+        "\\U0001F485\\U0001F3FE",    // E1.0   [1] (💅🏾)
+        "\\U0001F485\\U0001F3FF",    // E1.0   [1] (💅🏿)
+        "\\U0001F486\\U0001F3FB",    // E1.0   [1] (💆🏻)
+        "\\U0001F486\\U0001F3FC",    // E1.0   [1] (💆🏼)
+        "\\U0001F486\\U0001F3FD",    // E1.0   [1] (💆🏽)
+        "\\U0001F486\\U0001F3FE",    // E1.0   [1] (💆🏾)
+        "\\U0001F486\\U0001F3FF",    // E1.0   [1] (💆🏿)
+        "\\U0001F487\\U0001F3FB",    // E1.0   [1] (💇🏻)
+        "\\U0001F487\\U0001F3FC",    // E1.0   [1] (💇🏼)
+        "\\U0001F487\\U0001F3FD",    // E1.0   [1] (💇🏽)
+        "\\U0001F487\\U0001F3FE",    // E1.0   [1] (💇🏾)
+        "\\U0001F487\\U0001F3FF",    // E1.0   [1] (💇🏿)
+        "\\U0001F48F\\U0001F3FB",    // E13.1  [1] (💏🏻)
+        "\\U0001F48F\\U0001F3FC",    // E13.1  [1] (💏🏼)
+        "\\U0001F48F\\U0001F3FD",    // E13.1  [1] (💏🏽)
+        "\\U0001F48F\\U0001F3FE",    // E13.1  [1] (💏🏾)
+        "\\U0001F48F\\U0001F3FF",    // E13.1  [1] (💏🏿)
+        "\\U0001F491\\U0001F3FB",    // E13.1  [1] (💑🏻)
+        "\\U0001F491\\U0001F3FC",    // E13.1  [1] (💑🏼)
+        "\\U0001F491\\U0001F3FD",    // E13.1  [1] (💑🏽)
+        "\\U0001F491\\U0001F3FE",    // E13.1  [1] (💑🏾)
+        "\\U0001F491\\U0001F3FF",    // E13.1  [1] (💑🏿)
+        "\\U0001F4AA\\U0001F3FB",    // E1.0   [1] (💪🏻)
+        "\\U0001F4AA\\U0001F3FC",    // E1.0   [1] (💪🏼)
+        "\\U0001F4AA\\U0001F3FD",    // E1.0   [1] (💪🏽)
+        "\\U0001F4AA\\U0001F3FE",    // E1.0   [1] (💪🏾)
+        "\\U0001F4AA\\U0001F3FF",    // E1.0   [1] (💪🏿)
+        "\\U0001F4AD",    // E1.0   [1] (💭)
+        "[\\U0001F4AE-\\U0001F4B5]",    // E0.6   [8] (💮..💵)
+        "[\\U0001F4B6-\\U0001F4B7]",    // E1.0   [2] (💶..💷)
+        "[\\U0001F4B8-\\U0001F4EB]",    // E0.6  [52] (💸..📫)
+        "[\\U0001F4EC-\\U0001F4ED]",    // E0.7   [2] (📬..📭)
+        "\\U0001F4EE",    // E0.6   [1] (📮)
+        "\\U0001F4EF",    // E1.0   [1] (📯)
+        "[\\U0001F4F0-\\U0001F4F4]",    // E0.6   [5] (📰..📴)
+        "\\U0001F4F5",    // E1.0   [1] (📵)
+        "[\\U0001F4F6-\\U0001F4F7]",    // E0.6   [2] (📶..📷)
+        "\\U0001F4F8",    // E1.0   [1] (📸)
+        "[\\U0001F4F9-\\U0001F4FC]",    // E0.6   [4] (📹..📼)
+        "\\U0001F4FD\\uFE0F",    // E0.7   [1] (📽️)
+        "[\\U0001F4FF-\\U0001F502]",    // E1.0   [4] (📿..🔂)
+        "\\U0001F503",    // E0.6   [1] (🔃)
+        "[\\U0001F504-\\U0001F507]",    // E1.0   [4] (🔄..🔇)
+        "\\U0001F508",    // E0.7   [1] (🔈)
+        "\\U0001F509",    // E1.0   [1] (🔉)
+        "[\\U0001F50A-\\U0001F514]",    // E0.6  [11] (🔊..🔔)
+        "\\U0001F515",    // E1.0   [1] (🔕)
+        "[\\U0001F516-\\U0001F52B]",    // E0.6  [22] (🔖..🔫)
+        "[\\U0001F52C-\\U0001F52D]",    // E1.0   [2] (🔬..🔭)
+        "[\\U0001F52E-\\U0001F53D]",    // E0.6  [16] (🔮..🔽)
+        "\\U0001F549\\uFE0F",    // E0.7   [1] (🕉️)
+        "\\U0001F54A\\uFE0F",    // E0.7   [1] (🕊️)
+        "[\\U0001F54B-\\U0001F54E]",    // E1.0   [4] (🕋..🕎)
+        "[\\U0001F550-\\U0001F55B]",    // E0.6  [12] (🕐..🕛)
+        "[\\U0001F55C-\\U0001F567]",    // E0.7  [12] (🕜..🕧)
+        "\\U0001F56F\\uFE0F",    // E0.7   [1] (🕯️)
+        "\\U0001F570\\uFE0F",    // E0.7   [1] (🕰️)
+        "\\U0001F573\\uFE0F",    // E0.7   [1] (🕳️)
+        "\\U0001F574\\U0001F3FB",    // E4.0   [1] (🕴🏻)
+        "\\U0001F574\\U0001F3FC",    // E4.0   [1] (🕴🏼)
+        "\\U0001F574\\U0001F3FD",    // E4.0   [1] (🕴🏽)
+        "\\U0001F574\\U0001F3FE",    // E4.0   [1] (🕴🏾)
+        "\\U0001F574\\U0001F3FF",    // E4.0   [1] (🕴🏿)
+        "\\U0001F574\\uFE0F",    // E0.7   [1] (🕴️)
+        "\\U0001F575\\U0001F3FB",    // E2.0   [1] (🕵🏻)
+        "\\U0001F575\\U0001F3FC",    // E2.0   [1] (🕵🏼)
+        "\\U0001F575\\U0001F3FD",    // E2.0   [1] (🕵🏽)
+        "\\U0001F575\\U0001F3FE",    // E2.0   [1] (🕵🏾)
+        "\\U0001F575\\U0001F3FF",    // E2.0   [1] (🕵🏿)
+        "\\U0001F575\\uFE0F",    // E0.7   [1] (🕵️)
+        "\\U0001F576\\uFE0F",    // E0.7   [1] (🕶️)
+        "\\U0001F577\\uFE0F",    // E0.7   [1] (🕷️)
+        "\\U0001F578\\uFE0F",    // E0.7   [1] (🕸️)
+        "\\U0001F579\\uFE0F",    // E0.7   [1] (🕹️)
+        "\\U0001F57A",    // E3.0   [1] (🕺)
+        "\\U0001F57A\\U0001F3FB",    // E3.0   [1] (🕺🏻)
+        "\\U0001F57A\\U0001F3FC",    // E3.0   [1] (🕺🏼)
+        "\\U0001F57A\\U0001F3FD",    // E3.0   [1] (🕺🏽)
+        "\\U0001F57A\\U0001F3FE",    // E3.0   [1] (🕺🏾)
+        "\\U0001F57A\\U0001F3FF",    // E3.0   [1] (🕺🏿)
+        "\\U0001F587\\uFE0F",    // E0.7   [1] (🖇️)
+        "\\U0001F58A\\uFE0F",    // E0.7   [1] (🖊️)
+        "\\U0001F58B\\uFE0F",    // E0.7   [1] (🖋️)
+        "\\U0001F58C\\uFE0F",    // E0.7   [1] (🖌️)
+        "\\U0001F58D\\uFE0F",    // E0.7   [1] (🖍️)
+        "\\U0001F590\\U0001F3FB",    // E1.0   [1] (🖐🏻)
+        "\\U0001F590\\U0001F3FC",    // E1.0   [1] (🖐🏼)
+        "\\U0001F590\\U0001F3FD",    // E1.0   [1] (🖐🏽)
+        "\\U0001F590\\U0001F3FE",    // E1.0   [1] (🖐🏾)
+        "\\U0001F590\\U0001F3FF",    // E1.0   [1] (🖐🏿)
+        "\\U0001F590\\uFE0F",    // E0.7   [1] (🖐️)
+        "\\U0001F595\\U0001F3FB",    // E1.0   [1] (🖕🏻)
+        "\\U0001F595\\U0001F3FC",    // E1.0   [1] (🖕🏼)
+        "\\U0001F595\\U0001F3FD",    // E1.0   [1] (🖕🏽)
+        "\\U0001F595\\U0001F3FE",    // E1.0   [1] (🖕🏾)
+        "\\U0001F595\\U0001F3FF",    // E1.0   [1] (🖕🏿)
+        "[\\U0001F595-\\U0001F596]",    // E1.0   [2] (🖕..🖖)
+        "\\U0001F596\\U0001F3FB",    // E1.0   [1] (🖖🏻)
+        "\\U0001F596\\U0001F3FC",    // E1.0   [1] (🖖🏼)
+        "\\U0001F596\\U0001F3FD",    // E1.0   [1] (🖖🏽)
+        "\\U0001F596\\U0001F3FE",    // E1.0   [1] (🖖🏾)
+        "\\U0001F596\\U0001F3FF",    // E1.0   [1] (🖖🏿)
+        "\\U0001F5A4",    // E3.0   [1] (🖤)
+        "\\U0001F5A5\\uFE0F",    // E0.7   [1] (🖥️)
+        "\\U0001F5A8\\uFE0F",    // E0.7   [1] (🖨️)
+        "\\U0001F5B1\\uFE0F",    // E0.7   [1] (🖱️)
+        "\\U0001F5B2\\uFE0F",    // E0.7   [1] (🖲️)
+        "\\U0001F5BC\\uFE0F",    // E0.7   [1] (🖼️)
+        "\\U0001F5C2\\uFE0F",    // E0.7   [1] (🗂️)
+        "\\U0001F5C3\\uFE0F",    // E0.7   [1] (🗃️)
+        "\\U0001F5C4\\uFE0F",    // E0.7   [1] (🗄️)
+        "\\U0001F5D1\\uFE0F",    // E0.7   [1] (🗑️)
+        "\\U0001F5D2\\uFE0F",    // E0.7   [1] (🗒️)
+        "\\U0001F5D3\\uFE0F",    // E0.7   [1] (🗓️)
+        "\\U0001F5DC\\uFE0F",    // E0.7   [1] (🗜️)
+        "\\U0001F5DD\\uFE0F",    // E0.7   [1] (🗝️)
+        "\\U0001F5DE\\uFE0F",    // E0.7   [1] (🗞️)
+        "\\U0001F5E1\\uFE0F",    // E0.7   [1] (🗡️)
+        "\\U0001F5E3\\uFE0F",    // E0.7   [1] (🗣️)
+        "\\U0001F5E8\\uFE0F",    // E2.0   [1] (🗨️)
+        "\\U0001F5EF\\uFE0F",    // E0.7   [1] (🗯️)
+        "\\U0001F5F3\\uFE0F",    // E0.7   [1] (🗳️)
+        "\\U0001F5FA\\uFE0F",    // E0.7   [1] (🗺️)
+        "[\\U0001F5FB-\\U0001F5FF]",    // E0.6   [5] (🗻..🗿)
+        "\\U0001F600",    // E1.0   [1] (😀)
+        "[\\U0001F601-\\U0001F606]",    // E0.6   [6] (😁..😆)
+        "[\\U0001F607-\\U0001F608]",    // E1.0   [2] (😇..😈)
+        "[\\U0001F609-\\U0001F60D]",    // E0.6   [5] (😉..😍)
+        "\\U0001F60E",    // E1.0   [1] (😎)
+        "\\U0001F60F",    // E0.6   [1] (😏)
+        "\\U0001F610",    // E0.7   [1] (😐)
+        "\\U0001F611",    // E1.0   [1] (😑)
+        "[\\U0001F612-\\U0001F614]",    // E0.6   [3] (😒..😔)
+        "\\U0001F615",    // E1.0   [1] (😕)
+        "\\U0001F616",    // E0.6   [1] (😖)
+        "\\U0001F617",    // E1.0   [1] (😗)
+        "\\U0001F618",    // E0.6   [1] (😘)
+        "\\U0001F619",    // E1.0   [1] (😙)
+        "\\U0001F61A",    // E0.6   [1] (😚)
+        "\\U0001F61B",    // E1.0   [1] (😛)
+        "[\\U0001F61C-\\U0001F61E]",    // E0.6   [3] (😜..😞)
+        "\\U0001F61F",    // E1.0   [1] (😟)
+        "[\\U0001F620-\\U0001F625]",    // E0.6   [6] (😠..😥)
+        "[\\U0001F626-\\U0001F627]",    // E1.0   [2] (😦..😧)
+        "[\\U0001F628-\\U0001F62B]",    // E0.6   [4] (😨..😫)
+        "\\U0001F62C",    // E1.0   [1] (😬)
+        "\\U0001F62D",    // E0.6   [1] (😭)
+        "[\\U0001F62E-\\U0001F62F]",    // E1.0   [2] (😮..😯)
+        "[\\U0001F630-\\U0001F633]",    // E0.6   [4] (😰..😳)
+        "\\U0001F634",    // E1.0   [1] (😴)
+        "\\U0001F635",    // E0.6   [1] (😵)
+        "\\U0001F636",    // E1.0   [1] (😶)
+        "[\\U0001F637-\\U0001F640]",    // E0.6  [10] (😷..🙀)
+        "[\\U0001F641-\\U0001F644]",    // E1.0   [4] (🙁..🙄)
+        "\\U0001F645\\U0001F3FB",    // E1.0   [1] (🙅🏻)
+        "\\U0001F645\\U0001F3FC",    // E1.0   [1] (🙅🏼)
+        "\\U0001F645\\U0001F3FD",    // E1.0   [1] (🙅🏽)
+        "\\U0001F645\\U0001F3FE",    // E1.0   [1] (🙅🏾)
+        "\\U0001F645\\U0001F3FF",    // E1.0   [1] (🙅🏿)
+        "[\\U0001F645-\\U0001F64F]",    // E0.6  [11] (🙅..🙏)
+        "\\U0001F646\\U0001F3FB",    // E1.0   [1] (🙆🏻)
+        "\\U0001F646\\U0001F3FC",    // E1.0   [1] (🙆🏼)
+        "\\U0001F646\\U0001F3FD",    // E1.0   [1] (🙆🏽)
+        "\\U0001F646\\U0001F3FE",    // E1.0   [1] (🙆🏾)
+        "\\U0001F646\\U0001F3FF",    // E1.0   [1] (🙆🏿)
+        "\\U0001F647\\U0001F3FB",    // E1.0   [1] (🙇🏻)
+        "\\U0001F647\\U0001F3FC",    // E1.0   [1] (🙇🏼)
+        "\\U0001F647\\U0001F3FD",    // E1.0   [1] (🙇🏽)
+        "\\U0001F647\\U0001F3FE",    // E1.0   [1] (🙇🏾)
+        "\\U0001F647\\U0001F3FF",    // E1.0   [1] (🙇🏿)
+        "\\U0001F64B\\U0001F3FB",    // E1.0   [1] (🙋🏻)
+        "\\U0001F64B\\U0001F3FC",    // E1.0   [1] (🙋🏼)
+        "\\U0001F64B\\U0001F3FD",    // E1.0   [1] (🙋🏽)
+        "\\U0001F64B\\U0001F3FE",    // E1.0   [1] (🙋🏾)
+        "\\U0001F64B\\U0001F3FF",    // E1.0   [1] (🙋🏿)
+        "\\U0001F64C\\U0001F3FB",    // E1.0   [1] (🙌🏻)
+        "\\U0001F64C\\U0001F3FC",    // E1.0   [1] (🙌🏼)
+        "\\U0001F64C\\U0001F3FD",    // E1.0   [1] (🙌🏽)
+        "\\U0001F64C\\U0001F3FE",    // E1.0   [1] (🙌🏾)
+        "\\U0001F64C\\U0001F3FF",    // E1.0   [1] (🙌🏿)
+        "\\U0001F64D\\U0001F3FB",    // E1.0   [1] (🙍🏻)
+        "\\U0001F64D\\U0001F3FC",    // E1.0   [1] (🙍🏼)
+        "\\U0001F64D\\U0001F3FD",    // E1.0   [1] (🙍🏽)
+        "\\U0001F64D\\U0001F3FE",    // E1.0   [1] (🙍🏾)
+        "\\U0001F64D\\U0001F3FF",    // E1.0   [1] (🙍🏿)
+        "\\U0001F64E\\U0001F3FB",    // E1.0   [1] (🙎🏻)
+        "\\U0001F64E\\U0001F3FC",    // E1.0   [1] (🙎🏼)
+        "\\U0001F64E\\U0001F3FD",    // E1.0   [1] (🙎🏽)
+        "\\U0001F64E\\U0001F3FE",    // E1.0   [1] (🙎🏾)
+        "\\U0001F64E\\U0001F3FF",    // E1.0   [1] (🙎🏿)
+        "\\U0001F64F\\U0001F3FB",    // E1.0   [1] (🙏🏻)
+        "\\U0001F64F\\U0001F3FC",    // E1.0   [1] (🙏🏼)
+        "\\U0001F64F\\U0001F3FD",    // E1.0   [1] (🙏🏽)
+        "\\U0001F64F\\U0001F3FE",    // E1.0   [1] (🙏🏾)
+        "\\U0001F64F\\U0001F3FF",    // E1.0   [1] (🙏🏿)
+        "\\U0001F680",    // E0.6   [1] (🚀)
+        "[\\U0001F681-\\U0001F682]",    // E1.0   [2] (🚁..🚂)
+        "[\\U0001F683-\\U0001F685]",    // E0.6   [3] (🚃..🚅)
+        "\\U0001F686",    // E1.0   [1] (🚆)
+        "\\U0001F687",    // E0.6   [1] (🚇)
+        "\\U0001F688",    // E1.0   [1] (🚈)
+        "\\U0001F689",    // E0.6   [1] (🚉)
+        "[\\U0001F68A-\\U0001F68B]",    // E1.0   [2] (🚊..🚋)
+        "\\U0001F68C",    // E0.6   [1] (🚌)
+        "\\U0001F68D",    // E0.7   [1] (🚍)
+        "\\U0001F68E",    // E1.0   [1] (🚎)
+        "\\U0001F68F",    // E0.6   [1] (🚏)
+        "\\U0001F690",    // E1.0   [1] (🚐)
+        "[\\U0001F691-\\U0001F693]",    // E0.6   [3] (🚑..🚓)
+        "\\U0001F694",    // E0.7   [1] (🚔)
+        "\\U0001F695",    // E0.6   [1] (🚕)
+        "\\U0001F696",    // E1.0   [1] (🚖)
+        "\\U0001F697",    // E0.6   [1] (🚗)
+        "\\U0001F698",    // E0.7   [1] (🚘)
+        "[\\U0001F699-\\U0001F69A]",    // E0.6   [2] (🚙..🚚)
+        "[\\U0001F69B-\\U0001F6A1]",    // E1.0   [7] (🚛..🚡)
+        "\\U0001F6A2",    // E0.6   [1] (🚢)
+        "\\U0001F6A3",    // E1.0   [1] (🚣)
+        "\\U0001F6A3\\U0001F3FB",    // E1.0   [1] (🚣🏻)
+        "\\U0001F6A3\\U0001F3FC",    // E1.0   [1] (🚣🏼)
+        "\\U0001F6A3\\U0001F3FD",    // E1.0   [1] (🚣🏽)
+        "\\U0001F6A3\\U0001F3FE",    // E1.0   [1] (🚣🏾)
+        "\\U0001F6A3\\U0001F3FF",    // E1.0   [1] (🚣🏿)
+        "[\\U0001F6A4-\\U0001F6A5]",    // E0.6   [2] (🚤..🚥)
+        "\\U0001F6A6",    // E1.0   [1] (🚦)
+        "[\\U0001F6A7-\\U0001F6AD]",    // E0.6   [7] (🚧..🚭)
+        "[\\U0001F6AE-\\U0001F6B1]",    // E1.0   [4] (🚮..🚱)
+        "\\U0001F6B2",    // E0.6   [1] (🚲)
+        "[\\U0001F6B3-\\U0001F6B5]",    // E1.0   [3] (🚳..🚵)
+        "\\U0001F6B4\\U0001F3FB",    // E1.0   [1] (🚴🏻)
+        "\\U0001F6B4\\U0001F3FC",    // E1.0   [1] (🚴🏼)
+        "\\U0001F6B4\\U0001F3FD",    // E1.0   [1] (🚴🏽)
+        "\\U0001F6B4\\U0001F3FE",    // E1.0   [1] (🚴🏾)
+        "\\U0001F6B4\\U0001F3FF",    // E1.0   [1] (🚴🏿)
+        "\\U0001F6B5\\U0001F3FB",    // E1.0   [1] (🚵🏻)
+        "\\U0001F6B5\\U0001F3FC",    // E1.0   [1] (🚵🏼)
+        "\\U0001F6B5\\U0001F3FD",    // E1.0   [1] (🚵🏽)
+        "\\U0001F6B5\\U0001F3FE",    // E1.0   [1] (🚵🏾)
+        "\\U0001F6B5\\U0001F3FF",    // E1.0   [1] (🚵🏿)
+        "\\U0001F6B6",    // E0.6   [1] (🚶)
+        "\\U0001F6B6\\U0001F3FB",    // E1.0   [1] (🚶🏻)
+        "\\U0001F6B6\\U0001F3FC",    // E1.0   [1] (🚶🏼)
+        "\\U0001F6B6\\U0001F3FD",    // E1.0   [1] (🚶🏽)
+        "\\U0001F6B6\\U0001F3FE",    // E1.0   [1] (🚶🏾)
+        "\\U0001F6B6\\U0001F3FF",    // E1.0   [1] (🚶🏿)
+        "[\\U0001F6B7-\\U0001F6B8]",    // E1.0   [2] (🚷..🚸)
+        "[\\U0001F6B9-\\U0001F6BE]",    // E0.6   [6] (🚹..🚾)
+        "\\U0001F6BF",    // E1.0   [1] (🚿)
+        "\\U0001F6C0",    // E0.6   [1] (🛀)
+        "\\U0001F6C0\\U0001F3FB",    // E1.0   [1] (🛀🏻)
+        "\\U0001F6C0\\U0001F3FC",    // E1.0   [1] (🛀🏼)
+        "\\U0001F6C0\\U0001F3FD",    // E1.0   [1] (🛀🏽)
+        "\\U0001F6C0\\U0001F3FE",    // E1.0   [1] (🛀🏾)
+        "\\U0001F6C0\\U0001F3FF",    // E1.0   [1] (🛀🏿)
+        "[\\U0001F6C1-\\U0001F6C5]",    // E1.0   [5] (🛁..🛅)
+        "\\U0001F6CB\\uFE0F",    // E0.7   [1] (🛋️)
+        "\\U0001F6CC",    // E1.0   [1] (🛌)
+        "\\U0001F6CC\\U0001F3FB",    // E4.0   [1] (🛌🏻)
+        "\\U0001F6CC\\U0001F3FC",    // E4.0   [1] (🛌🏼)
+        "\\U0001F6CC\\U0001F3FD",    // E4.0   [1] (🛌🏽)
+        "\\U0001F6CC\\U0001F3FE",    // E4.0   [1] (🛌🏾)
+        "\\U0001F6CC\\U0001F3FF",    // E4.0   [1] (🛌🏿)
+        "\\U0001F6CD\\uFE0F",    // E0.7   [1] (🛍️)
+        "\\U0001F6CE\\uFE0F",    // E0.7   [1] (🛎️)
+        "\\U0001F6CF\\uFE0F",    // E0.7   [1] (🛏️)
+        "\\U0001F6D0",    // E1.0   [1] (🛐)
+        "[\\U0001F6D1-\\U0001F6D2]",    // E3.0   [2] (🛑..🛒)
+        "\\U0001F6D5",    // E12.0  [1] (🛕)
+        "[\\U0001F6D6-\\U0001F6D7]",    // E13.0  [2] (🛖..🛗)
+        "[\\U0001F6DD-\\U0001F6DF]",    // E14.0  [3] (🛝..🛟)
+        "\\U0001F6E0\\uFE0F",    // E0.7   [1] (🛠️)
+        "\\U0001F6E1\\uFE0F",    // E0.7   [1] (🛡️)
+        "\\U0001F6E2\\uFE0F",    // E0.7   [1] (🛢️)
+        "\\U0001F6E3\\uFE0F",    // E0.7   [1] (🛣️)
+        "\\U0001F6E4\\uFE0F",    // E0.7   [1] (🛤️)
+        "\\U0001F6E5\\uFE0F",    // E0.7   [1] (🛥️)
+        "\\U0001F6E9\\uFE0F",    // E0.7   [1] (🛩️)
+        "[\\U0001F6EB-\\U0001F6EC]",    // E1.0   [2] (🛫..🛬)
+        "\\U0001F6F0\\uFE0F",    // E0.7   [1] (🛰️)
+        "\\U0001F6F3\\uFE0F",    // E0.7   [1] (🛳️)
+        "[\\U0001F6F4-\\U0001F6F6]",    // E3.0   [3] (🛴..🛶)
+        "[\\U0001F6F7-\\U0001F6F8]",    // E5.0   [2] (🛷..🛸)
+        "\\U0001F6F9",    // E11.0  [1] (🛹)
+        "\\U0001F6FA",    // E12.0  [1] (🛺)
+        "[\\U0001F6FB-\\U0001F6FC]",    // E13.0  [2] (🛻..🛼)
+        "[\\U0001F7E0-\\U0001F7EB]",    // E12.0 [12] (🟠..🟫)
+        "\\U0001F7F0",    // E14.0  [1] (🟰)
+        "\\U0001F90C",    // E13.0  [1] (🤌)
+        "\\U0001F90C\\U0001F3FB",    // E13.0  [1] (🤌🏻)
+        "\\U0001F90C\\U0001F3FC",    // E13.0  [1] (🤌🏼)
+        "\\U0001F90C\\U0001F3FD",    // E13.0  [1] (🤌🏽)
+        "\\U0001F90C\\U0001F3FE",    // E13.0  [1] (🤌🏾)
+        "\\U0001F90C\\U0001F3FF",    // E13.0  [1] (🤌🏿)
+        "[\\U0001F90D-\\U0001F90F]",    // E12.0  [3] (🤍..🤏)
+        "\\U0001F90F\\U0001F3FB",    // E12.0  [1] (🤏🏻)
+        "\\U0001F90F\\U0001F3FC",    // E12.0  [1] (🤏🏼)
+        "\\U0001F90F\\U0001F3FD",    // E12.0  [1] (🤏🏽)
+        "\\U0001F90F\\U0001F3FE",    // E12.0  [1] (🤏🏾)
+        "\\U0001F90F\\U0001F3FF",    // E12.0  [1] (🤏🏿)
+        "[\\U0001F910-\\U0001F918]",    // E1.0   [9] (🤐..🤘)
+        "\\U0001F918\\U0001F3FB",    // E1.0   [1] (🤘🏻)
+        "\\U0001F918\\U0001F3FC",    // E1.0   [1] (🤘🏼)
+        "\\U0001F918\\U0001F3FD",    // E1.0   [1] (🤘🏽)
+        "\\U0001F918\\U0001F3FE",    // E1.0   [1] (🤘🏾)
+        "\\U0001F918\\U0001F3FF",    // E1.0   [1] (🤘🏿)
+        "\\U0001F919\\U0001F3FB",    // E3.0   [1] (🤙🏻)
+        "\\U0001F919\\U0001F3FC",    // E3.0   [1] (🤙🏼)
+        "\\U0001F919\\U0001F3FD",    // E3.0   [1] (🤙🏽)
+        "\\U0001F919\\U0001F3FE",    // E3.0   [1] (🤙🏾)
+        "\\U0001F919\\U0001F3FF",    // E3.0   [1] (🤙🏿)
+        "[\\U0001F919-\\U0001F91E]",    // E3.0   [6] (🤙..🤞)
+        "\\U0001F91A\\U0001F3FB",    // E3.0   [1] (🤚🏻)
+        "\\U0001F91A\\U0001F3FC",    // E3.0   [1] (🤚🏼)
+        "\\U0001F91A\\U0001F3FD",    // E3.0   [1] (🤚🏽)
+        "\\U0001F91A\\U0001F3FE",    // E3.0   [1] (🤚🏾)
+        "\\U0001F91A\\U0001F3FF",    // E3.0   [1] (🤚🏿)
+        "\\U0001F91B\\U0001F3FB",    // E3.0   [1] (🤛🏻)
+        "\\U0001F91B\\U0001F3FC",    // E3.0   [1] (🤛🏼)
+        "\\U0001F91B\\U0001F3FD",    // E3.0   [1] (🤛🏽)
+        "\\U0001F91B\\U0001F3FE",    // E3.0   [1] (🤛🏾)
+        "\\U0001F91B\\U0001F3FF",    // E3.0   [1] (🤛🏿)
+        "\\U0001F91C\\U0001F3FB",    // E3.0   [1] (🤜🏻)
+        "\\U0001F91C\\U0001F3FC",    // E3.0   [1] (🤜🏼)
+        "\\U0001F91C\\U0001F3FD",    // E3.0   [1] (🤜🏽)
+        "\\U0001F91C\\U0001F3FE",    // E3.0   [1] (🤜🏾)
+        "\\U0001F91C\\U0001F3FF",    // E3.0   [1] (🤜🏿)
+        "\\U0001F91D\\U0001F3FB",    // E3.0   [1] (🤝🏻)
+        "\\U0001F91D\\U0001F3FC",    // E3.0   [1] (🤝🏼)
+        "\\U0001F91D\\U0001F3FD",    // E3.0   [1] (🤝🏽)
+        "\\U0001F91D\\U0001F3FE",    // E3.0   [1] (🤝🏾)
+        "\\U0001F91D\\U0001F3FF",    // E3.0   [1] (🤝🏿)
+        "\\U0001F91E\\U0001F3FB",    // E3.0   [1] (🤞🏻)
+        "\\U0001F91E\\U0001F3FC",    // E3.0   [1] (🤞🏼)
+        "\\U0001F91E\\U0001F3FD",    // E3.0   [1] (🤞🏽)
+        "\\U0001F91E\\U0001F3FE",    // E3.0   [1] (🤞🏾)
+        "\\U0001F91E\\U0001F3FF",    // E3.0   [1] (🤞🏿)
+        "\\U0001F91F",    // E5.0   [1] (🤟)
+        "\\U0001F91F\\U0001F3FB",    // E5.0   [1] (🤟🏻)
+        "\\U0001F91F\\U0001F3FC",    // E5.0   [1] (🤟🏼)
+        "\\U0001F91F\\U0001F3FD",    // E5.0   [1] (🤟🏽)
+        "\\U0001F91F\\U0001F3FE",    // E5.0   [1] (🤟🏾)
+        "\\U0001F91F\\U0001F3FF",    // E5.0   [1] (🤟🏿)
+        "[\\U0001F920-\\U0001F927]",    // E3.0   [8] (🤠..🤧)
+        "\\U0001F926\\U0001F3FB",    // E3.0   [1] (🤦🏻)
+        "\\U0001F926\\U0001F3FC",    // E3.0   [1] (🤦🏼)
+        "\\U0001F926\\U0001F3FD",    // E3.0   [1] (🤦🏽)
+        "\\U0001F926\\U0001F3FE",    // E3.0   [1] (🤦🏾)
+        "\\U0001F926\\U0001F3FF",    // E3.0   [1] (🤦🏿)
+        "[\\U0001F928-\\U0001F92F]",    // E5.0   [8] (🤨..🤯)
+        "\\U0001F930",    // E3.0   [1] (🤰)
+        "\\U0001F930\\U0001F3FB",    // E3.0   [1] (🤰🏻)
+        "\\U0001F930\\U0001F3FC",    // E3.0   [1] (🤰🏼)
+        "\\U0001F930\\U0001F3FD",    // E3.0   [1] (🤰🏽)
+        "\\U0001F930\\U0001F3FE",    // E3.0   [1] (🤰🏾)
+        "\\U0001F930\\U0001F3FF",    // E3.0   [1] (🤰🏿)
+        "\\U0001F931\\U0001F3FB",    // E5.0   [1] (🤱🏻)
+        "\\U0001F931\\U0001F3FC",    // E5.0   [1] (🤱🏼)
+        "\\U0001F931\\U0001F3FD",    // E5.0   [1] (🤱🏽)
+        "\\U0001F931\\U0001F3FE",    // E5.0   [1] (🤱🏾)
+        "\\U0001F931\\U0001F3FF",    // E5.0   [1] (🤱🏿)
+        "[\\U0001F931-\\U0001F932]",    // E5.0   [2] (🤱..🤲)
+        "\\U0001F932\\U0001F3FB",    // E5.0   [1] (🤲🏻)
+        "\\U0001F932\\U0001F3FC",    // E5.0   [1] (🤲🏼)
+        "\\U0001F932\\U0001F3FD",    // E5.0   [1] (🤲🏽)
+        "\\U0001F932\\U0001F3FE",    // E5.0   [1] (🤲🏾)
+        "\\U0001F932\\U0001F3FF",    // E5.0   [1] (🤲🏿)
+        "\\U0001F933\\U0001F3FB",    // E3.0   [1] (🤳🏻)
+        "\\U0001F933\\U0001F3FC",    // E3.0   [1] (🤳🏼)
+        "\\U0001F933\\U0001F3FD",    // E3.0   [1] (🤳🏽)
+        "\\U0001F933\\U0001F3FE",    // E3.0   [1] (🤳🏾)
+        "\\U0001F933\\U0001F3FF",    // E3.0   [1] (🤳🏿)
+        "[\\U0001F933-\\U0001F93A]",    // E3.0   [8] (🤳..🤺)
+        "\\U0001F934\\U0001F3FB",    // E3.0   [1] (🤴🏻)
+        "\\U0001F934\\U0001F3FC",    // E3.0   [1] (🤴🏼)
+        "\\U0001F934\\U0001F3FD",    // E3.0   [1] (🤴🏽)
+        "\\U0001F934\\U0001F3FE",    // E3.0   [1] (🤴🏾)
+        "\\U0001F934\\U0001F3FF",    // E3.0   [1] (🤴🏿)
+        "\\U0001F935\\U0001F3FB",    // E3.0   [1] (🤵🏻)
+        "\\U0001F935\\U0001F3FC",    // E3.0   [1] (🤵🏼)
+        "\\U0001F935\\U0001F3FD",    // E3.0   [1] (🤵🏽)
+        "\\U0001F935\\U0001F3FE",    // E3.0   [1] (🤵🏾)
+        "\\U0001F935\\U0001F3FF",    // E3.0   [1] (🤵🏿)
+        "\\U0001F936\\U0001F3FB",    // E3.0   [1] (🤶🏻)
+        "\\U0001F936\\U0001F3FC",    // E3.0   [1] (🤶🏼)
+        "\\U0001F936\\U0001F3FD",    // E3.0   [1] (🤶🏽)
+        "\\U0001F936\\U0001F3FE",    // E3.0   [1] (🤶🏾)
+        "\\U0001F936\\U0001F3FF",    // E3.0   [1] (🤶🏿)
+        "\\U0001F937\\U0001F3FB",    // E3.0   [1] (🤷🏻)
+        "\\U0001F937\\U0001F3FC",    // E3.0   [1] (🤷🏼)
+        "\\U0001F937\\U0001F3FD",    // E3.0   [1] (🤷🏽)
+        "\\U0001F937\\U0001F3FE",    // E3.0   [1] (🤷🏾)
+        "\\U0001F937\\U0001F3FF",    // E3.0   [1] (🤷🏿)
+        "\\U0001F938\\U0001F3FB",    // E3.0   [1] (🤸🏻)
+        "\\U0001F938\\U0001F3FC",    // E3.0   [1] (🤸🏼)
+        "\\U0001F938\\U0001F3FD",    // E3.0   [1] (🤸🏽)
+        "\\U0001F938\\U0001F3FE",    // E3.0   [1] (🤸🏾)
+        "\\U0001F938\\U0001F3FF",    // E3.0   [1] (🤸🏿)
+        "\\U0001F939\\U0001F3FB",    // E3.0   [1] (🤹🏻)
+        "\\U0001F939\\U0001F3FC",    // E3.0   [1] (🤹🏼)
+        "\\U0001F939\\U0001F3FD",    // E3.0   [1] (🤹🏽)
+        "\\U0001F939\\U0001F3FE",    // E3.0   [1] (🤹🏾)
+        "\\U0001F939\\U0001F3FF",    // E3.0   [1] (🤹🏿)
+        "[\\U0001F93C-\\U0001F93E]",    // E3.0   [3] (🤼..🤾)
+        "\\U0001F93D\\U0001F3FB",    // E3.0   [1] (🤽🏻)
+        "\\U0001F93D\\U0001F3FC",    // E3.0   [1] (🤽🏼)
+        "\\U0001F93D\\U0001F3FD",    // E3.0   [1] (🤽🏽)
+        "\\U0001F93D\\U0001F3FE",    // E3.0   [1] (🤽🏾)
+        "\\U0001F93D\\U0001F3FF",    // E3.0   [1] (🤽🏿)
+        "\\U0001F93E\\U0001F3FB",    // E3.0   [1] (🤾🏻)
+        "\\U0001F93E\\U0001F3FC",    // E3.0   [1] (🤾🏼)
+        "\\U0001F93E\\U0001F3FD",    // E3.0   [1] (🤾🏽)
+        "\\U0001F93E\\U0001F3FE",    // E3.0   [1] (🤾🏾)
+        "\\U0001F93E\\U0001F3FF",    // E3.0   [1] (🤾🏿)
+        "\\U0001F93F",    // E12.0  [1] (🤿)
+        "[\\U0001F940-\\U0001F945]",    // E3.0   [6] (🥀..🥅)
+        "[\\U0001F947-\\U0001F94B]",    // E3.0   [5] (🥇..🥋)
+        "\\U0001F94C",    // E5.0   [1] (🥌)
+        "[\\U0001F94D-\\U0001F94F]",    // E11.0  [3] (🥍..🥏)
+        "[\\U0001F950-\\U0001F95E]",    // E3.0  [15] (🥐..🥞)
+        "[\\U0001F95F-\\U0001F96B]",    // E5.0  [13] (🥟..🥫)
+        "[\\U0001F96C-\\U0001F970]",    // E11.0  [5] (🥬..🥰)
+        "\\U0001F971",    // E12.0  [1] (🥱)
+        "\\U0001F972",    // E13.0  [1] (🥲)
+        "[\\U0001F973-\\U0001F976]",    // E11.0  [4] (🥳..🥶)
+        "\\U0001F977\\U0001F3FB",    // E13.0  [1] (🥷🏻)
+        "\\U0001F977\\U0001F3FC",    // E13.0  [1] (🥷🏼)
+        "\\U0001F977\\U0001F3FD",    // E13.0  [1] (🥷🏽)
+        "\\U0001F977\\U0001F3FE",    // E13.0  [1] (🥷🏾)
+        "\\U0001F977\\U0001F3FF",    // E13.0  [1] (🥷🏿)
+        "[\\U0001F977-\\U0001F978]",    // E13.0  [2] (🥷..🥸)
+        "\\U0001F979",    // E14.0  [1] (🥹)
+        "\\U0001F97A",    // E11.0  [1] (🥺)
+        "\\U0001F97B",    // E12.0  [1] (🥻)
+        "[\\U0001F97C-\\U0001F97F]",    // E11.0  [4] (🥼..🥿)
+        "[\\U0001F980-\\U0001F984]",    // E1.0   [5] (🦀..🦄)
+        "[\\U0001F985-\\U0001F991]",    // E3.0  [13] (🦅..🦑)
+        "[\\U0001F992-\\U0001F997]",    // E5.0   [6] (🦒..🦗)
+        "[\\U0001F998-\\U0001F9A2]",    // E11.0 [11] (🦘..🦢)
+        "[\\U0001F9A3-\\U0001F9A4]",    // E13.0  [2] (🦣..🦤)
+        "[\\U0001F9A5-\\U0001F9AA]",    // E12.0  [6] (🦥..🦪)
+        "[\\U0001F9AB-\\U0001F9AD]",    // E13.0  [3] (🦫..🦭)
+        "[\\U0001F9AE-\\U0001F9AF]",    // E12.0  [2] (🦮..🦯)
+        "[\\U0001F9B0-\\U0001F9B9]",    // E11.0 [10] (🦰..🦹)
+        "\\U0001F9B5\\U0001F3FB",    // E11.0  [1] (🦵🏻)
+        "\\U0001F9B5\\U0001F3FC",    // E11.0  [1] (🦵🏼)
+        "\\U0001F9B5\\U0001F3FD",    // E11.0  [1] (🦵🏽)
+        "\\U0001F9B5\\U0001F3FE",    // E11.0  [1] (🦵🏾)
+        "\\U0001F9B5\\U0001F3FF",    // E11.0  [1] (🦵🏿)
+        "\\U0001F9B6\\U0001F3FB",    // E11.0  [1] (🦶🏻)
+        "\\U0001F9B6\\U0001F3FC",    // E11.0  [1] (🦶🏼)
+        "\\U0001F9B6\\U0001F3FD",    // E11.0  [1] (🦶🏽)
+        "\\U0001F9B6\\U0001F3FE",    // E11.0  [1] (🦶🏾)
+        "\\U0001F9B6\\U0001F3FF",    // E11.0  [1] (🦶🏿)
+        "\\U0001F9B8\\U0001F3FB",    // E11.0  [1] (🦸🏻)
+        "\\U0001F9B8\\U0001F3FC",    // E11.0  [1] (🦸🏼)
+        "\\U0001F9B8\\U0001F3FD",    // E11.0  [1] (🦸🏽)
+        "\\U0001F9B8\\U0001F3FE",    // E11.0  [1] (🦸🏾)
+        "\\U0001F9B8\\U0001F3FF",    // E11.0  [1] (🦸🏿)
+        "\\U0001F9B9\\U0001F3FB",    // E11.0  [1] (🦹🏻)
+        "\\U0001F9B9\\U0001F3FC",    // E11.0  [1] (🦹🏼)
+        "\\U0001F9B9\\U0001F3FD",    // E11.0  [1] (🦹🏽)
+        "\\U0001F9B9\\U0001F3FE",    // E11.0  [1] (🦹🏾)
+        "\\U0001F9B9\\U0001F3FF",    // E11.0  [1] (🦹🏿)
+        "[\\U0001F9BA-\\U0001F9BF]",    // E12.0  [6] (🦺..🦿)
+        "\\U0001F9BB\\U0001F3FB",    // E12.0  [1] (🦻🏻)
+        "\\U0001F9BB\\U0001F3FC",    // E12.0  [1] (🦻🏼)
+        "\\U0001F9BB\\U0001F3FD",    // E12.0  [1] (🦻🏽)
+        "\\U0001F9BB\\U0001F3FE",    // E12.0  [1] (🦻🏾)
+        "\\U0001F9BB\\U0001F3FF",    // E12.0  [1] (🦻🏿)
+        "\\U0001F9C0",    // E1.0   [1] (🧀)
+        "[\\U0001F9C1-\\U0001F9C2]",    // E11.0  [2] (🧁..🧂)
+        "[\\U0001F9C3-\\U0001F9CA]",    // E12.0  [8] (🧃..🧊)
+        "\\U0001F9CB",    // E13.0  [1] (🧋)
+        "\\U0001F9CC",    // E14.0  [1] (🧌)
+        "\\U0001F9CD\\U0001F3FB",    // E12.0  [1] (🧍🏻)
+        "\\U0001F9CD\\U0001F3FC",    // E12.0  [1] (🧍🏼)
+        "\\U0001F9CD\\U0001F3FD",    // E12.0  [1] (🧍🏽)
+        "\\U0001F9CD\\U0001F3FE",    // E12.0  [1] (🧍🏾)
+        "\\U0001F9CD\\U0001F3FF",    // E12.0  [1] (🧍🏿)
+        "[\\U0001F9CD-\\U0001F9CF]",    // E12.0  [3] (🧍..🧏)
+        "\\U0001F9CE\\U0001F3FB",    // E12.0  [1] (🧎🏻)
+        "\\U0001F9CE\\U0001F3FC",    // E12.0  [1] (🧎🏼)
+        "\\U0001F9CE\\U0001F3FD",    // E12.0  [1] (🧎🏽)
+        "\\U0001F9CE\\U0001F3FE",    // E12.0  [1] (🧎🏾)
+        "\\U0001F9CE\\U0001F3FF",    // E12.0  [1] (🧎🏿)
+        "\\U0001F9CF\\U0001F3FB",    // E12.0  [1] (🧏🏻)
+        "\\U0001F9CF\\U0001F3FC",    // E12.0  [1] (🧏🏼)
+        "\\U0001F9CF\\U0001F3FD",    // E12.0  [1] (🧏🏽)
+        "\\U0001F9CF\\U0001F3FE",    // E12.0  [1] (🧏🏾)
+        "\\U0001F9CF\\U0001F3FF",    // E12.0  [1] (🧏🏿)
+        "[\\U0001F9D0-\\U0001F9E6]",    // E5.0  [23] (🧐..🧦)
+        "\\U0001F9D1\\U0001F3FB",    // E5.0   [1] (🧑🏻)
+        "\\U0001F9D1\\U0001F3FC",    // E5.0   [1] (🧑🏼)
+        "\\U0001F9D1\\U0001F3FD",    // E5.0   [1] (🧑🏽)
+        "\\U0001F9D1\\U0001F3FE",    // E5.0   [1] (🧑🏾)
+        "\\U0001F9D1\\U0001F3FF",    // E5.0   [1] (🧑🏿)
+        "\\U0001F9D2\\U0001F3FB",    // E5.0   [1] (🧒🏻)
+        "\\U0001F9D2\\U0001F3FC",    // E5.0   [1] (🧒🏼)
+        "\\U0001F9D2\\U0001F3FD",    // E5.0   [1] (🧒🏽)
+        "\\U0001F9D2\\U0001F3FE",    // E5.0   [1] (🧒🏾)
+        "\\U0001F9D2\\U0001F3FF",    // E5.0   [1] (🧒🏿)
+        "\\U0001F9D3\\U0001F3FB",    // E5.0   [1] (🧓🏻)
+        "\\U0001F9D3\\U0001F3FC",    // E5.0   [1] (🧓🏼)
+        "\\U0001F9D3\\U0001F3FD",    // E5.0   [1] (🧓🏽)
+        "\\U0001F9D3\\U0001F3FE",    // E5.0   [1] (🧓🏾)
+        "\\U0001F9D3\\U0001F3FF",    // E5.0   [1] (🧓🏿)
+        "\\U0001F9D4\\U0001F3FB",    // E5.0   [1] (🧔🏻)
+        "\\U0001F9D4\\U0001F3FC",    // E5.0   [1] (🧔🏼)
+        "\\U0001F9D4\\U0001F3FD",    // E5.0   [1] (🧔🏽)
+        "\\U0001F9D4\\U0001F3FE",    // E5.0   [1] (🧔🏾)
+        "\\U0001F9D4\\U0001F3FF",    // E5.0   [1] (🧔🏿)
+        "\\U0001F9D5\\U0001F3FB",    // E5.0   [1] (🧕🏻)
+        "\\U0001F9D5\\U0001F3FC",    // E5.0   [1] (🧕🏼)
+        "\\U0001F9D5\\U0001F3FD",    // E5.0   [1] (🧕🏽)
+        "\\U0001F9D5\\U0001F3FE",    // E5.0   [1] (🧕🏾)
+        "\\U0001F9D5\\U0001F3FF",    // E5.0   [1] (🧕🏿)
+        "\\U0001F9D6\\U0001F3FB",    // E5.0   [1] (🧖🏻)
+        "\\U0001F9D6\\U0001F3FC",    // E5.0   [1] (🧖🏼)
+        "\\U0001F9D6\\U0001F3FD",    // E5.0   [1] (🧖🏽)
+        "\\U0001F9D6\\U0001F3FE",    // E5.0   [1] (🧖🏾)
+        "\\U0001F9D6\\U0001F3FF",    // E5.0   [1] (🧖🏿)
+        "\\U0001F9D7\\U0001F3FB",    // E5.0   [1] (🧗🏻)
+        "\\U0001F9D7\\U0001F3FC",    // E5.0   [1] (🧗🏼)
+        "\\U0001F9D7\\U0001F3FD",    // E5.0   [1] (🧗🏽)
+        "\\U0001F9D7\\U0001F3FE",    // E5.0   [1] (🧗🏾)
+        "\\U0001F9D7\\U0001F3FF",    // E5.0   [1] (🧗🏿)
+        "\\U0001F9D8\\U0001F3FB",    // E5.0   [1] (🧘🏻)
+        "\\U0001F9D8\\U0001F3FC",    // E5.0   [1] (🧘🏼)
+        "\\U0001F9D8\\U0001F3FD",    // E5.0   [1] (🧘🏽)
+        "\\U0001F9D8\\U0001F3FE",    // E5.0   [1] (🧘🏾)
+        "\\U0001F9D8\\U0001F3FF",    // E5.0   [1] (🧘🏿)
+        "\\U0001F9D9\\U0001F3FB",    // E5.0   [1] (🧙🏻)
+        "\\U0001F9D9\\U0001F3FC",    // E5.0   [1] (🧙🏼)
+        "\\U0001F9D9\\U0001F3FD",    // E5.0   [1] (🧙🏽)
+        "\\U0001F9D9\\U0001F3FE",    // E5.0   [1] (🧙🏾)
+        "\\U0001F9D9\\U0001F3FF",    // E5.0   [1] (🧙🏿)
+        "\\U0001F9DA\\U0001F3FB",    // E5.0   [1] (🧚🏻)
+        "\\U0001F9DA\\U0001F3FC",    // E5.0   [1] (🧚🏼)
+        "\\U0001F9DA\\U0001F3FD",    // E5.0   [1] (🧚🏽)
+        "\\U0001F9DA\\U0001F3FE",    // E5.0   [1] (🧚🏾)
+        "\\U0001F9DA\\U0001F3FF",    // E5.0   [1] (🧚🏿)
+        "\\U0001F9DB\\U0001F3FB",    // E5.0   [1] (🧛🏻)
+        "\\U0001F9DB\\U0001F3FC",    // E5.0   [1] (🧛🏼)
+        "\\U0001F9DB\\U0001F3FD",    // E5.0   [1] (🧛🏽)
+        "\\U0001F9DB\\U0001F3FE",    // E5.0   [1] (🧛🏾)
+        "\\U0001F9DB\\U0001F3FF",    // E5.0   [1] (🧛🏿)
+        "\\U0001F9DC\\U0001F3FB",    // E5.0   [1] (🧜🏻)
+        "\\U0001F9DC\\U0001F3FC",    // E5.0   [1] (🧜🏼)
+        "\\U0001F9DC\\U0001F3FD",    // E5.0   [1] (🧜🏽)
+        "\\U0001F9DC\\U0001F3FE",    // E5.0   [1] (🧜🏾)
+        "\\U0001F9DC\\U0001F3FF",    // E5.0   [1] (🧜🏿)
+        "\\U0001F9DD\\U0001F3FB",    // E5.0   [1] (🧝🏻)
+        "\\U0001F9DD\\U0001F3FC",    // E5.0   [1] (🧝🏼)
+        "\\U0001F9DD\\U0001F3FD",    // E5.0   [1] (🧝🏽)
+        "\\U0001F9DD\\U0001F3FE",    // E5.0   [1] (🧝🏾)
+        "\\U0001F9DD\\U0001F3FF",    // E5.0   [1] (🧝🏿)
+        "[\\U0001F9E7-\\U0001F9FF]",    // E11.0 [25] (🧧..🧿)
+        "[\\U0001FA70-\\U0001FA73]",    // E12.0  [4] (🩰..🩳)
+        "\\U0001FA74",    // E13.0  [1] (🩴)
+        "[\\U0001FA78-\\U0001FA7A]",    // E12.0  [3] (🩸..🩺)
+        "[\\U0001FA7B-\\U0001FA7C]",    // E14.0  [2] (🩻..🩼)
+        "[\\U0001FA80-\\U0001FA82]",    // E12.0  [3] (🪀..🪂)
+        "[\\U0001FA83-\\U0001FA86]",    // E13.0  [4] (🪃..🪆)
+        "[\\U0001FA90-\\U0001FA95]",    // E12.0  [6] (🪐..🪕)
+        "[\\U0001FA96-\\U0001FAA8]",    // E13.0 [19] (🪖..🪨)
+        "[\\U0001FAA9-\\U0001FAAC]",    // E14.0  [4] (🪩..🪬)
+        "[\\U0001FAB0-\\U0001FAB6]",    // E13.0  [7] (🪰..🪶)
+        "[\\U0001FAB7-\\U0001FABA]",    // E14.0  [4] (🪷..🪺)
+        "[\\U0001FAC0-\\U0001FAC2]",    // E13.0  [3] (🫀..🫂)
+        "\\U0001FAC3\\U0001F3FB",    // E14.0  [1] (🫃🏻)
+        "\\U0001FAC3\\U0001F3FC",    // E14.0  [1] (🫃🏼)
+        "\\U0001FAC3\\U0001F3FD",    // E14.0  [1] (🫃🏽)
+        "\\U0001FAC3\\U0001F3FE",    // E14.0  [1] (🫃🏾)
+        "\\U0001FAC3\\U0001F3FF",    // E14.0  [1] (🫃🏿)
+        "[\\U0001FAC3-\\U0001FAC5]",    // E14.0  [3] (🫃..🫅)
+        "\\U0001FAC4\\U0001F3FB",    // E14.0  [1] (🫄🏻)
+        "\\U0001FAC4\\U0001F3FC",    // E14.0  [1] (🫄🏼)
+        "\\U0001FAC4\\U0001F3FD",    // E14.0  [1] (🫄🏽)
+        "\\U0001FAC4\\U0001F3FE",    // E14.0  [1] (🫄🏾)
+        "\\U0001FAC4\\U0001F3FF",    // E14.0  [1] (🫄🏿)
+        "\\U0001FAC5\\U0001F3FB",    // E14.0  [1] (🫅🏻)
+        "\\U0001FAC5\\U0001F3FC",    // E14.0  [1] (🫅🏼)
+        "\\U0001FAC5\\U0001F3FD",    // E14.0  [1] (🫅🏽)
+        "\\U0001FAC5\\U0001F3FE",    // E14.0  [1] (🫅🏾)
+        "\\U0001FAC5\\U0001F3FF",    // E14.0  [1] (🫅🏿)
+        "[\\U0001FAD0-\\U0001FAD6]",    // E13.0  [7] (🫐..🫖)
+        "[\\U0001FAD7-\\U0001FAD9]",    // E14.0  [3] (🫗..🫙)
+        "[\\U0001FAE0-\\U0001FAE7]",    // E14.0  [8] (🫠..🫧)
+        "\\U0001FAF0\\U0001F3FB",    // E14.0  [1] (🫰🏻)
+        "\\U0001FAF0\\U0001F3FC",    // E14.0 [1] (🫰🏼)
+        "\\U0001FAF0\\U0001F3FD",    // E14.0  [1] (🫰🏽)
+        "\\U0001FAF0\\U0001F3FE",    // E14.0  [1] (🫰🏾)
+        "\\U0001FAF0\\U0001F3FF",    // E14.0  [1] (🫰🏿)
+        "[\\U0001FAF0-\\U0001FAF6]",    // E14.0  [7] (🫰..🫶)
+        "\\U0001FAF1\\U0001F3FB",    // E14.0  [1] (🫱🏻)
+        "\\U0001FAF1\\U0001F3FC",    // E14.0  [1] (🫱🏼)
+        "\\U0001FAF1\\U0001F3FD",    // E14.0  [1] (🫱🏽)
+        "\\U0001FAF1\\U0001F3FE",    // E14.0  [1] (🫱🏾)
+        "\\U0001FAF1\\U0001F3FF",    // E14.0  [1] (🫱🏿)
+        "\\U0001FAF2\\U0001F3FB",    // E14.0  [1] (🫲🏻)
+        "\\U0001FAF2\\U0001F3FC",    // E14.0  [1] (🫲🏼)
+        "\\U0001FAF2\\U0001F3FD",    // E14.0  [1] (🫲🏽)
+        "\\U0001FAF2\\U0001F3FE",    // E14.0  [1] (🫲🏾)
+        "\\U0001FAF2\\U0001F3FF",    // E14.0  [1] (🫲🏿)
+        "\\U0001FAF3\\U0001F3FB",    // E14.0  [1] (🫳🏻)
+        "\\U0001FAF3\\U0001F3FC",    // E14.0  [1] (🫳🏼)
+        "\\U0001FAF3\\U0001F3FD",    // E14.0  [1] (🫳🏽)
+        "\\U0001FAF3\\U0001F3FE",    // E14.0  [1] (🫳🏾)
+        "\\U0001FAF3\\U0001F3FF",    // E14.0  [1] (🫳🏿)
+        "\\U0001FAF4\\U0001F3FB",    // E14.0  [1] (🫴🏻)
+        "\\U0001FAF4\\U0001F3FC",    // E14.0  [1] (🫴🏼)
+        "\\U0001FAF4\\U0001F3FD",    // E14.0  [1] (🫴🏽)
+        "\\U0001FAF4\\U0001F3FE",    // E14.0  [1] (🫴🏾)
+        "\\U0001FAF4\\U0001F3FF",    // E14.0  [1] (🫴🏿)
+        "\\U0001FAF5\\U0001F3FB",    // E14.0  [1] (🫵🏻)
+        "\\U0001FAF5\\U0001F3FC",    // E14.0  [1] (🫵🏼)
+        "\\U0001FAF5\\U0001F3FD",    // E14.0  [1] (🫵🏽)
+        "\\U0001FAF5\\U0001F3FE",    // E14.0  [1] (🫵🏾)
+        "\\U0001FAF5\\U0001F3FF",    // E14.0  [1] (🫵🏿)
+        "\\U0001FAF6\\U0001F3FB",    // E14.0  [1] (🫶🏻)
+        "\\U0001FAF6\\U0001F3FC",    // E14.0  [1] (🫶🏼)
+        "\\U0001FAF6\\U0001F3FD",    // E14.0  [1] (🫶🏽)
+        "\\U0001FAF6\\U0001F3FE",    // E14.0  [1] (🫶🏾)
+        "\\U0001FAF6\\U0001F3FF",    // E14.0  [1] (🫶🏿)
+        "\\u203C\\uFE0F",    // E0.6   [1] (‼️)
+        "\\u2049\\uFE0F",    // E0.6   [1] (⁉️)
+        "\\u2122\\uFE0F",    // E0.6   [1] (™️)
+        "\\u2139\\uFE0F",    // E0.6   [1] (ℹ️)
+        "\\u2194\\uFE0F",    // E0.6   [1] (↔️)
+        "\\u2195\\uFE0F",    // E0.6   [1] (↕️)
+        "\\u2196\\uFE0F",    // E0.6   [1] (↖️)
+        "\\u2197\\uFE0F",    // E0.6   [1] (↗️)
+        "\\u2198\\uFE0F",    // E0.6   [1] (↘️)
+        "\\u2199\\uFE0F",    // E0.6   [1] (↙️)
+        "\\u21A9\\uFE0F",    // E0.6   [1] (↩️)
+        "\\u21AA\\uFE0F",    // E0.6   [1] (↪️)
+        "[\\u231A-\\u231B]",    // E0.6   [2] (⌚..⌛)
+        "\\u2328\\uFE0F",    // E1.0   [1] (⌨️)
+        "\\u23CF\\uFE0F",    // E1.0   [1] (⏏️)
+        "[\\u23E9-\\u23EC]",    // E0.6   [4] (⏩..⏬)
+        "\\u23ED\\uFE0F",    // E0.7   [1] (⏭️)
+        "\\u23EE\\uFE0F",    // E0.7   [1] (⏮️)
+        "\\u23EF\\uFE0F",    // E1.0   [1] (⏯️)
+        "\\u23F0",    // E0.6   [1] (⏰)
+        "\\u23F1\\uFE0F",    // E1.0   [1] (⏱️)
+        "\\u23F2\\uFE0F",    // E1.0   [1] (⏲️)
+        "\\u23F3",    // E0.6   [1] (⏳)
+        "\\u23F8\\uFE0F",    // E0.7   [1] (⏸️)
+        "\\u23F9\\uFE0F",    // E0.7   [1] (⏹️)
+        "\\u23FA\\uFE0F",    // E0.7   [1] (⏺️)
+        "\\u24C2\\uFE0F",    // E0.6   [1] (Ⓜ️)
+        "\\u25AA\\uFE0F",    // E0.6   [1] (▪️)
+        "\\u25AB\\uFE0F",    // E0.6   [1] (▫️)
+        "\\u25B6\\uFE0F",    // E0.6   [1] (▶️)
+        "\\u25C0\\uFE0F",    // E0.6   [1] (◀️)
+        "\\u25FB\\uFE0F",    // E0.6   [1] (◻️)
+        "\\u25FC\\uFE0F",    // E0.6   [1] (◼️)
+        "[\\u25FD-\\u25FE]",    // E0.6   [2] (◽..◾)
+        "\\u2600\\uFE0F",    // E0.6   [1] (☀️)
+        "\\u2601\\uFE0F",    // E0.6   [1] (☁️)
+        "\\u2602\\uFE0F",    // E0.7   [1] (☂️)
+        "\\u2603\\uFE0F",    // E0.7   [1] (☃️)
+        "\\u2604\\uFE0F",    // E1.0   [1] (☄️)
+        "\\u260E\\uFE0F",    // E0.6   [1] (☎️)
+        "\\u2611\\uFE0F",    // E0.6   [1] (☑️)
+        "[\\u2614-\\u2615]",    // E0.6   [2] (☔..☕)
+        "\\u2618\\uFE0F",    // E1.0   [1] (☘️)
+        "\\u261D\\U0001F3FB",    // E1.0   [1] (☝🏻)
+        "\\u261D\\U0001F3FC",    // E1.0   [1] (☝🏼)
+        "\\u261D\\U0001F3FD",    // E1.0   [1] (☝🏽)
+        "\\u261D\\U0001F3FE",    // E1.0   [1] (☝🏾)
+        "\\u261D\\U0001F3FF",    // E1.0   [1] (☝🏿)
+        "\\u261D\\uFE0F",    // E0.6   [1] (☝️)
+        "\\u2620\\uFE0F",    // E1.0   [1] (☠️)
+        "\\u2622\\uFE0F",    // E1.0   [1] (☢️)
+        "\\u2623\\uFE0F",    // E1.0   [1] (☣️)
+        "\\u2626\\uFE0F",    // E1.0   [1] (☦️)
+        "\\u262A\\uFE0F",    // E0.7   [1] (☪️)
+        "\\u262E\\uFE0F",    // E1.0   [1] (☮️)
+        "\\u262F\\uFE0F",    // E0.7   [1] (☯️)
+        "\\u2638\\uFE0F",    // E0.7   [1] (☸️)
+        "\\u2639\\uFE0F",    // E0.7   [1] (☹️)
+        "\\u263A\\uFE0F",    // E0.6   [1] (☺️)
+        "\\u2640\\uFE0F",    // E4.0   [1] (♀️)
+        "\\u2642\\uFE0F",    // E4.0   [1] (♂️)
+        "[\\u2648-\\u2653]",    // E0.6  [12] (♈..♓)
+        "\\u265F\\uFE0F",    // E11.0  [1] (♟️)
+        "\\u2660\\uFE0F",    // E0.6   [1] (♠️)
+        "\\u2663\\uFE0F",    // E0.6   [1] (♣️)
+        "\\u2665\\uFE0F",    // E0.6   [1] (♥️)
+        "\\u2666\\uFE0F",    // E0.6   [1] (♦️)
+        "\\u2668\\uFE0F",    // E0.6   [1] (♨️)
+        "\\u267B\\uFE0F",    // E0.6   [1] (♻️)
+        "\\u267E\\uFE0F",    // E11.0  [1] (♾️)
+        "\\u267F",    // E0.6   [1] (♿)
+        "\\u2692\\uFE0F",    // E1.0   [1] (⚒️)
+        "\\u2693",    // E0.6   [1] (⚓)
+        "\\u2694\\uFE0F",    // E1.0   [1] (⚔️)
+        "\\u2695\\uFE0F",    // E4.0   [1] (⚕️)
+        "\\u2696\\uFE0F",    // E1.0   [1] (⚖️)
+        "\\u2697\\uFE0F",    // E1.0   [1] (⚗️)
+        "\\u2699\\uFE0F",    // E1.0   [1] (⚙️)
+        "\\u269B\\uFE0F",    // E1.0   [1] (⚛️)
+        "\\u269C\\uFE0F",    // E1.0   [1] (⚜️)
+        "\\u26A0\\uFE0F",    // E0.6   [1] (⚠️)
+        "\\u26A1",    // E0.6   [1] (⚡)
+        "\\u26A7\\uFE0F",    // E13.0  [1] (⚧️)
+        "[\\u26AA-\\u26AB]",    // E0.6   [2] (⚪..⚫)
+        "\\u26B0\\uFE0F",    // E1.0   [1] (⚰️)
+        "\\u26B1\\uFE0F",    // E1.0   [1] (⚱️)
+        "[\\u26BD-\\u26BE]",    // E0.6   [2] (⚽..⚾)
+        "[\\u26C4-\\u26C5]",    // E0.6   [2] (⛄..⛅)
+        "\\u26C8\\uFE0F",    // E0.7   [1] (⛈️)
+        "\\u26CE",    // E0.6   [1] (⛎)
+        "\\u26CF\\uFE0F",    // E0.7   [1] (⛏️)
+        "\\u26D1\\uFE0F",    // E0.7   [1] (⛑️)
+        "\\u26D3\\uFE0F",    // E0.7   [1] (⛓️)
+        "\\u26D4",    // E0.6   [1] (⛔)
+        "\\u26E9\\uFE0F",    // E0.7   [1] (⛩️)
+        "\\u26EA",    // E0.6   [1] (⛪)
+        "\\u26F0\\uFE0F",    // E0.7   [1] (⛰️)
+        "\\u26F1\\uFE0F",    // E0.7   [1] (⛱️)
+        "[\\u26F2-\\u26F3]",    // E0.6   [2] (⛲..⛳)
+        "\\u26F4\\uFE0F",    // E0.7   [1] (⛴️)
+        "\\u26F5",    // E0.6   [1] (⛵)
+        "\\u26F7\\uFE0F",    // E0.7   [1] (⛷️)
+        "\\u26F8\\uFE0F",    // E0.7   [1] (⛸️)
+        "\\u26F9\\U0001F3FB",    // E2.0   [1] (⛹🏻)
+        "\\u26F9\\U0001F3FC",    // E2.0   [1] (⛹🏼)
+        "\\u26F9\\U0001F3FD",    // E2.0   [1] (⛹🏽)
+        "\\u26F9\\U0001F3FE",    // E2.0   [1] (⛹🏾)
+        "\\u26F9\\U0001F3FF",    // E2.0   [1] (⛹🏿)
+        "\\u26F9\\uFE0F",    // E0.7   [1] (⛹️)
+        "\\u26FA",    // E0.6   [1] (⛺)
+        "\\u26FD",    // E0.6   [1] (⛽)
+        "\\u2702\\uFE0F",    // E0.6   [1] (✂️)
+        "\\u2705",    // E0.6   [1] (✅)
+        "\\u2708\\uFE0F",    // E0.6   [1] (✈️)
+        "\\u2709\\uFE0F",    // E0.6   [1] (✉️)
+        "\\u270A\\U0001F3FB",    // E1.0   [1] (✊🏻)
+        "\\u270A\\U0001F3FC",    // E1.0   [1] (✊🏼)
+        "\\u270A\\U0001F3FD",    // E1.0   [1] (✊🏽)
+        "\\u270A\\U0001F3FE",    // E1.0   [1] (✊🏾)
+        "\\u270A\\U0001F3FF",    // E1.0   [1] (✊🏿)
+        "[\\u270A-\\u270B]",    // E0.6   [2] (✊..✋)
+        "\\u270B\\U0001F3FB",    // E1.0   [1] (✋🏻)
+        "\\u270B\\U0001F3FC",    // E1.0   [1] (✋🏼)
+        "\\u270B\\U0001F3FD",    // E1.0   [1] (✋🏽)
+        "\\u270B\\U0001F3FE",    // E1.0   [1] (✋🏾)
+        "\\u270B\\U0001F3FF",    // E1.0   [1] (✋🏿)
+        "\\u270C\\U0001F3FB",    // E1.0   [1] (✌🏻)
+        "\\u270C\\U0001F3FC",    // E1.0   [1] (✌🏼)
+        "\\u270C\\U0001F3FD",    // E1.0   [1] (✌🏽)
+        "\\u270C\\U0001F3FE",    // E1.0   [1] (✌🏾)
+        "\\u270C\\U0001F3FF",    // E1.0   [1] (✌🏿)
+        "\\u270C\\uFE0F",    // E0.6   [1] (✌️)
+        "\\u270D\\U0001F3FB",    // E1.0   [1] (✍🏻)
+        "\\u270D\\U0001F3FC",    // E1.0   [1] (✍🏼)
+        "\\u270D\\U0001F3FD",    // E1.0   [1] (✍🏽)
+        "\\u270D\\U0001F3FE",    // E1.0   [1] (✍🏾)
+        "\\u270D\\U0001F3FF",    // E1.0   [1] (✍🏿)
+        "\\u270D\\uFE0F",    // E0.7   [1] (✍️)
+        "\\u270F\\uFE0F",    // E0.6   [1] (✏️)
+        "\\u2712\\uFE0F",    // E0.6   [1] (✒️)
+        "\\u2714\\uFE0F",    // E0.6   [1] (✔️)
+        "\\u2716\\uFE0F",    // E0.6   [1] (✖️)
+        "\\u271D\\uFE0F",    // E0.7   [1] (✝️)
+        "\\u2721\\uFE0F",    // E0.7   [1] (✡️)
+        "\\u2728",    // E0.6   [1] (✨)
+        "\\u2733\\uFE0F",    // E0.6   [1] (✳️)
+        "\\u2734\\uFE0F",    // E0.6   [1] (✴️)
+        "\\u2744\\uFE0F",    // E0.6   [1] (❄️)
+        "\\u2747\\uFE0F",    // E0.6   [1] (❇️)
+        "\\u274C",    // E0.6   [1] (❌)
+        "\\u274E",    // E0.6   [1] (❎)
+        "[\\u2753-\\u2755]",    // E0.6   [3] (❓..❕)
+        "\\u2757",    // E0.6   [1] (❗)
+        "\\u2763\\uFE0F",    // E1.0   [1] (❣️)
+        "\\u2764\\uFE0F",    // E0.6   [1] (❤️)
+        "[\\u2795-\\u2797]",    // E0.6   [3] (➕..➗)
+        "\\u27A1\\uFE0F",    // E0.6   [1] (➡️)
+        "\\u27B0",    // E0.6   [1] (➰)
+        "\\u27BF",    // E1.0   [1] (➿)
+        "\\u2934\\uFE0F",    // E0.6   [1] (⤴️)
+        "\\u2935\\uFE0F",    // E0.6   [1] (⤵️)
+        "\\u2B05\\uFE0F",    // E0.6   [1] (⬅️)
+        "\\u2B06\\uFE0F",    // E0.6   [1] (⬆️)
+        "\\u2B07\\uFE0F",    // E0.6   [1] (⬇️)
+        "[\\u2B1B-\\u2B1C]",    // E0.6   [2] (⬛..⬜)
+        "\\u2B50",    // E0.6   [1] (⭐)
+        "\\u2B55",    // E0.6   [1] (⭕)
+        "\\u3030\\uFE0F",    // E0.6   [1] (〰️)
+        "\\u303D\\uFE0F",    // E0.6   [1] (〽️)
+        "\\u3297\\uFE0F",    // E0.6   [1] (㊗️)
+        "\\u3299\\uFE0F"     // E0.6   [1] (㊙️)
     ]
 
     ///
@@ -1093,28 +1805,1355 @@ public class EmojiData {
     /// "👨‍👩‍👧‍👧".
     ///
     public static let ZWJSequencePatterns:[String] = [
-        "\\U0001F441\\u200D\\U0001F5E8",    // 7.0  [1] (👁‍🗨)      EYE, LEFT SPEECH BUBBLE
-        "\\U0001F468\\u200D\\U0001F468\\u200D\\U0001F466",    // 6.0  [1] (👨‍👨‍👦)     Family: MAN, MAN, BOY
-        "\\U0001F468\\u200D\\U0001F468\\u200D\\U0001F466\\u200D\\U0001F466",    // 6.0  [1] (👨‍👨‍👦‍👦)    Family: MAN, MAN, BOY, BOY
-        "\\U0001F468\\u200D\\U0001F468\\u200D\\U0001F467",    // 6.0  [1] (👨‍👨‍👧)     Family: MAN, MAN, GIRL
-        "\\U0001F468\\u200D\\U0001F468\\u200D\\U0001F467\\u200D\\U0001F466",    // 6.0  [1] (👨‍👨‍👧‍👦)    Family: MAN, MAN, GIRL, BOY
-        "\\U0001F468\\u200D\\U0001F468\\u200D\\U0001F467\\u200D\\U0001F467",    // 6.0  [1] (👨‍👨‍👧‍👧)    Family: MAN, MAN, GIRL, GIRL
-        "\\U0001F468\\u200D\\U0001F469\\u200D\\U0001F466",    // 6.0  [1] (👨‍👩‍👦)     Family: MAN, WOMAN, BOY
-        "\\U0001F468\\u200D\\U0001F469\\u200D\\U0001F466\\u200D\\U0001F466",    // 6.0  [1] (👨‍👩‍👦‍👦)    Family: MAN, WOMAN, BOY, BOY
-        "\\U0001F468\\u200D\\U0001F469\\u200D\\U0001F467",    // 6.0  [1] (👨‍👩‍👧)     Family: MAN, WOMAN, GIRL
-        "\\U0001F468\\u200D\\U0001F469\\u200D\\U0001F467\\u200D\\U0001F466",    // 6.0  [1] (👨‍👩‍👧‍👦)    Family: MAN, WOMAN, GIRL, BOY
-        "\\U0001F468\\u200D\\U0001F469\\u200D\\U0001F467\\u200D\\U0001F467",    // 6.0  [1] (👨‍👩‍👧‍👧)    Family: MAN, WOMAN, GIRL, GIRL
-        "\\U0001F468\\u200D\\u2764\\uFE0F\\u200D\\U0001F468",    // 6.0  [1] (👨‍❤️‍👨)     Couple with heart: MAN, MAN
-        "\\U0001F468\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468",    // 6.0  [1] (👨‍❤️‍💋‍👨)    Kiss: MAN, MAN
-        "\\U0001F469\\u200D\\U0001F469\\u200D\\U0001F466",    // 6.0  [1] (👩‍👩‍👦)     Family: WOMAN, WOMAN, BOY
-        "\\U0001F469\\u200D\\U0001F469\\u200D\\U0001F466\\u200D\\U0001F466",    // 6.0  [1] (👩‍👩‍👦‍👦)    Family: WOMAN, WOMAN, BOY, BOY
-        "\\U0001F469\\u200D\\U0001F469\\u200D\\U0001F467",    // 6.0  [1] (👩‍👩‍👧)     Family: WOMAN, WOMAN, GIRL
-        "\\U0001F469\\u200D\\U0001F469\\u200D\\U0001F467\\u200D\\U0001F466",    // 6.0  [1] (👩‍👩‍👧‍👦)    Family: WOMAN, WOMAN, GIRL, BOY
-        "\\U0001F469\\u200D\\U0001F469\\u200D\\U0001F467\\u200D\\U0001F467",    // 6.0  [1] (👩‍👩‍👧‍👧)    Family: WOMAN, WOMAN, GIRL, GIRL
-        "\\U0001F469\\u200D\\u2764\\uFE0F\\u200D\\U0001F468",    // 6.0  [1] (👩‍❤️‍👨)     Couple with heart: WOMAN, MAN
-        "\\U0001F469\\u200D\\u2764\\uFE0F\\u200D\\U0001F469",    // 6.0  [1] (👩‍❤️‍👩)     Couple with heart: WOMAN, WOMAN
-        "\\U0001F469\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468",    // 6.0  [1] (👩‍❤️‍💋‍👨)    Kiss: WOMAN, MAN
-        "\\U0001F469\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469"     // 6.0  [1] (👩‍❤️‍💋‍👩)    Kiss: WOMAN, WOMAN
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃🏻‍♀️)
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃🏻‍♂️)
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃🏼‍♀️)
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃🏼‍♂️)
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃🏽‍♀️)
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃🏽‍♂️)
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃🏾‍♀️)
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃🏾‍♂️)
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃🏿‍♀️)
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃🏿‍♂️)
+        "\\U0001F3C3\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃‍♀️)
+        "\\U0001F3C3\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃‍♂️)
+        "\\U0001F3C4\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏄🏻‍♀️)
+        "\\U0001F3C4\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏄🏻‍♂️)
+        "\\U0001F3C4\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏄🏼‍♀️)
+        "\\U0001F3C4\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏄🏼‍♂️)
+        "\\U0001F3C4\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏄🏽‍♀️)
+        "\\U0001F3C4\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏄🏽‍♂️)
+        "\\U0001F3C4\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏄🏾‍♀️)
+        "\\U0001F3C4\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏄🏾‍♂️)
+        "\\U0001F3C4\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏄🏿‍♀️)
+        "\\U0001F3C4\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏄🏿‍♂️)
+        "\\U0001F3C4\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏄‍♀️)
+        "\\U0001F3C4\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏄‍♂️)
+        "\\U0001F3CA\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏊🏻‍♀️)
+        "\\U0001F3CA\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏊🏻‍♂️)
+        "\\U0001F3CA\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏊🏼‍♀️)
+        "\\U0001F3CA\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏊🏼‍♂️)
+        "\\U0001F3CA\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏊🏽‍♀️)
+        "\\U0001F3CA\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏊🏽‍♂️)
+        "\\U0001F3CA\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏊🏾‍♀️)
+        "\\U0001F3CA\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏊🏾‍♂️)
+        "\\U0001F3CA\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏊🏿‍♀️)
+        "\\U0001F3CA\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏊🏿‍♂️)
+        "\\U0001F3CA\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏊‍♀️)
+        "\\U0001F3CA\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏊‍♂️)
+        "\\U0001F3CB\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏋🏻‍♀️)
+        "\\U0001F3CB\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏋🏻‍♂️)
+        "\\U0001F3CB\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏋🏼‍♀️)
+        "\\U0001F3CB\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏋🏼‍♂️)
+        "\\U0001F3CB\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏋🏽‍♀️)
+        "\\U0001F3CB\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏋🏽‍♂️)
+        "\\U0001F3CB\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏋🏾‍♀️)
+        "\\U0001F3CB\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏋🏾‍♂️)
+        "\\U0001F3CB\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏋🏿‍♀️)
+        "\\U0001F3CB\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏋🏿‍♂️)
+        "\\U0001F3CB\\uFE0F\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏋️‍♀️)
+        "\\U0001F3CB\\uFE0F\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏋️‍♂️)
+        "\\U0001F3CC\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏌🏻‍♀️)
+        "\\U0001F3CC\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏌🏻‍♂️)
+        "\\U0001F3CC\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏌🏼‍♀️)
+        "\\U0001F3CC\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏌🏼‍♂️)
+        "\\U0001F3CC\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏌🏽‍♀️)
+        "\\U0001F3CC\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏌🏽‍♂️)
+        "\\U0001F3CC\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏌🏾‍♀️)
+        "\\U0001F3CC\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏌🏾‍♂️)
+        "\\U0001F3CC\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏌🏿‍♀️)
+        "\\U0001F3CC\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏌🏿‍♂️)
+        "\\U0001F3CC\\uFE0F\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏌️‍♀️)
+        "\\U0001F3CC\\uFE0F\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏌️‍♂️)
+        "\\U0001F3F3\\uFE0F\\u200D\\U0001F308",    // E4.0   [1] (🏳️‍🌈)
+        "\\U0001F3F3\\uFE0F\\u200D\\u26A7\\uFE0F",    // E13.0  [1] (🏳️‍⚧️)
+        "\\U0001F3F4\\u200D\\u2620\\uFE0F",    // E11.0  [1] (🏴‍☠️)
+        "\\U0001F408\\u200D\\u2B1B",    // E13.0  [1] (🐈‍⬛)
+        "\\U0001F415\\u200D\\U0001F9BA",    // E12.0  [1] (🐕‍🦺)
+        "\\U0001F43B\\u200D\\u2744\\uFE0F",    // E13.0  [1] (🐻‍❄️)
+        "\\U0001F441\\uFE0F\\u200D\\U0001F5E8\\uFE0F",    // E2.0   [1] (👁️‍🗨️)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F33E",    // E4.0   [1] (👨🏻‍🌾)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F373",    // E4.0   [1] (👨🏻‍🍳)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F37C",    // E13.0  [1] (👨🏻‍🍼)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F393",    // E4.0   [1] (👨🏻‍🎓)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F3A4",    // E4.0   [1] (👨🏻‍🎤)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F3A8",    // E4.0   [1] (👨🏻‍🎨)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F3EB",    // E4.0   [1] (👨🏻‍🏫)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F3ED",    // E4.0   [1] (👨🏻‍🏭)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F4BB",    // E4.0   [1] (👨🏻‍💻)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F4BC",    // E4.0   [1] (👨🏻‍💼)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F527",    // E4.0   [1] (👨🏻‍🔧)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F52C",    // E4.0   [1] (👨🏻‍🔬)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F680",    // E4.0   [1] (👨🏻‍🚀)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F692",    // E4.0   [1] (👨🏻‍🚒)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // E12.1  [1] (👨🏻‍🤝‍👨🏼)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // E12.1  [1] (👨🏻‍🤝‍👨🏽)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.1  [1] (👨🏻‍🤝‍👨🏾)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.1  [1] (👨🏻‍🤝‍👨🏿)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9AF",    // E12.0  [1] (👨🏻‍🦯)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B0",    // E11.0  [1] (👨🏻‍🦰)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B1",    // E11.0  [1] (👨🏻‍🦱)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B2",    // E11.0  [1] (👨🏻‍🦲)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B3",    // E11.0  [1] (👨🏻‍🦳)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9BC",    // E12.0  [1] (👨🏻‍🦼)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9BD",    // E12.0  [1] (👨🏻‍🦽)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨🏻‍⚕️)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨🏻‍⚖️)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨🏻‍✈️)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏻‍❤️‍👨🏻)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👨🏻‍❤️‍👨🏼)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏻‍❤️‍👨🏽)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👨🏻‍❤️‍👨🏾)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏻‍❤️‍👨🏿)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏻‍❤️‍💋‍👨🏻)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👨🏻‍❤️‍💋‍👨🏼)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏻‍❤️‍💋‍👨🏽)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👨🏻‍❤️‍💋‍👨🏾)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏻‍❤️‍💋‍👨🏿)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F33E",    // E4.0   [1] (👨🏼‍🌾)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F373",    // E4.0   [1] (👨🏼‍🍳)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F37C",    // E13.0  [1] (👨🏼‍🍼)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F393",    // E4.0   [1] (👨🏼‍🎓)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F3A4",    // E4.0   [1] (👨🏼‍🎤)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F3A8",    // E4.0   [1] (👨🏼‍🎨)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F3EB",    // E4.0   [1] (👨🏼‍🏫)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F3ED",    // E4.0   [1] (👨🏼‍🏭)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F4BB",    // E4.0   [1] (👨🏼‍💻)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F4BC",    // E4.0   [1] (👨🏼‍💼)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F527",    // E4.0   [1] (👨🏼‍🔧)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F52C",    // E4.0   [1] (👨🏼‍🔬)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F680",    // E4.0   [1] (👨🏼‍🚀)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F692",    // E4.0   [1] (👨🏼‍🚒)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // E12.0  [1] (👨🏼‍🤝‍👨🏻)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // E12.1  [1] (👨🏼‍🤝‍👨🏽)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.1 [1] (👨🏼‍🤝‍👨🏾)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.1  [1] (👨🏼‍🤝‍👨🏿)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9AF",    // E12.0  [1] (👨🏼‍🦯)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B0",    // E11.0  [1] (👨🏼‍🦰)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B1",    // E11.0  [1] (👨🏼‍🦱)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B2",    // E11.0  [1] (👨🏼‍🦲)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B3",    // E11.0  [1] (👨🏼‍🦳)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9BC",    // E12.0  [1] (👨🏼‍🦼)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9BD",    // E12.0  [1] (👨🏼‍🦽)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨🏼‍⚕️)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨🏼‍⚖️)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨🏼‍✈️)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1[1] (👨🏼‍❤️‍👨🏻)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👨🏼‍❤️‍👨🏼)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👨🏼‍❤️‍👨🏽)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👨🏼‍❤️‍👨🏾)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1[1] (👨🏼‍❤️‍👨🏿)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏼‍❤️‍💋‍👨🏻)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👨🏼‍❤️‍💋‍👨🏼)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1 [1] (👨🏼‍❤️‍💋‍👨🏽)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👨🏼‍❤️‍💋‍👨🏾)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏼‍❤️‍💋‍👨🏿)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F33E",    // E4.0   [1] (👨🏽‍🌾)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F373",    // E4.0   [1] (👨🏽‍🍳)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F37C",    // E13.0  [1] (👨🏽‍🍼)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F393",    // E4.0   [1] (👨🏽‍🎓)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F3A4",    // E4.0   [1] (👨🏽‍🎤)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F3A8",    // E4.0   [1] (👨🏽‍🎨)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F3EB",    // E4.0   [1] (👨🏽‍🏫)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F3ED",    // E4.0   [1] (👨🏽‍🏭)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F4BB",    // E4.0   [1] (👨🏽‍💻)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F4BC",    // E4.0   [1] (👨🏽‍💼)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F527",    // E4.0   [1] (👨🏽‍🔧)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F52C",    // E4.0   [1] (👨🏽‍🔬)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F680",    // E4.0   [1] (👨🏽‍🚀)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F692",    // E4.0   [1] (👨🏽‍🚒)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // E12.0  [1] (👨🏽‍🤝‍👨🏻)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // E12.0  [1] (👨🏽‍🤝‍👨🏼)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.1  [1] (👨🏽‍🤝‍👨🏾)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.1  [1] (👨🏽‍🤝‍👨🏿)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9AF",    // E12.0  [1] (👨🏽‍🦯)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B0",    // E11.0  [1] (👨🏽‍🦰)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B1",    // E11.0  [1] (👨🏽‍🦱)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B2",    // E11.0  [1] (👨🏽‍🦲)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B3",    // E11.0  [1] (👨🏽‍🦳)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9BC",    // E12.0  [1] (👨🏽‍🦼)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9BD",    // E12.0  [1] (👨🏽‍🦽)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨🏽‍⚕️)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨🏽‍⚖️)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨🏽‍✈️)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏽‍❤️‍👨🏻)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👨🏽‍❤️‍👨🏼)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏽‍❤️‍👨🏽)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👨🏽‍❤️‍👨🏾)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏽‍❤️‍👨🏿)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏽‍❤️‍💋‍👨🏻)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1 [1] (👨🏽‍❤️‍💋‍👨🏼)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏽‍❤️‍💋‍👨🏽)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👨🏽‍❤️‍💋‍👨🏾)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏽‍❤️‍💋‍👨🏿)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F33E",    // E4.0   [1] (👨🏾‍🌾)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F373",    // E4.0   [1] (👨🏾‍🍳)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F37C",    // E13.0  [1] (👨🏾‍🍼)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F393",    // E4.0   [1] (👨🏾‍🎓)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F3A4",    // E4.0   [1] (👨🏾‍🎤)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F3A8",    // E4.0   [1] (👨🏾‍🎨)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F3EB",    // E4.0   [1] (👨🏾‍🏫)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F3ED",    // E4.0   [1] (👨🏾‍🏭)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F4BB",    // E4.0   [1] (👨🏾‍💻)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F4BC",    // E4.0   [1] (👨🏾‍💼)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F527",    // E4.0   [1] (👨🏾‍🔧)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F52C",    // E4.0   [1] (👨🏾‍🔬)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F680",    // E4.0   [1] (👨🏾‍🚀)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F692",    // E4.0   [1] (👨🏾‍🚒)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // E12.0  [1] (👨🏾‍🤝‍👨🏻)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // E12.0 [1] (👨🏾‍🤝‍👨🏼)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // E12.0  [1] (👨🏾‍🤝‍👨🏽)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.1  [1] (👨🏾‍🤝‍👨🏿)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9AF",    // E12.0  [1] (👨🏾‍🦯)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B0",    // E11.0  [1] (👨🏾‍🦰)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B1",    // E11.0  [1] (👨🏾‍🦱)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B2",    // E11.0  [1] (👨🏾‍🦲)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B3",    // E11.0  [1] (👨🏾‍🦳)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9BC",    // E12.0  [1] (👨🏾‍🦼)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9BD",    // E12.0  [1] (👨🏾‍🦽)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨🏾‍⚕️)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨🏾‍⚖️)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨🏾‍✈️)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1[1] (👨🏾‍❤️‍👨🏻)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👨🏾‍❤️‍👨🏼)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👨🏾‍❤️‍👨🏽)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👨🏾‍❤️‍👨🏾)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1[1] (👨🏾‍❤️‍👨🏿)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏾‍❤️‍💋‍👨🏻)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👨🏾‍❤️‍💋‍👨🏼)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏾‍❤️‍💋‍👨🏽)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👨🏾‍❤️‍💋‍👨🏾)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏾‍❤️‍💋‍👨🏿)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F33E",    // E4.0   [1] (👨🏿‍🌾)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F373",    // E4.0   [1] (👨🏿‍🍳)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F37C",    // E13.0  [1] (👨🏿‍🍼)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F393",    // E4.0   [1] (👨🏿‍🎓)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F3A4",    // E4.0   [1] (👨🏿‍🎤)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F3A8",    // E4.0   [1] (👨🏿‍🎨)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F3EB",    // E4.0   [1] (👨🏿‍🏫)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F3ED",    // E4.0   [1] (👨🏿‍🏭)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F4BB",    // E4.0   [1] (👨🏿‍💻)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F4BC",    // E4.0   [1] (👨🏿‍💼)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F527",    // E4.0   [1] (👨🏿‍🔧)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F52C",    // E4.0   [1] (👨🏿‍🔬)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F680",    // E4.0   [1] (👨🏿‍🚀)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F692",    // E4.0   [1] (👨🏿‍🚒)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // E12.0  [1] (👨🏿‍🤝‍👨🏻)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // E12.0  [1] (👨🏿‍🤝‍👨🏼)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // E12.0  [1] (👨🏿‍🤝‍👨🏽)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.0  [1] (👨🏿‍🤝‍👨🏾)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9AF",    // E12.0  [1] (👨🏿‍🦯)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B0",    // E11.0  [1] (👨🏿‍🦰)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B1",    // E11.0  [1] (👨🏿‍🦱)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B2",    // E11.0  [1] (👨🏿‍🦲)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B3",    // E11.0  [1] (👨🏿‍🦳)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9BC",    // E12.0  [1] (👨🏿‍🦼)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9BD",    // E12.0  [1] (👨🏿‍🦽)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨🏿‍⚕️)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨🏿‍⚖️)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨🏿‍✈️)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏿‍❤️‍👨🏻)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👨🏿‍❤️‍👨🏼)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏿‍❤️‍👨🏽)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👨🏿‍❤️‍👨🏾)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏿‍❤️‍👨🏿)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏿‍❤️‍💋‍👨🏻)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👨🏿‍❤️‍💋‍👨🏼)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏿‍❤️‍💋‍👨🏽)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👨🏿‍❤️‍💋‍👨🏾)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏿‍❤️‍💋‍👨🏿)
+        "\\U0001F468\\u200D\\U0001F33E",    // E4.0   [1] (👨‍🌾)
+        "\\U0001F468\\u200D\\U0001F373",    // E4.0   [1] (👨‍🍳)
+        "\\U0001F468\\u200D\\U0001F37C",    // E13.0  [1] (👨‍🍼)
+        "\\U0001F468\\u200D\\U0001F393",    // E4.0   [1] (👨‍🎓)
+        "\\U0001F468\\u200D\\U0001F3A4",    // E4.0   [1] (👨‍🎤)
+        "\\U0001F468\\u200D\\U0001F3A8",    // E4.0   [1] (👨‍🎨)
+        "\\U0001F468\\u200D\\U0001F3EB",    // E4.0   [1] (👨‍🏫)
+        "\\U0001F468\\u200D\\U0001F3ED",    // E4.0   [1] (👨‍🏭)
+        "\\U0001F468\\u200D\\U0001F466",    // E4.0   [1] (👨‍👦)
+        "\\U0001F468\\u200D\\U0001F466\\u200D\\U0001F466",    // E4.0   [1] (👨‍👦‍👦)
+        "\\U0001F468\\u200D\\U0001F467",    // E4.0   [1] (👨‍👧)
+        "\\U0001F468\\u200D\\U0001F467\\u200D\\U0001F466",    // E4.0   [1] (👨‍👧‍👦)
+        "\\U0001F468\\u200D\\U0001F467\\u200D\\U0001F467",    // E4.0   [1] (👨‍👧‍👧)
+        "\\U0001F468\\u200D\\U0001F468\\u200D\\U0001F466",    // E2.0   [1] (👨‍👨‍👦)
+        "\\U0001F468\\u200D\\U0001F468\\u200D\\U0001F466\\u200D\\U0001F466",    // E2.0   [1] (👨‍👨‍👦‍👦)
+        "\\U0001F468\\u200D\\U0001F468\\u200D\\U0001F467",    // E2.0   [1] (👨‍👨‍👧)
+        "\\U0001F468\\u200D\\U0001F468\\u200D\\U0001F467\\u200D\\U0001F466",    // E2.0   [1] (👨‍👨‍👧‍👦)
+        "\\U0001F468\\u200D\\U0001F468\\u200D\\U0001F467\\u200D\\U0001F467",    // E2.0   [1] (👨‍👨‍👧‍👧)
+        "\\U0001F468\\u200D\\U0001F469\\u200D\\U0001F466",    // E2.0   [1] (👨‍👩‍👦)
+        "\\U0001F468\\u200D\\U0001F469\\u200D\\U0001F466\\u200D\\U0001F466",    // E2.0   [1] (👨‍👩‍👦‍👦)
+        "\\U0001F468\\u200D\\U0001F469\\u200D\\U0001F467",    // E2.0   [1] (👨‍👩‍👧)
+        "\\U0001F468\\u200D\\U0001F469\\u200D\\U0001F467\\u200D\\U0001F466",    // E2.0   [1] (👨‍👩‍👧‍👦)
+        "\\U0001F468\\u200D\\U0001F469\\u200D\\U0001F467\\u200D\\U0001F467",    // E2.0   [1] (👨‍👩‍👧‍👧)
+        "\\U0001F468\\u200D\\U0001F4BB",    // E4.0   [1] (👨‍💻)
+        "\\U0001F468\\u200D\\U0001F4BC",    // E4.0   [1] (👨‍💼)
+        "\\U0001F468\\u200D\\U0001F527",    // E4.0   [1] (👨‍🔧)
+        "\\U0001F468\\u200D\\U0001F52C",    // E4.0   [1] (👨‍🔬)
+        "\\U0001F468\\u200D\\U0001F680",    // E4.0   [1] (👨‍🚀)
+        "\\U0001F468\\u200D\\U0001F692",    // E4.0   [1] (👨‍🚒)
+        "\\U0001F468\\u200D\\U0001F9AF",    // E12.0  [1] (👨‍🦯)
+        "\\U0001F468\\u200D\\U0001F9B0",    // E11.0  [1] (👨‍🦰)
+        "\\U0001F468\\u200D\\U0001F9B1",    // E11.0  [1] (👨‍🦱)
+        "\\U0001F468\\u200D\\U0001F9B2",    // E11.0  [1] (👨‍🦲)
+        "\\U0001F468\\u200D\\U0001F9B3",    // E11.0  [1] (👨‍🦳)
+        "\\U0001F468\\u200D\\U0001F9BC",    // E12.0  [1] (👨‍🦼)
+        "\\U0001F468\\u200D\\U0001F9BD",    // E12.0  [1] (👨‍🦽)
+        "\\U0001F468\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨‍⚕️)
+        "\\U0001F468\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨‍⚖️)
+        "\\U0001F468\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨‍✈️)
+        "\\U0001F468\\u200D\\u2764\\uFE0F\\u200D\\U0001F468",    // E2.0   [1] (👨‍❤️‍👨)
+        "\\U0001F468\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468",    // E2.0   [1] (👨‍❤️‍💋‍👨)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F33E",    // E4.0   [1] (👩🏻‍🌾)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F373",    // E4.0   [1] (👩🏻‍🍳)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F37C",    // E13.0  [1] (👩🏻‍🍼)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F393",    // E4.0   [1] (👩🏻‍🎓)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F3A4",    // E4.0   [1] (👩🏻‍🎤)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F3A8",    // E4.0   [1] (👩🏻‍🎨)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F3EB",    // E4.0   [1] (👩🏻‍🏫)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F3ED",    // E4.0   [1] (👩🏻‍🏭)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F4BB",    // E4.0   [1] (👩🏻‍💻)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F4BC",    // E4.0   [1] (👩🏻‍💼)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F527",    // E4.0   [1] (👩🏻‍🔧)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F52C",    // E4.0   [1] (👩🏻‍🔬)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F680",    // E4.0   [1] (👩🏻‍🚀)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F692",    // E4.0   [1] (👩🏻‍🚒)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // E12.0[1] (👩🏻‍🤝‍👨🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // E12.0  [1] (👩🏻‍🤝‍👨🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.0[1] (👩🏻‍🤝‍👨🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.0  [1] (👩🏻‍🤝‍👨🏿)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FC",    // E12.1  [1] (👩🏻‍🤝‍👩🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FD",    // E12.1  [1] (👩🏻‍🤝‍👩🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FE",    // E12.1  [1] (👩🏻‍🤝‍👩🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FF",    // E12.1  [1] (👩🏻‍🤝‍👩🏿)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9AF",    // E12.0  [1] (👩🏻‍🦯)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B0",    // E11.0  [1] (👩🏻‍🦰)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B1",    // E11.0  [1] (👩🏻‍🦱)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B2",    // E11.0  [1] (👩🏻‍🦲)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B3",    // E11.0  [1] (👩🏻‍🦳)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9BC",    // E12.0  [1] (👩🏻‍🦼)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9BD",    // E12.0  [1] (👩🏻‍🦽)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩🏻‍⚕️)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩🏻‍⚖️)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩🏻‍✈️)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👩🏻‍❤️‍👨🏻)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏻‍❤️‍👨🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1 [1] (👩🏻‍❤️‍👨🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏻‍❤️‍👨🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏻‍❤️‍👨🏿)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FB",    // E13.1  [1] (👩🏻‍❤️‍👩🏻)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏻‍❤️‍👩🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏻‍❤️‍👩🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏻‍❤️‍👩🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FF",    // E13.1 [1] (👩🏻‍❤️‍👩🏿)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👩🏻‍❤️‍💋‍👨🏻)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏻‍❤️‍💋‍👨🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👩🏻‍❤️‍💋‍👨🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1 [1] (👩🏻‍❤️‍💋‍👨🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏻‍❤️‍💋‍👨🏿)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // E13.1  [1] (👩🏻‍❤️‍💋‍👩🏻)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏻‍❤️‍💋‍👩🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // E13.1  [1] (👩🏻‍❤️‍💋‍👩🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏻‍❤️‍💋‍👩🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // E13.1  [1] (👩🏻‍❤️‍💋‍👩🏿)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F33E",    // E4.0   [1] (👩🏼‍🌾)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F373",    // E4.0   [1] (👩🏼‍🍳)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F37C",    // E13.0  [1] (👩🏼‍🍼)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F393",    // E4.0   [1] (👩🏼‍🎓)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F3A4",    // E4.0   [1] (👩🏼‍🎤)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F3A8",    // E4.0   [1] (👩🏼‍🎨)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F3EB",    // E4.0   [1] (👩🏼‍🏫)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F3ED",    // E4.0   [1] (👩🏼‍🏭)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F4BB",    // E4.0   [1] (👩🏼‍💻)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F4BC",    // E4.0   [1] (👩🏼‍💼)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F527",    // E4.0   [1] (👩🏼‍🔧)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F52C",    // E4.0   [1] (👩🏼‍🔬)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F680",    // E4.0   [1] (👩🏼‍🚀)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F692",    // E4.0   [1] (👩🏼‍🚒)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // E12.0[1] (👩🏼‍🤝‍👨🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // E12.0[1] (👩🏼‍🤝‍👨🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.0[1] (👩🏼‍🤝‍👨🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.0[1] (👩🏼‍🤝‍👨🏿)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FB",    // E12.0  [1] (👩🏼‍🤝‍👩🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FD",    // E12.1  [1] (👩🏼‍🤝‍👩🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FE",    // E12.1[1] (👩🏼‍🤝‍👩🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FF",    // E12.1  [1] (👩🏼‍🤝‍👩🏿)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9AF",    // E12.0  [1] (👩🏼‍🦯)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B0",    // E11.0  [1] (👩🏼‍🦰)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B1",    // E11.0  [1] (👩🏼‍🦱)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B2",    // E11.0  [1] (👩🏼‍🦲)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B3",    // E11.0  [1] (👩🏼‍🦳)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9BC",    // E12.0  [1] (👩🏼‍🦼)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9BD",    // E12.0  [1] (👩🏼‍🦽)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩🏼‍⚕️)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩🏼‍⚖️)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩🏼‍✈️)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1[1] (👩🏼‍❤️‍👨🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👩🏼‍❤️‍👨🏼)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👩🏼‍❤️‍👨🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏼‍❤️‍👨🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1[1] (👩🏼‍❤️‍👨🏿)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FB",    // E13.1[1] (👩🏼‍❤️‍👩🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FC",    // E13.1  [1] (👩🏼‍❤️‍👩🏼)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏼‍❤️‍👩🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏼‍❤️‍👩🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FF",    // E13.1[1] (👩🏼‍❤️‍👩🏿)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1[1] (👩🏼‍❤️‍💋‍👨🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👩🏼‍❤️‍💋‍👨🏼)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👩🏼‍❤️‍💋‍👨🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏼‍❤️‍💋‍👨🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1 [1] (👩🏼‍❤️‍💋‍👨🏿)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // E13.1[1] (👩🏼‍❤️‍💋‍👩🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // E13.1  [1] (👩🏼‍❤️‍💋‍👩🏼)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏼‍❤️‍💋‍👩🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏼‍❤️‍💋‍👩🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // E13.1[1] (👩🏼‍❤️‍💋‍👩🏿)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F33E",    // E4.0   [1] (👩🏽‍🌾)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F373",    // E4.0   [1] (👩🏽‍🍳)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F37C",    // E13.0  [1] (👩🏽‍🍼)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F393",    // E4.0   [1] (👩🏽‍🎓)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F3A4",    // E4.0   [1] (👩🏽‍🎤)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F3A8",    // E4.0   [1] (👩🏽‍🎨)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F3EB",    // E4.0   [1] (👩🏽‍🏫)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F3ED",    // E4.0   [1] (👩🏽‍🏭)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F4BB",    // E4.0   [1] (👩🏽‍💻)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F4BC",    // E4.0   [1] (👩🏽‍💼)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F527",    // E4.0   [1] (👩🏽‍🔧)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F52C",    // E4.0   [1] (👩🏽‍🔬)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F680",    // E4.0   [1] (👩🏽‍🚀)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F692",    // E4.0   [1] (👩🏽‍🚒)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // E12.0  [1] (👩🏽‍🤝‍👨🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // E12.0[1] (👩🏽‍🤝‍👨🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.0[1] (👩🏽‍🤝‍👨🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.0  [1] (👩🏽‍🤝‍👨🏿)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FB",    // E12.0  [1] (👩🏽‍🤝‍👩🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FC",    // E12.0  [1] (👩🏽‍🤝‍👩🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FE",    // E12.1  [1] (👩🏽‍🤝‍👩🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FF",    // E12.1  [1] (👩🏽‍🤝‍👩🏿)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9AF",    // E12.0  [1] (👩🏽‍🦯)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B0",    // E11.0  [1] (👩🏽‍🦰)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B1",    // E11.0  [1] (👩🏽‍🦱)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B2",    // E11.0  [1] (👩🏽‍🦲)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B3",    // E11.0  [1] (👩🏽‍🦳)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9BC",    // E12.0  [1] (👩🏽‍🦼)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9BD",    // E12.0  [1] (👩🏽‍🦽)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩🏽‍⚕️)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩🏽‍⚖️)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩🏽‍✈️)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1 [1] (👩🏽‍❤️‍👨🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏽‍❤️‍👨🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👩🏽‍❤️‍👨🏽)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏽‍❤️‍👨🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏽‍❤️‍👨🏿)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FB",    // E13.1[1] (👩🏽‍❤️‍👩🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏽‍❤️‍👩🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FD",    // E13.1  [1] (👩🏽‍❤️‍👩🏽)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏽‍❤️‍👩🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FF",    // E13.1[1] (👩🏽‍❤️‍👩🏿)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👩🏽‍❤️‍💋‍👨🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏽‍❤️‍💋‍👨🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👩🏽‍❤️‍💋‍👨🏽)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏽‍❤️‍💋‍👨🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏽‍❤️‍💋‍👨🏿)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // E13.1  [1] (👩🏽‍❤️‍💋‍👩🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏽‍❤️‍💋‍👩🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // E13.1  [1] (👩🏽‍❤️‍💋‍👩🏽)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏽‍❤️‍💋‍👩🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // E13.1  [1] (👩🏽‍❤️‍💋‍👩🏿)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F33E",    // E4.0   [1] (👩🏾‍🌾)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F373",    // E4.0   [1] (👩🏾‍🍳)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F37C",    // E13.0  [1] (👩🏾‍🍼)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F393",    // E4.0   [1] (👩🏾‍🎓)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F3A4",    // E4.0   [1] (👩🏾‍🎤)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F3A8",    // E4.0   [1] (👩🏾‍🎨)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F3EB",    // E4.0   [1] (👩🏾‍🏫)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F3ED",    // E4.0   [1] (👩🏾‍🏭)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F4BB",    // E4.0   [1] (👩🏾‍💻)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F4BC",    // E4.0   [1] (👩🏾‍💼)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F527",    // E4.0   [1] (👩🏾‍🔧)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F52C",    // E4.0   [1] (👩🏾‍🔬)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F680",    // E4.0   [1] (👩🏾‍🚀)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F692",    // E4.0   [1] (👩🏾‍🚒)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // E12.0[1] (👩🏾‍🤝‍👨🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // E12.0[1] (👩🏾‍🤝‍👨🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // E12.0[1] (👩🏾‍🤝‍👨🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.0[1] (👩🏾‍🤝‍👨🏿)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FB",    // E12.0  [1] (👩🏾‍🤝‍👩🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FC",    // E12.0[1] (👩🏾‍🤝‍👩🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FD",    // E12.0  [1] (👩🏾‍🤝‍👩🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FF",    // E12.1  [1] (👩🏾‍🤝‍👩🏿)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9AF",    // E12.0  [1] (👩🏾‍🦯)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B0",    // E11.0  [1] (👩🏾‍🦰)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B1",    // E11.0  [1] (👩🏾‍🦱)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B2",    // E11.0  [1] (👩🏾‍🦲)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B3",    // E11.0  [1] (👩🏾‍🦳)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9BC",    // E12.0  [1] (👩🏾‍🦼)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9BD",    // E12.0  [1] (👩🏾‍🦽)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩🏾‍⚕️)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩🏾‍⚖️)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩🏾‍✈️)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1[1] (👩🏾‍❤️‍👨🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏾‍❤️‍👨🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👩🏾‍❤️‍👨🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👩🏾‍❤️‍👨🏾)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1[1] (👩🏾‍❤️‍👨🏿)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FB",    // E13.1[1] (👩🏾‍❤️‍👩🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏾‍❤️‍👩🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏾‍❤️‍👩🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FE",    // E13.1  [1] (👩🏾‍❤️‍👩🏾)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FF",    // E13.1[1] (👩🏾‍❤️‍👩🏿)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1 [1] (👩🏾‍❤️‍💋‍👨🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏾‍❤️‍💋‍👨🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👩🏾‍❤️‍💋‍👨🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👩🏾‍❤️‍💋‍👨🏾)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏾‍❤️‍💋‍👨🏿)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // E13.1[1] (👩🏾‍❤️‍💋‍👩🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏾‍❤️‍💋‍👩🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏾‍❤️‍💋‍👩🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // E13.1  [1] (👩🏾‍❤️‍💋‍👩🏾)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // E13.1[1] (👩🏾‍❤️‍💋‍👩🏿)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F33E",    // E4.0   [1] (👩🏿‍🌾)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F373",    // E4.0   [1] (👩🏿‍🍳)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F37C",    // E13.0  [1] (👩🏿‍🍼)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F393",    // E4.0   [1] (👩🏿‍🎓)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F3A4",    // E4.0   [1] (👩🏿‍🎤)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F3A8",    // E4.0   [1] (👩🏿‍🎨)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F3EB",    // E4.0   [1] (👩🏿‍🏫)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F3ED",    // E4.0   [1] (👩🏿‍🏭)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F4BB",    // E4.0   [1] (👩🏿‍💻)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F4BC",    // E4.0   [1] (👩🏿‍💼)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F527",    // E4.0   [1] (👩🏿‍🔧)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F52C",    // E4.0   [1] (👩🏿‍🔬)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F680",    // E4.0   [1] (👩🏿‍🚀)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F692",    // E4.0   [1] (👩🏿‍🚒)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // E12.0  [1] (👩🏿‍🤝‍👨🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // E12.0[1] (👩🏿‍🤝‍👨🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // E12.0  [1] (👩🏿‍🤝‍👨🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.0[1] (👩🏿‍🤝‍👨🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FB",    // E12.0  [1] (👩🏿‍🤝‍👩🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FC",    // E12.0  [1] (👩🏿‍🤝‍👩🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FD",    // E12.0  [1] (👩🏿‍🤝‍👩🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FE",    // E12.0  [1] (👩🏿‍🤝‍👩🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9AF",    // E12.0  [1] (👩🏿‍🦯)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B0",    // E11.0  [1] (👩🏿‍🦰)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B1",    // E11.0  [1] (👩🏿‍🦱)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B2",    // E11.0  [1] (👩🏿‍🦲)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B3",    // E11.0  [1] (👩🏿‍🦳)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9BC",    // E12.0  [1] (👩🏿‍🦼)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9BD",    // E12.0  [1] (👩🏿‍🦽)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩🏿‍⚕️)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩🏿‍⚖️)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩🏿‍✈️)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👩🏿‍❤️‍👨🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏿‍❤️‍👨🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👩🏿‍❤️‍👨🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏿‍❤️‍👨🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏿‍❤️‍👨🏿)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FB",    // E13.1 [1] (👩🏿‍❤️‍👩🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏿‍❤️‍👩🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏿‍❤️‍👩🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏿‍❤️‍👩🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FF",    // E13.1  [1] (👩🏿‍❤️‍👩🏿)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👩🏿‍❤️‍💋‍👨🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1 [1] (👩🏿‍❤️‍💋‍👨🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👩🏿‍❤️‍💋‍👨🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👩🏿‍❤️‍💋‍👨🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏿‍❤️‍💋‍👨🏿)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // E13.1  [1] (👩🏿‍❤️‍💋‍👩🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏿‍❤️‍💋‍👩🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // E13.1  [1] (👩🏿‍❤️‍💋‍👩🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏿‍❤️‍💋‍👩🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // E13.1  [1] (👩🏿‍❤️‍💋‍👩🏿)
+        "\\U0001F469\\u200D\\U0001F33E",    // E4.0   [1] (👩‍🌾)
+        "\\U0001F469\\u200D\\U0001F373",    // E4.0   [1] (👩‍🍳)
+        "\\U0001F469\\u200D\\U0001F37C",    // E13.0  [1] (👩‍🍼)
+        "\\U0001F469\\u200D\\U0001F393",    // E4.0   [1] (👩‍🎓)
+        "\\U0001F469\\u200D\\U0001F3A4",    // E4.0   [1] (👩‍🎤)
+        "\\U0001F469\\u200D\\U0001F3A8",    // E4.0   [1] (👩‍🎨)
+        "\\U0001F469\\u200D\\U0001F3EB",    // E4.0   [1] (👩‍🏫)
+        "\\U0001F469\\u200D\\U0001F3ED",    // E4.0   [1] (👩‍🏭)
+        "\\U0001F469\\u200D\\U0001F466",    // E4.0   [1] (👩‍👦)
+        "\\U0001F469\\u200D\\U0001F466\\u200D\\U0001F466",    // E4.0   [1] (👩‍👦‍👦)
+        "\\U0001F469\\u200D\\U0001F467",    // E4.0   [1] (👩‍👧)
+        "\\U0001F469\\u200D\\U0001F467\\u200D\\U0001F466",    // E4.0   [1] (👩‍👧‍👦)
+        "\\U0001F469\\u200D\\U0001F467\\u200D\\U0001F467",    // E4.0   [1] (👩‍👧‍👧)
+        "\\U0001F469\\u200D\\U0001F469\\u200D\\U0001F466",    // E2.0   [1] (👩‍👩‍👦)
+        "\\U0001F469\\u200D\\U0001F469\\u200D\\U0001F466\\u200D\\U0001F466",    // E2.0   [1] (👩‍👩‍👦‍👦)
+        "\\U0001F469\\u200D\\U0001F469\\u200D\\U0001F467",    // E2.0   [1] (👩‍👩‍👧)
+        "\\U0001F469\\u200D\\U0001F469\\u200D\\U0001F467\\u200D\\U0001F466",    // E2.0   [1] (👩‍👩‍👧‍👦)
+        "\\U0001F469\\u200D\\U0001F469\\u200D\\U0001F467\\u200D\\U0001F467",    // E2.0   [1] (👩‍👩‍👧‍👧)
+        "\\U0001F469\\u200D\\U0001F4BB",    // E4.0   [1] (👩‍💻)
+        "\\U0001F469\\u200D\\U0001F4BC",    // E4.0   [1] (👩‍💼)
+        "\\U0001F469\\u200D\\U0001F527",    // E4.0   [1] (👩‍🔧)
+        "\\U0001F469\\u200D\\U0001F52C",    // E4.0   [1] (👩‍🔬)
+        "\\U0001F469\\u200D\\U0001F680",    // E4.0   [1] (👩‍🚀)
+        "\\U0001F469\\u200D\\U0001F692",    // E4.0   [1] (👩‍🚒)
+        "\\U0001F469\\u200D\\U0001F9AF",    // E12.0  [1] (👩‍🦯)
+        "\\U0001F469\\u200D\\U0001F9B0",    // E11.0  [1] (👩‍🦰)
+        "\\U0001F469\\u200D\\U0001F9B1",    // E11.0  [1] (👩‍🦱)
+        "\\U0001F469\\u200D\\U0001F9B2",    // E11.0  [1] (👩‍🦲)
+        "\\U0001F469\\u200D\\U0001F9B3",    // E11.0  [1] (👩‍🦳)
+        "\\U0001F469\\u200D\\U0001F9BC",    // E12.0  [1] (👩‍🦼)
+        "\\U0001F469\\u200D\\U0001F9BD",    // E12.0  [1] (👩‍🦽)
+        "\\U0001F469\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩‍⚕️)
+        "\\U0001F469\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩‍⚖️)
+        "\\U0001F469\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩‍✈️)
+        "\\U0001F469\\u200D\\u2764\\uFE0F\\u200D\\U0001F468",    // E2.0   [1] (👩‍❤️‍👨)
+        "\\U0001F469\\u200D\\u2764\\uFE0F\\u200D\\U0001F469",    // E2.0   [1] (👩‍❤️‍👩)
+        "\\U0001F469\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468",    // E2.0   [1] (👩‍❤️‍💋‍👨)
+        "\\U0001F469\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469",    // E2.0   [1] (👩‍❤️‍💋‍👩)
+        "\\U0001F46E\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👮🏻‍♀️)
+        "\\U0001F46E\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👮🏻‍♂️)
+        "\\U0001F46E\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👮🏼‍♀️)
+        "\\U0001F46E\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👮🏼‍♂️)
+        "\\U0001F46E\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👮🏽‍♀️)
+        "\\U0001F46E\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👮🏽‍♂️)
+        "\\U0001F46E\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👮🏾‍♀️)
+        "\\U0001F46E\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👮🏾‍♂️)
+        "\\U0001F46E\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👮🏿‍♀️)
+        "\\U0001F46E\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👮🏿‍♂️)
+        "\\U0001F46E\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👮‍♀️)
+        "\\U0001F46E\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👮‍♂️)
+        "\\U0001F46F\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👯‍♀️)
+        "\\U0001F46F\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👯‍♂️)
+        "\\U0001F470\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E13.0  [1] (👰🏻‍♀️)
+        "\\U0001F470\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E13.0  [1] (👰🏻‍♂️)
+        "\\U0001F470\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E13.0  [1] (👰🏼‍♀️)
+        "\\U0001F470\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E13.0  [1] (👰🏼‍♂️)
+        "\\U0001F470\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E13.0  [1] (👰🏽‍♀️)
+        "\\U0001F470\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E13.0  [1] (👰🏽‍♂️)
+        "\\U0001F470\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E13.0  [1] (👰🏾‍♀️)
+        "\\U0001F470\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E13.0  [1] (👰🏾‍♂️)
+        "\\U0001F470\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E13.0  [1] (👰🏿‍♀️)
+        "\\U0001F470\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E13.0  [1] (👰🏿‍♂️)
+        "\\U0001F470\\u200D\\u2640\\uFE0F",    // E13.0  [1] (👰‍♀️)
+        "\\U0001F470\\u200D\\u2642\\uFE0F",    // E13.0  [1] (👰‍♂️)
+        "\\U0001F471\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👱🏻‍♀️)
+        "\\U0001F471\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👱🏻‍♂️)
+        "\\U0001F471\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👱🏼‍♀️)
+        "\\U0001F471\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👱🏼‍♂️)
+        "\\U0001F471\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👱🏽‍♀️)
+        "\\U0001F471\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👱🏽‍♂️)
+        "\\U0001F471\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👱🏾‍♀️)
+        "\\U0001F471\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👱🏾‍♂️)
+        "\\U0001F471\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👱🏿‍♀️)
+        "\\U0001F471\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👱🏿‍♂️)
+        "\\U0001F471\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👱‍♀️)
+        "\\U0001F471\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👱‍♂️)
+        "\\U0001F473\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👳🏻‍♀️)
+        "\\U0001F473\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👳🏻‍♂️)
+        "\\U0001F473\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👳🏼‍♀️)
+        "\\U0001F473\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👳🏼‍♂️)
+        "\\U0001F473\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👳🏽‍♀️)
+        "\\U0001F473\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👳🏽‍♂️)
+        "\\U0001F473\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👳🏾‍♀️)
+        "\\U0001F473\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👳🏾‍♂️)
+        "\\U0001F473\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👳🏿‍♀️)
+        "\\U0001F473\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👳🏿‍♂️)
+        "\\U0001F473\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👳‍♀️)
+        "\\U0001F473\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👳‍♂️)
+        "\\U0001F477\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👷🏻‍♀️)
+        "\\U0001F477\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👷🏻‍♂️)
+        "\\U0001F477\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👷🏼‍♀️)
+        "\\U0001F477\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👷🏼‍♂️)
+        "\\U0001F477\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👷🏽‍♀️)
+        "\\U0001F477\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👷🏽‍♂️)
+        "\\U0001F477\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👷🏾‍♀️)
+        "\\U0001F477\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👷🏾‍♂️)
+        "\\U0001F477\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👷🏿‍♀️)
+        "\\U0001F477\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👷🏿‍♂️)
+        "\\U0001F477\\u200D\\u2640\\uFE0F",    // E4.0   [1] (👷‍♀️)
+        "\\U0001F477\\u200D\\u2642\\uFE0F",    // E4.0   [1] (👷‍♂️)
+        "\\U0001F481\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💁🏻‍♀️)
+        "\\U0001F481\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💁🏻‍♂️)
+        "\\U0001F481\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💁🏼‍♀️)
+        "\\U0001F481\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💁🏼‍♂️)
+        "\\U0001F481\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💁🏽‍♀️)
+        "\\U0001F481\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💁🏽‍♂️)
+        "\\U0001F481\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💁🏾‍♀️)
+        "\\U0001F481\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💁🏾‍♂️)
+        "\\U0001F481\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💁🏿‍♀️)
+        "\\U0001F481\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💁🏿‍♂️)
+        "\\U0001F481\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💁‍♀️)
+        "\\U0001F481\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💁‍♂️)
+        "\\U0001F482\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💂🏻‍♀️)
+        "\\U0001F482\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💂🏻‍♂️)
+        "\\U0001F482\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💂🏼‍♀️)
+        "\\U0001F482\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💂🏼‍♂️)
+        "\\U0001F482\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💂🏽‍♀️)
+        "\\U0001F482\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💂🏽‍♂️)
+        "\\U0001F482\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💂🏾‍♀️)
+        "\\U0001F482\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💂🏾‍♂️)
+        "\\U0001F482\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💂🏿‍♀️)
+        "\\U0001F482\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💂🏿‍♂️)
+        "\\U0001F482\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💂‍♀️)
+        "\\U0001F482\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💂‍♂️)
+        "\\U0001F486\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💆🏻‍♀️)
+        "\\U0001F486\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💆🏻‍♂️)
+        "\\U0001F486\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💆🏼‍♀️)
+        "\\U0001F486\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💆🏼‍♂️)
+        "\\U0001F486\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💆🏽‍♀️)
+        "\\U0001F486\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💆🏽‍♂️)
+        "\\U0001F486\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💆🏾‍♀️)
+        "\\U0001F486\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💆🏾‍♂️)
+        "\\U0001F486\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💆🏿‍♀️)
+        "\\U0001F486\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💆🏿‍♂️)
+        "\\U0001F486\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💆‍♀️)
+        "\\U0001F486\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💆‍♂️)
+        "\\U0001F487\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💇🏻‍♀️)
+        "\\U0001F487\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💇🏻‍♂️)
+        "\\U0001F487\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💇🏼‍♀️)
+        "\\U0001F487\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💇🏼‍♂️)
+        "\\U0001F487\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💇🏽‍♀️)
+        "\\U0001F487\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💇🏽‍♂️)
+        "\\U0001F487\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💇🏾‍♀️)
+        "\\U0001F487\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💇🏾‍♂️)
+        "\\U0001F487\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💇🏿‍♀️)
+        "\\U0001F487\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💇🏿‍♂️)
+        "\\U0001F487\\u200D\\u2640\\uFE0F",    // E4.0   [1] (💇‍♀️)
+        "\\U0001F487\\u200D\\u2642\\uFE0F",    // E4.0   [1] (💇‍♂️)
+        "\\U0001F575\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🕵🏻‍♀️)
+        "\\U0001F575\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🕵🏻‍♂️)
+        "\\U0001F575\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🕵🏼‍♀️)
+        "\\U0001F575\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🕵🏼‍♂️)
+        "\\U0001F575\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🕵🏽‍♀️)
+        "\\U0001F575\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🕵🏽‍♂️)
+        "\\U0001F575\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🕵🏾‍♀️)
+        "\\U0001F575\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🕵🏾‍♂️)
+        "\\U0001F575\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🕵🏿‍♀️)
+        "\\U0001F575\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🕵🏿‍♂️)
+        "\\U0001F575\\uFE0F\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🕵️‍♀️)
+        "\\U0001F575\\uFE0F\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🕵️‍♂️)
+        "\\U0001F62E\\u200D\\U0001F4A8",    // E13.1  [1] (😮‍💨)
+        "\\U0001F635\\u200D\\U0001F4AB",    // E13.1  [1] (😵‍💫)
+        "\\U0001F636\\u200D\\U0001F32B\\uFE0F",    // E13.1  [1] (😶‍🌫️)
+        "\\U0001F645\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙅🏻‍♀️)
+        "\\U0001F645\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙅🏻‍♂️)
+        "\\U0001F645\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙅🏼‍♀️)
+        "\\U0001F645\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙅🏼‍♂️)
+        "\\U0001F645\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙅🏽‍♀️)
+        "\\U0001F645\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙅🏽‍♂️)
+        "\\U0001F645\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙅🏾‍♀️)
+        "\\U0001F645\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙅🏾‍♂️)
+        "\\U0001F645\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙅🏿‍♀️)
+        "\\U0001F645\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙅🏿‍♂️)
+        "\\U0001F645\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙅‍♀️)
+        "\\U0001F645\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙅‍♂️)
+        "\\U0001F646\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙆🏻‍♀️)
+        "\\U0001F646\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙆🏻‍♂️)
+        "\\U0001F646\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙆🏼‍♀️)
+        "\\U0001F646\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙆🏼‍♂️)
+        "\\U0001F646\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙆🏽‍♀️)
+        "\\U0001F646\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙆🏽‍♂️)
+        "\\U0001F646\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙆🏾‍♀️)
+        "\\U0001F646\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙆🏾‍♂️)
+        "\\U0001F646\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙆🏿‍♀️)
+        "\\U0001F646\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙆🏿‍♂️)
+        "\\U0001F646\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙆‍♀️)
+        "\\U0001F646\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙆‍♂️)
+        "\\U0001F647\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙇🏻‍♀️)
+        "\\U0001F647\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙇🏻‍♂️)
+        "\\U0001F647\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙇🏼‍♀️)
+        "\\U0001F647\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙇🏼‍♂️)
+        "\\U0001F647\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙇🏽‍♀️)
+        "\\U0001F647\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙇🏽‍♂️)
+        "\\U0001F647\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙇🏾‍♀️)
+        "\\U0001F647\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙇🏾‍♂️)
+        "\\U0001F647\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙇🏿‍♀️)
+        "\\U0001F647\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙇🏿‍♂️)
+        "\\U0001F647\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙇‍♀️)
+        "\\U0001F647\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙇‍♂️)
+        "\\U0001F64B\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙋🏻‍♀️)
+        "\\U0001F64B\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙋🏻‍♂️)
+        "\\U0001F64B\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙋🏼‍♀️)
+        "\\U0001F64B\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙋🏼‍♂️)
+        "\\U0001F64B\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙋🏽‍♀️)
+        "\\U0001F64B\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙋🏽‍♂️)
+        "\\U0001F64B\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙋🏾‍♀️)
+        "\\U0001F64B\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙋🏾‍♂️)
+        "\\U0001F64B\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙋🏿‍♀️)
+        "\\U0001F64B\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙋🏿‍♂️)
+        "\\U0001F64B\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙋‍♀️)
+        "\\U0001F64B\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙋‍♂️)
+        "\\U0001F64D\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙍🏻‍♀️)
+        "\\U0001F64D\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙍🏻‍♂️)
+        "\\U0001F64D\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙍🏼‍♀️)
+        "\\U0001F64D\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙍🏼‍♂️)
+        "\\U0001F64D\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙍🏽‍♀️)
+        "\\U0001F64D\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙍🏽‍♂️)
+        "\\U0001F64D\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙍🏾‍♀️)
+        "\\U0001F64D\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙍🏾‍♂️)
+        "\\U0001F64D\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙍🏿‍♀️)
+        "\\U0001F64D\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙍🏿‍♂️)
+        "\\U0001F64D\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙍‍♀️)
+        "\\U0001F64D\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙍‍♂️)
+        "\\U0001F64E\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙎🏻‍♀️)
+        "\\U0001F64E\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙎🏻‍♂️)
+        "\\U0001F64E\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙎🏼‍♀️)
+        "\\U0001F64E\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙎🏼‍♂️)
+        "\\U0001F64E\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙎🏽‍♀️)
+        "\\U0001F64E\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙎🏽‍♂️)
+        "\\U0001F64E\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙎🏾‍♀️)
+        "\\U0001F64E\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙎🏾‍♂️)
+        "\\U0001F64E\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙎🏿‍♀️)
+        "\\U0001F64E\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙎🏿‍♂️)
+        "\\U0001F64E\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙎‍♀️)
+        "\\U0001F64E\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙎‍♂️)
+        "\\U0001F6A3\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚣🏻‍♀️)
+        "\\U0001F6A3\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚣🏻‍♂️)
+        "\\U0001F6A3\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚣🏼‍♀️)
+        "\\U0001F6A3\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚣🏼‍♂️)
+        "\\U0001F6A3\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚣🏽‍♀️)
+        "\\U0001F6A3\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚣🏽‍♂️)
+        "\\U0001F6A3\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚣🏾‍♀️)
+        "\\U0001F6A3\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚣🏾‍♂️)
+        "\\U0001F6A3\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚣🏿‍♀️)
+        "\\U0001F6A3\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚣🏿‍♂️)
+        "\\U0001F6A3\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚣‍♀️)
+        "\\U0001F6A3\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚣‍♂️)
+        "\\U0001F6B4\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚴🏻‍♀️)
+        "\\U0001F6B4\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚴🏻‍♂️)
+        "\\U0001F6B4\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚴🏼‍♀️)
+        "\\U0001F6B4\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚴🏼‍♂️)
+        "\\U0001F6B4\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚴🏽‍♀️)
+        "\\U0001F6B4\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚴🏽‍♂️)
+        "\\U0001F6B4\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚴🏾‍♀️)
+        "\\U0001F6B4\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚴🏾‍♂️)
+        "\\U0001F6B4\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚴🏿‍♀️)
+        "\\U0001F6B4\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚴🏿‍♂️)
+        "\\U0001F6B4\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚴‍♀️)
+        "\\U0001F6B4\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚴‍♂️)
+        "\\U0001F6B5\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚵🏻‍♀️)
+        "\\U0001F6B5\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚵🏻‍♂️)
+        "\\U0001F6B5\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚵🏼‍♀️)
+        "\\U0001F6B5\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚵🏼‍♂️)
+        "\\U0001F6B5\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚵🏽‍♀️)
+        "\\U0001F6B5\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚵🏽‍♂️)
+        "\\U0001F6B5\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚵🏾‍♀️)
+        "\\U0001F6B5\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚵🏾‍♂️)
+        "\\U0001F6B5\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚵🏿‍♀️)
+        "\\U0001F6B5\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚵🏿‍♂️)
+        "\\U0001F6B5\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚵‍♀️)
+        "\\U0001F6B5\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚵‍♂️)
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶🏻‍♀️)
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶🏻‍♂️)
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶🏼‍♀️)
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶🏼‍♂️)
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶🏽‍♀️)
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶🏽‍♂️)
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶🏾‍♀️)
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶🏾‍♂️)
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶🏿‍♀️)
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶🏿‍♂️)
+        "\\U0001F6B6\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶‍♀️)
+        "\\U0001F6B6\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶‍♂️)
+        "\\U0001F926\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤦🏻‍♀️)
+        "\\U0001F926\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤦🏻‍♂️)
+        "\\U0001F926\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤦🏼‍♀️)
+        "\\U0001F926\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤦🏼‍♂️)
+        "\\U0001F926\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤦🏽‍♀️)
+        "\\U0001F926\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤦🏽‍♂️)
+        "\\U0001F926\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤦🏾‍♀️)
+        "\\U0001F926\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤦🏾‍♂️)
+        "\\U0001F926\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤦🏿‍♀️)
+        "\\U0001F926\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤦🏿‍♂️)
+        "\\U0001F926\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤦‍♀️)
+        "\\U0001F926\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤦‍♂️)
+        "\\U0001F935\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E13.0  [1] (🤵🏻‍♀️)
+        "\\U0001F935\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E13.0  [1] (🤵🏻‍♂️)
+        "\\U0001F935\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E13.0  [1] (🤵🏼‍♀️)
+        "\\U0001F935\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E13.0  [1] (🤵🏼‍♂️)
+        "\\U0001F935\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E13.0  [1] (🤵🏽‍♀️)
+        "\\U0001F935\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E13.0  [1] (🤵🏽‍♂️)
+        "\\U0001F935\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E13.0  [1] (🤵🏾‍♀️)
+        "\\U0001F935\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E13.0  [1] (🤵🏾‍♂️)
+        "\\U0001F935\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E13.0  [1] (🤵🏿‍♀️)
+        "\\U0001F935\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E13.0  [1] (🤵🏿‍♂️)
+        "\\U0001F935\\u200D\\u2640\\uFE0F",    // E13.0  [1] (🤵‍♀️)
+        "\\U0001F935\\u200D\\u2642\\uFE0F",    // E13.0  [1] (🤵‍♂️)
+        "\\U0001F937\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤷🏻‍♀️)
+        "\\U0001F937\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤷🏻‍♂️)
+        "\\U0001F937\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤷🏼‍♀️)
+        "\\U0001F937\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤷🏼‍♂️)
+        "\\U0001F937\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤷🏽‍♀️)
+        "\\U0001F937\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤷🏽‍♂️)
+        "\\U0001F937\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤷🏾‍♀️)
+        "\\U0001F937\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤷🏾‍♂️)
+        "\\U0001F937\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤷🏿‍♀️)
+        "\\U0001F937\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤷🏿‍♂️)
+        "\\U0001F937\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤷‍♀️)
+        "\\U0001F937\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤷‍♂️)
+        "\\U0001F938\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤸🏻‍♀️)
+        "\\U0001F938\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤸🏻‍♂️)
+        "\\U0001F938\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤸🏼‍♀️)
+        "\\U0001F938\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤸🏼‍♂️)
+        "\\U0001F938\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤸🏽‍♀️)
+        "\\U0001F938\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤸🏽‍♂️)
+        "\\U0001F938\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤸🏾‍♀️)
+        "\\U0001F938\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤸🏾‍♂️)
+        "\\U0001F938\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤸🏿‍♀️)
+        "\\U0001F938\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤸🏿‍♂️)
+        "\\U0001F938\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤸‍♀️)
+        "\\U0001F938\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤸‍♂️)
+        "\\U0001F939\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤹🏻‍♀️)
+        "\\U0001F939\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤹🏻‍♂️)
+        "\\U0001F939\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤹🏼‍♀️)
+        "\\U0001F939\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤹🏼‍♂️)
+        "\\U0001F939\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤹🏽‍♀️)
+        "\\U0001F939\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤹🏽‍♂️)
+        "\\U0001F939\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤹🏾‍♀️)
+        "\\U0001F939\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤹🏾‍♂️)
+        "\\U0001F939\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤹🏿‍♀️)
+        "\\U0001F939\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤹🏿‍♂️)
+        "\\U0001F939\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤹‍♀️)
+        "\\U0001F939\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤹‍♂️)
+        "\\U0001F93C\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤼‍♀️)
+        "\\U0001F93C\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤼‍♂️)
+        "\\U0001F93D\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤽🏻‍♀️)
+        "\\U0001F93D\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤽🏻‍♂️)
+        "\\U0001F93D\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤽🏼‍♀️)
+        "\\U0001F93D\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤽🏼‍♂️)
+        "\\U0001F93D\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤽🏽‍♀️)
+        "\\U0001F93D\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤽🏽‍♂️)
+        "\\U0001F93D\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤽🏾‍♀️)
+        "\\U0001F93D\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤽🏾‍♂️)
+        "\\U0001F93D\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤽🏿‍♀️)
+        "\\U0001F93D\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤽🏿‍♂️)
+        "\\U0001F93D\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤽‍♀️)
+        "\\U0001F93D\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤽‍♂️)
+        "\\U0001F93E\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤾🏻‍♀️)
+        "\\U0001F93E\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤾🏻‍♂️)
+        "\\U0001F93E\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤾🏼‍♀️)
+        "\\U0001F93E\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤾🏼‍♂️)
+        "\\U0001F93E\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤾🏽‍♀️)
+        "\\U0001F93E\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤾🏽‍♂️)
+        "\\U0001F93E\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤾🏾‍♀️)
+        "\\U0001F93E\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤾🏾‍♂️)
+        "\\U0001F93E\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤾🏿‍♀️)
+        "\\U0001F93E\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤾🏿‍♂️)
+        "\\U0001F93E\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤾‍♀️)
+        "\\U0001F93E\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤾‍♂️)
+        "\\U0001F9B8\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦸🏻‍♀️)
+        "\\U0001F9B8\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦸🏻‍♂️)
+        "\\U0001F9B8\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦸🏼‍♀️)
+        "\\U0001F9B8\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦸🏼‍♂️)
+        "\\U0001F9B8\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦸🏽‍♀️)
+        "\\U0001F9B8\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦸🏽‍♂️)
+        "\\U0001F9B8\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦸🏾‍♀️)
+        "\\U0001F9B8\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦸🏾‍♂️)
+        "\\U0001F9B8\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦸🏿‍♀️)
+        "\\U0001F9B8\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦸🏿‍♂️)
+        "\\U0001F9B8\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦸‍♀️)
+        "\\U0001F9B8\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦸‍♂️)
+        "\\U0001F9B9\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦹🏻‍♀️)
+        "\\U0001F9B9\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦹🏻‍♂️)
+        "\\U0001F9B9\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦹🏼‍♀️)
+        "\\U0001F9B9\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦹🏼‍♂️)
+        "\\U0001F9B9\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦹🏽‍♀️)
+        "\\U0001F9B9\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦹🏽‍♂️)
+        "\\U0001F9B9\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦹🏾‍♀️)
+        "\\U0001F9B9\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦹🏾‍♂️)
+        "\\U0001F9B9\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦹🏿‍♀️)
+        "\\U0001F9B9\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦹🏿‍♂️)
+        "\\U0001F9B9\\u200D\\u2640\\uFE0F",    // E11.0  [1] (🦹‍♀️)
+        "\\U0001F9B9\\u200D\\u2642\\uFE0F",    // E11.0  [1] (🦹‍♂️)
+        "\\U0001F9CD\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧍🏻‍♀️)
+        "\\U0001F9CD\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧍🏻‍♂️)
+        "\\U0001F9CD\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧍🏼‍♀️)
+        "\\U0001F9CD\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧍🏼‍♂️)
+        "\\U0001F9CD\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧍🏽‍♀️)
+        "\\U0001F9CD\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧍🏽‍♂️)
+        "\\U0001F9CD\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧍🏾‍♀️)
+        "\\U0001F9CD\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧍🏾‍♂️)
+        "\\U0001F9CD\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧍🏿‍♀️)
+        "\\U0001F9CD\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧍🏿‍♂️)
+        "\\U0001F9CD\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧍‍♀️)
+        "\\U0001F9CD\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧍‍♂️)
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎🏻‍♀️)
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎🏻‍♂️)
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎🏼‍♀️)
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎🏼‍♂️)
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎🏽‍♀️)
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎🏽‍♂️)
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎🏾‍♀️)
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎🏾‍♂️)
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎🏿‍♀️)
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎🏿‍♂️)
+        "\\U0001F9CE\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎‍♀️)
+        "\\U0001F9CE\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎‍♂️)
+        "\\U0001F9CF\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧏🏻‍♀️)
+        "\\U0001F9CF\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧏🏻‍♂️)
+        "\\U0001F9CF\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧏🏼‍♀️)
+        "\\U0001F9CF\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧏🏼‍♂️)
+        "\\U0001F9CF\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧏🏽‍♀️)
+        "\\U0001F9CF\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧏🏽‍♂️)
+        "\\U0001F9CF\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧏🏾‍♀️)
+        "\\U0001F9CF\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧏🏾‍♂️)
+        "\\U0001F9CF\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧏🏿‍♀️)
+        "\\U0001F9CF\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧏🏿‍♂️)
+        "\\U0001F9CF\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧏‍♀️)
+        "\\U0001F9CF\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧏‍♂️)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F33E",    // E12.1  [1] (🧑🏻‍🌾)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F373",    // E12.1  [1] (🧑🏻‍🍳)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F37C",    // E13.0  [1] (🧑🏻‍🍼)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F384",    // E13.0  [1] (🧑🏻‍🎄)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F393",    // E12.1  [1] (🧑🏻‍🎓)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F3A4",    // E12.1  [1] (🧑🏻‍🎤)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F3A8",    // E12.1  [1] (🧑🏻‍🎨)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F3EB",    // E12.1  [1] (🧑🏻‍🏫)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F3ED",    // E12.1  [1] (🧑🏻‍🏭)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F4BB",    // E12.1  [1] (🧑🏻‍💻)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F4BC",    // E12.1  [1] (🧑🏻‍💼)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F527",    // E12.1  [1] (🧑🏻‍🔧)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F52C",    // E12.1  [1] (🧑🏻‍🔬)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F680",    // E12.1  [1] (🧑🏻‍🚀)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F692",    // E12.1  [1] (🧑🏻‍🚒)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FB",    // E12.0  [1] (🧑🏻‍🤝‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FC",    // E12.1  [1] (🧑🏻‍🤝‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FD",    // E12.1  [1] (🧑🏻‍🤝‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // E12.1  [1] (🧑🏻‍🤝‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // E12.1  [1] (🧑🏻‍🤝‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9AF",    // E12.1  [1] (🧑🏻‍🦯)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9B0",    // E12.1  [1] (🧑🏻‍🦰)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9B1",    // E12.1  [1] (🧑🏻‍🦱)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9B2",    // E12.1  [1] (🧑🏻‍🦲)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9B3",    // E12.1  [1] (🧑🏻‍🦳)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9BC",    // E12.1  [1] (🧑🏻‍🦼)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9BD",    // E12.1  [1] (🧑🏻‍🦽)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑🏻‍⚕️)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑🏻‍⚖️)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑🏻‍✈️)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏻‍❤️‍💋‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1  [1] (🧑🏻‍❤️‍💋‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏻‍❤️‍💋‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1  [1] (🧑🏻‍❤️‍💋‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏻‍❤️‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏻‍❤️‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏻‍❤️‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏻‍❤️‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F33E",    // E12.1  [1] (🧑🏼‍🌾)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F373",    // E12.1  [1] (🧑🏼‍🍳)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F37C",    // E13.0  [1] (🧑🏼‍🍼)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F384",    // E13.0  [1] (🧑🏼‍🎄)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F393",    // E12.1  [1] (🧑🏼‍🎓)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F3A4",    // E12.1  [1] (🧑🏼‍🎤)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F3A8",    // E12.1  [1] (🧑🏼‍🎨)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F3EB",    // E12.1  [1] (🧑🏼‍🏫)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F3ED",    // E12.1  [1] (🧑🏼‍🏭)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F4BB",    // E12.1  [1] (🧑🏼‍💻)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F4BC",    // E12.1  [1] (🧑🏼‍💼)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F527",    // E12.1  [1] (🧑🏼‍🔧)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F52C",    // E12.1  [1] (🧑🏼‍🔬)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F680",    // E12.1  [1] (🧑🏼‍🚀)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F692",    // E12.1  [1] (🧑🏼‍🚒)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FB",    // E12.0  [1] (🧑🏼‍🤝‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FC",    // E12.0  [1] (🧑🏼‍🤝‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FD",    // E12.1  [1] (🧑🏼‍🤝‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // E12.1[1] (🧑🏼‍🤝‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // E12.1  [1] (🧑🏼‍🤝‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9AF",    // E12.1  [1] (🧑🏼‍🦯)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9B0",    // E12.1  [1] (🧑🏼‍🦰)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9B1",    // E12.1  [1] (🧑🏼‍🦱)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9B2",    // E12.1  [1] (🧑🏼‍🦲)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9B3",    // E12.1  [1] (🧑🏼‍🦳)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9BC",    // E12.1  [1] (🧑🏼‍🦼)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9BD",    // E12.1  [1] (🧑🏼‍🦽)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑🏼‍⚕️)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑🏼‍⚖️)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑🏼‍✈️)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏼‍❤️‍💋‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏼‍❤️‍💋‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏼‍❤️‍💋‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏼‍❤️‍💋‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏼‍❤️‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏼‍❤️‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏼‍❤️‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏼‍❤️‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F33E",    // E12.1  [1] (🧑🏽‍🌾)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F373",    // E12.1  [1] (🧑🏽‍🍳)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F37C",    // E13.0  [1] (🧑🏽‍🍼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F384",    // E13.0  [1] (🧑🏽‍🎄)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F393",    // E12.1  [1] (🧑🏽‍🎓)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F3A4",    // E12.1  [1] (🧑🏽‍🎤)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F3A8",    // E12.1  [1] (🧑🏽‍🎨)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F3EB",    // E12.1  [1] (🧑🏽‍🏫)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F3ED",    // E12.1  [1] (🧑🏽‍🏭)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F4BB",    // E12.1  [1] (🧑🏽‍💻)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F4BC",    // E12.1  [1] (🧑🏽‍💼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F527",    // E12.1  [1] (🧑🏽‍🔧)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F52C",    // E12.1  [1] (🧑🏽‍🔬)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F680",    // E12.1  [1] (🧑🏽‍🚀)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F692",    // E12.1  [1] (🧑🏽‍🚒)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FB",    // E12.0  [1] (🧑🏽‍🤝‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FC",    // E12.0  [1] (🧑🏽‍🤝‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FD",    // E12.0  [1] (🧑🏽‍🤝‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // E12.1  [1] (🧑🏽‍🤝‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // E12.1  [1] (🧑🏽‍🤝‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9AF",    // E12.1  [1] (🧑🏽‍🦯)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9B0",    // E12.1  [1] (🧑🏽‍🦰)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9B1",    // E12.1  [1] (🧑🏽‍🦱)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9B2",    // E12.1  [1] (🧑🏽‍🦲)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9B3",    // E12.1  [1] (🧑🏽‍🦳)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9BC",    // E12.1  [1] (🧑🏽‍🦼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9BD",    // E12.1  [1] (🧑🏽‍🦽)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑🏽‍⚕️)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑🏽‍⚖️)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑🏽‍✈️)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1  [1] (🧑🏽‍❤️‍💋‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏽‍❤️‍💋‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏽‍❤️‍💋‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1  [1] (🧑🏽‍❤️‍💋‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏽‍❤️‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏽‍❤️‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏽‍❤️‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏽‍❤️‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F33E",    // E12.1  [1] (🧑🏾‍🌾)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F373",    // E12.1  [1] (🧑🏾‍🍳)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F37C",    // E13.0  [1] (🧑🏾‍🍼)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F384",    // E13.0  [1] (🧑🏾‍🎄)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F393",    // E12.1  [1] (🧑🏾‍🎓)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F3A4",    // E12.1  [1] (🧑🏾‍🎤)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F3A8",    // E12.1  [1] (🧑🏾‍🎨)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F3EB",    // E12.1  [1] (🧑🏾‍🏫)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F3ED",    // E12.1  [1] (🧑🏾‍🏭)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F4BB",    // E12.1  [1] (🧑🏾‍💻)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F4BC",    // E12.1  [1] (🧑🏾‍💼)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F527",    // E12.1  [1] (🧑🏾‍🔧)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F52C",    // E12.1  [1] (🧑🏾‍🔬)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F680",    // E12.1  [1] (🧑🏾‍🚀)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F692",    // E12.1  [1] (🧑🏾‍🚒)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FB",    // E12.0  [1] (🧑🏾‍🤝‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FC",    // E12.0[1] (🧑🏾‍🤝‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FD",    // E12.0  [1] (🧑🏾‍🤝‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // E12.0  [1] (🧑🏾‍🤝‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // E12.1  [1] (🧑🏾‍🤝‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9AF",    // E12.1  [1] (🧑🏾‍🦯)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9B0",    // E12.1  [1] (🧑🏾‍🦰)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9B1",    // E12.1  [1] (🧑🏾‍🦱)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9B2",    // E12.1  [1] (🧑🏾‍🦲)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9B3",    // E12.1  [1] (🧑🏾‍🦳)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9BC",    // E12.1  [1] (🧑🏾‍🦼)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9BD",    // E12.1  [1] (🧑🏾‍🦽)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑🏾‍⚕️)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑🏾‍⚖️)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑🏾‍✈️)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏾‍❤️‍💋‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏾‍❤️‍💋‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏾‍❤️‍💋‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏾‍❤️‍💋‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏾‍❤️‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏾‍❤️‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏾‍❤️‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏾‍❤️‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F33E",    // E12.1  [1] (🧑🏿‍🌾)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F373",    // E12.1  [1] (🧑🏿‍🍳)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F37C",    // E13.0  [1] (🧑🏿‍🍼)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F384",    // E13.0  [1] (🧑🏿‍🎄)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F393",    // E12.1  [1] (🧑🏿‍🎓)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F3A4",    // E12.1  [1] (🧑🏿‍🎤)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F3A8",    // E12.1  [1] (🧑🏿‍🎨)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F3EB",    // E12.1  [1] (🧑🏿‍🏫)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F3ED",    // E12.1  [1] (🧑🏿‍🏭)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F4BB",    // E12.1  [1] (🧑🏿‍💻)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F4BC",    // E12.1  [1] (🧑🏿‍💼)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F527",    // E12.1  [1] (🧑🏿‍🔧)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F52C",    // E12.1  [1] (🧑🏿‍🔬)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F680",    // E12.1  [1] (🧑🏿‍🚀)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F692",    // E12.1  [1] (🧑🏿‍🚒)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FB",    // E12.0  [1] (🧑🏿‍🤝‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FC",    // E12.0  [1] (🧑🏿‍🤝‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FD",    // E12.0  [1] (🧑🏿‍🤝‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // E12.0  [1] (🧑🏿‍🤝‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // E12.0  [1] (🧑🏿‍🤝‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9AF",    // E12.1  [1] (🧑🏿‍🦯)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9B0",    // E12.1  [1] (🧑🏿‍🦰)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9B1",    // E12.1  [1] (🧑🏿‍🦱)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9B2",    // E12.1  [1] (🧑🏿‍🦲)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9B3",    // E12.1  [1] (🧑🏿‍🦳)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9BC",    // E12.1  [1] (🧑🏿‍🦼)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9BD",    // E12.1  [1] (🧑🏿‍🦽)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑🏿‍⚕️)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑🏿‍⚖️)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑🏿‍✈️)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1  [1] (🧑🏿‍❤️‍💋‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏿‍❤️‍💋‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1  [1] (🧑🏿‍❤️‍💋‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏿‍❤️‍💋‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏿‍❤️‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏿‍❤️‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏿‍❤️‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏿‍❤️‍🧑🏾)
+        "\\U0001F9D1\\u200D\\U0001F33E",    // E12.1  [1] (🧑‍🌾)
+        "\\U0001F9D1\\u200D\\U0001F373",    // E12.1  [1] (🧑‍🍳)
+        "\\U0001F9D1\\u200D\\U0001F37C",    // E13.0  [1] (🧑‍🍼)
+        "\\U0001F9D1\\u200D\\U0001F384",    // E13.0  [1] (🧑‍🎄)
+        "\\U0001F9D1\\u200D\\U0001F393",    // E12.1  [1] (🧑‍🎓)
+        "\\U0001F9D1\\u200D\\U0001F3A4",    // E12.1  [1] (🧑‍🎤)
+        "\\U0001F9D1\\u200D\\U0001F3A8",    // E12.1  [1] (🧑‍🎨)
+        "\\U0001F9D1\\u200D\\U0001F3EB",    // E12.1  [1] (🧑‍🏫)
+        "\\U0001F9D1\\u200D\\U0001F3ED",    // E12.1  [1] (🧑‍🏭)
+        "\\U0001F9D1\\u200D\\U0001F4BB",    // E12.1  [1] (🧑‍💻)
+        "\\U0001F9D1\\u200D\\U0001F4BC",    // E12.1  [1] (🧑‍💼)
+        "\\U0001F9D1\\u200D\\U0001F527",    // E12.1  [1] (🧑‍🔧)
+        "\\U0001F9D1\\u200D\\U0001F52C",    // E12.1  [1] (🧑‍🔬)
+        "\\U0001F9D1\\u200D\\U0001F680",    // E12.1  [1] (🧑‍🚀)
+        "\\U0001F9D1\\u200D\\U0001F692",    // E12.1  [1] (🧑‍🚒)
+        "\\U0001F9D1\\u200D\\U0001F91D\\u200D\\U0001F9D1",    // E12.0  [1] (🧑‍🤝‍🧑)
+        "\\U0001F9D1\\u200D\\U0001F9AF",    // E12.1  [1] (🧑‍🦯)
+        "\\U0001F9D1\\u200D\\U0001F9B0",    // E12.1  [1] (🧑‍🦰)
+        "\\U0001F9D1\\u200D\\U0001F9B1",    // E12.1  [1] (🧑‍🦱)
+        "\\U0001F9D1\\u200D\\U0001F9B2",    // E12.1  [1] (🧑‍🦲)
+        "\\U0001F9D1\\u200D\\U0001F9B3",    // E12.1  [1] (🧑‍🦳)
+        "\\U0001F9D1\\u200D\\U0001F9BC",    // E12.1  [1] (🧑‍🦼)
+        "\\U0001F9D1\\u200D\\U0001F9BD",    // E12.1  [1] (🧑‍🦽)
+        "\\U0001F9D1\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑‍⚕️)
+        "\\U0001F9D1\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑‍⚖️)
+        "\\U0001F9D1\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑‍✈️)
+        "\\U0001F9D4\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔🏻‍♀️)
+        "\\U0001F9D4\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔🏻‍♂️)
+        "\\U0001F9D4\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔🏼‍♀️)
+        "\\U0001F9D4\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔🏼‍♂️)
+        "\\U0001F9D4\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔🏽‍♀️)
+        "\\U0001F9D4\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔🏽‍♂️)
+        "\\U0001F9D4\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔🏾‍♀️)
+        "\\U0001F9D4\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔🏾‍♂️)
+        "\\U0001F9D4\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔🏿‍♀️)
+        "\\U0001F9D4\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔🏿‍♂️)
+        "\\U0001F9D4\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔‍♀️)
+        "\\U0001F9D4\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔‍♂️)
+        "\\U0001F9D6\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧖🏻‍♀️)
+        "\\U0001F9D6\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧖🏻‍♂️)
+        "\\U0001F9D6\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧖🏼‍♀️)
+        "\\U0001F9D6\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧖🏼‍♂️)
+        "\\U0001F9D6\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧖🏽‍♀️)
+        "\\U0001F9D6\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧖🏽‍♂️)
+        "\\U0001F9D6\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧖🏾‍♀️)
+        "\\U0001F9D6\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧖🏾‍♂️)
+        "\\U0001F9D6\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧖🏿‍♀️)
+        "\\U0001F9D6\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧖🏿‍♂️)
+        "\\U0001F9D6\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧖‍♀️)
+        "\\U0001F9D6\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧖‍♂️)
+        "\\U0001F9D7\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧗🏻‍♀️)
+        "\\U0001F9D7\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧗🏻‍♂️)
+        "\\U0001F9D7\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧗🏼‍♀️)
+        "\\U0001F9D7\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧗🏼‍♂️)
+        "\\U0001F9D7\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧗🏽‍♀️)
+        "\\U0001F9D7\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧗🏽‍♂️)
+        "\\U0001F9D7\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧗🏾‍♀️)
+        "\\U0001F9D7\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧗🏾‍♂️)
+        "\\U0001F9D7\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧗🏿‍♀️)
+        "\\U0001F9D7\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧗🏿‍♂️)
+        "\\U0001F9D7\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧗‍♀️)
+        "\\U0001F9D7\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧗‍♂️)
+        "\\U0001F9D8\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧘🏻‍♀️)
+        "\\U0001F9D8\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧘🏻‍♂️)
+        "\\U0001F9D8\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧘🏼‍♀️)
+        "\\U0001F9D8\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧘🏼‍♂️)
+        "\\U0001F9D8\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧘🏽‍♀️)
+        "\\U0001F9D8\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧘🏽‍♂️)
+        "\\U0001F9D8\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧘🏾‍♀️)
+        "\\U0001F9D8\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧘🏾‍♂️)
+        "\\U0001F9D8\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧘🏿‍♀️)
+        "\\U0001F9D8\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧘🏿‍♂️)
+        "\\U0001F9D8\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧘‍♀️)
+        "\\U0001F9D8\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧘‍♂️)
+        "\\U0001F9D9\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧙🏻‍♀️)
+        "\\U0001F9D9\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧙🏻‍♂️)
+        "\\U0001F9D9\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧙🏼‍♀️)
+        "\\U0001F9D9\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧙🏼‍♂️)
+        "\\U0001F9D9\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧙🏽‍♀️)
+        "\\U0001F9D9\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧙🏽‍♂️)
+        "\\U0001F9D9\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧙🏾‍♀️)
+        "\\U0001F9D9\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧙🏾‍♂️)
+        "\\U0001F9D9\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧙🏿‍♀️)
+        "\\U0001F9D9\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧙🏿‍♂️)
+        "\\U0001F9D9\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧙‍♀️)
+        "\\U0001F9D9\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧙‍♂️)
+        "\\U0001F9DA\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧚🏻‍♀️)
+        "\\U0001F9DA\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧚🏻‍♂️)
+        "\\U0001F9DA\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧚🏼‍♀️)
+        "\\U0001F9DA\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧚🏼‍♂️)
+        "\\U0001F9DA\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧚🏽‍♀️)
+        "\\U0001F9DA\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧚🏽‍♂️)
+        "\\U0001F9DA\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧚🏾‍♀️)
+        "\\U0001F9DA\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧚🏾‍♂️)
+        "\\U0001F9DA\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧚🏿‍♀️)
+        "\\U0001F9DA\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧚🏿‍♂️)
+        "\\U0001F9DA\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧚‍♀️)
+        "\\U0001F9DA\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧚‍♂️)
+        "\\U0001F9DB\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧛🏻‍♀️)
+        "\\U0001F9DB\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧛🏻‍♂️)
+        "\\U0001F9DB\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧛🏼‍♀️)
+        "\\U0001F9DB\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧛🏼‍♂️)
+        "\\U0001F9DB\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧛🏽‍♀️)
+        "\\U0001F9DB\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧛🏽‍♂️)
+        "\\U0001F9DB\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧛🏾‍♀️)
+        "\\U0001F9DB\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧛🏾‍♂️)
+        "\\U0001F9DB\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧛🏿‍♀️)
+        "\\U0001F9DB\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧛🏿‍♂️)
+        "\\U0001F9DB\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧛‍♀️)
+        "\\U0001F9DB\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧛‍♂️)
+        "\\U0001F9DC\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧜🏻‍♀️)
+        "\\U0001F9DC\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧜🏻‍♂️)
+        "\\U0001F9DC\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧜🏼‍♀️)
+        "\\U0001F9DC\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧜🏼‍♂️)
+        "\\U0001F9DC\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧜🏽‍♀️)
+        "\\U0001F9DC\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧜🏽‍♂️)
+        "\\U0001F9DC\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧜🏾‍♀️)
+        "\\U0001F9DC\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧜🏾‍♂️)
+        "\\U0001F9DC\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧜🏿‍♀️)
+        "\\U0001F9DC\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧜🏿‍♂️)
+        "\\U0001F9DC\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧜‍♀️)
+        "\\U0001F9DC\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧜‍♂️)
+        "\\U0001F9DD\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧝🏻‍♀️)
+        "\\U0001F9DD\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧝🏻‍♂️)
+        "\\U0001F9DD\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧝🏼‍♀️)
+        "\\U0001F9DD\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧝🏼‍♂️)
+        "\\U0001F9DD\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧝🏽‍♀️)
+        "\\U0001F9DD\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧝🏽‍♂️)
+        "\\U0001F9DD\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧝🏾‍♀️)
+        "\\U0001F9DD\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧝🏾‍♂️)
+        "\\U0001F9DD\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧝🏿‍♀️)
+        "\\U0001F9DD\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧝🏿‍♂️)
+        "\\U0001F9DD\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧝‍♀️)
+        "\\U0001F9DD\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧝‍♂️)
+        "\\U0001F9DE\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧞‍♀️)
+        "\\U0001F9DE\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧞‍♂️)
+        "\\U0001F9DF\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧟‍♀️)
+        "\\U0001F9DF\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧟‍♂️)
+        "\\U0001FAF1\\U0001F3FB\\u200D\\U0001FAF2\\U0001F3FC",    // E14.0  [1] (🫱🏻‍🫲🏼)
+        "\\U0001FAF1\\U0001F3FB\\u200D\\U0001FAF2\\U0001F3FD",    // E14.0  [1] (🫱🏻‍🫲🏽)
+        "\\U0001FAF1\\U0001F3FB\\u200D\\U0001FAF2\\U0001F3FE",    // E14.0  [1] (🫱🏻‍🫲🏾)
+        "\\U0001FAF1\\U0001F3FB\\u200D\\U0001FAF2\\U0001F3FF",    // E14.0  [1] (🫱🏻‍🫲🏿)
+        "\\U0001FAF1\\U0001F3FC\\u200D\\U0001FAF2\\U0001F3FB",    // E14.0  [1] (🫱🏼‍🫲🏻)
+        "\\U0001FAF1\\U0001F3FC\\u200D\\U0001FAF2\\U0001F3FD",    // E14.0  [1] (🫱🏼‍🫲🏽)
+        "\\U0001FAF1\\U0001F3FC\\u200D\\U0001FAF2\\U0001F3FE",    // E14.0  [1] (🫱🏼‍🫲🏾)
+        "\\U0001FAF1\\U0001F3FC\\u200D\\U0001FAF2\\U0001F3FF",    // E14.0  [1] (🫱🏼‍🫲🏿)
+        "\\U0001FAF1\\U0001F3FD\\u200D\\U0001FAF2\\U0001F3FB",    // E14.0  [1] (🫱🏽‍🫲🏻)
+        "\\U0001FAF1\\U0001F3FD\\u200D\\U0001FAF2\\U0001F3FC",    // E14.0  [1] (🫱🏽‍🫲🏼)
+        "\\U0001FAF1\\U0001F3FD\\u200D\\U0001FAF2\\U0001F3FE",    // E14.0  [1] (🫱🏽‍🫲🏾)
+        "\\U0001FAF1\\U0001F3FD\\u200D\\U0001FAF2\\U0001F3FF",    // E14.0  [1] (🫱🏽‍🫲🏿)
+        "\\U0001FAF1\\U0001F3FE\\u200D\\U0001FAF2\\U0001F3FB",    // E14.0  [1] (🫱🏾‍🫲🏻)
+        "\\U0001FAF1\\U0001F3FE\\u200D\\U0001FAF2\\U0001F3FC",    // E14.0  [1] (🫱🏾‍🫲🏼)
+        "\\U0001FAF1\\U0001F3FE\\u200D\\U0001FAF2\\U0001F3FD",    // E14.0  [1] (🫱🏾‍🫲🏽)
+        "\\U0001FAF1\\U0001F3FE\\u200D\\U0001FAF2\\U0001F3FF",    // E14.0  [1] (🫱🏾‍🫲🏿)
+        "\\U0001FAF1\\U0001F3FF\\u200D\\U0001FAF2\\U0001F3FB",    // E14.0  [1] (🫱🏿‍🫲🏻)
+        "\\U0001FAF1\\U0001F3FF\\u200D\\U0001FAF2\\U0001F3FC",    // E14.0  [1] (🫱🏿‍🫲🏼)
+        "\\U0001FAF1\\U0001F3FF\\u200D\\U0001FAF2\\U0001F3FD",    // E14.0  [1] (🫱🏿‍🫲🏽)
+        "\\U0001FAF1\\U0001F3FF\\u200D\\U0001FAF2\\U0001F3FE",    // E14.0  [1] (🫱🏿‍🫲🏾)
+        "\\u26F9\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (⛹🏻‍♀️)
+        "\\u26F9\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (⛹🏻‍♂️)
+        "\\u26F9\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (⛹🏼‍♀️)
+        "\\u26F9\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (⛹🏼‍♂️)
+        "\\u26F9\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (⛹🏽‍♀️)
+        "\\u26F9\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (⛹🏽‍♂️)
+        "\\u26F9\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (⛹🏾‍♀️)
+        "\\u26F9\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (⛹🏾‍♂️)
+        "\\u26F9\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (⛹🏿‍♀️)
+        "\\u26F9\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (⛹🏿‍♂️)
+        "\\u26F9\\uFE0F\\u200D\\u2640\\uFE0F",    // E4.0   [1] (⛹️‍♀️)
+        "\\u26F9\\uFE0F\\u200D\\u2642\\uFE0F",    // E4.0   [1] (⛹️‍♂️)
+        "\\u2764\\uFE0F\\u200D\\U0001F525",    // E13.1  [1] (❤️‍🔥)
+        "\\u2764\\uFE0F\\u200D\\U0001FA79"     // E13.1  [1] (❤️‍🩹)
     ]
   
     internal init() {
